@@ -742,11 +742,1114 @@
         };
 
         const loadInitialData = () => {
-            const defaultData = {
-                "products": [{ "id": 1, "PRODUCT_NAME": "K2 ELASTOMERIC BASE 1", "PRODUCT_CODE": "27113001", "PACK_SIZE": "20 LTR", "BILLING_PRICE": 5832.72, "AVAILABLE_STOCK": 3 }, { "id": 2, "PRODUCT_NAME": "K2 ELASTOMERIC BASE 1", "PRODUCT_CODE": "27113001", "PACK_SIZE": "4 LTR", "BILLING_PRICE": 1222.94, "AVAILABLE_STOCK": 97 }],
-                "invoices": [],
-                "invoiceItems": []
-            };
+                        const defaultData = {
+                                "products": [
+        {
+            "id": 1,
+            "PRODUCT_CATEGORY": "INTEGRAL W.P.",
+            "PRODUCT_CODE": "27004001",
+            "PRODUCT_NAME": "K2 DRYPROOF WPC",
+            "PACK_SIZE": "KGS",
+            "BILLING_PRICE": 19.78,
+            "GST_AMOUNT": 3.56,
+            "DEALER_PRICE": 23.34,
+            "AVAILABLE_STOCK": 75
+        },
+        {
+            "id": 2,
+            "PRODUCT_CATEGORY": "EXTERIOR COATING",
+            "PRODUCT_CODE": "27113001",
+            "PRODUCT_NAME": "K2 ELASTOMERIC BASE 1",
+            "PACK_SIZE": "20 LTR",
+            "BILLING_PRICE": 5832.72,
+            "GST_AMOUNT": 1049.89,
+            "DEALER_PRICE": 6882.61,
+            "AVAILABLE_STOCK": 0
+        },
+        {
+            "id": 3,
+            "PRODUCT_CATEGORY": "EXTERIOR COATING",
+            "PRODUCT_CODE": "27113001",
+            "PRODUCT_NAME": "K2 ELASTOMERIC BASE 1",
+            "PACK_SIZE": "4 LTR",
+            "BILLING_PRICE": 1222.94,
+            "GST_AMOUNT": 220.13,
+            "DEALER_PRICE": 1443.07,
+            "AVAILABLE_STOCK": 0
+        },
+        {
+            "id": 4,
+            "PRODUCT_CATEGORY": "EXTERIOR COATING",
+            "PRODUCT_CODE": "27041001",
+            "PRODUCT_NAME": "K2 ELASTOMERIC",
+            "PACK_SIZE": "1 LTR",
+            "BILLING_PRICE": 269.65,
+            "GST_AMOUNT": 48.54,
+            "DEALER_PRICE": 318.19,
+            "AVAILABLE_STOCK": 0
+        },
+        {
+            "id": 5,
+            "PRODUCT_CATEGORY": "EXTERIOR COATING",
+            "PRODUCT_CODE": "27041001",
+            "PRODUCT_NAME": "K2 ELASTOMERIC",
+            "PACK_SIZE": "20LTR",
+            "BILLING_PRICE": 4845.55,
+            "GST_AMOUNT": 872.2,
+            "DEALER_PRICE": 5717.75,
+            "AVAILABLE_STOCK": 0
+        },
+        {
+            "id": 6,
+            "PRODUCT_CATEGORY": "EXTERIOR COATING",
+            "PRODUCT_CODE": "27041001",
+            "PRODUCT_NAME": "K2 ELASTOMERIC",
+            "PACK_SIZE": "4 LTR",
+            "BILLING_PRICE": 1027.24,
+            "GST_AMOUNT": 184.9,
+            "DEALER_PRICE": 1212.14,
+            "AVAILABLE_STOCK": 0
+        },
+        {
+            "id": 7,
+            "PRODUCT_CATEGORY": "TILING SOLUTION",
+            "PRODUCT_CODE": "27109006",
+            "PRODUCT_NAME": "K2 EPOXYFIL 2K BLACK",
+            "PACK_SIZE": "4KGS",
+            "BILLING_PRICE": 1779.54,
+            "GST_AMOUNT": 320.32,
+            "DEALER_PRICE": 2099.86,
+            "AVAILABLE_STOCK": 0
+        },
+        {
+            "id": 8,
+            "PRODUCT_CATEGORY": "TILING SOLUTION",
+            "PRODUCT_CODE": "27109006",
+            "PRODUCT_NAME": "K2 EPOXYFIL 2K BLACK",
+            "PACK_SIZE": "KGS",
+            "BILLING_PRICE": 500.03,
+            "GST_AMOUNT": 90.01,
+            "DEALER_PRICE": 590.03,
+            "AVAILABLE_STOCK": 0
+        },
+        {
+            "id": 9,
+            "PRODUCT_CATEGORY": "TILING SOLUTION",
+            "PRODUCT_CODE": "27109003",
+            "PRODUCT_NAME": "K2 EPOXYFIL 2K DARK BROWN",
+            "PACK_SIZE": "4KGS",
+            "BILLING_PRICE": 1779.54,
+            "GST_AMOUNT": 320.32,
+            "DEALER_PRICE": 2099.86,
+            "AVAILABLE_STOCK": 0
+        },
+        {
+            "id": 10,
+            "PRODUCT_CATEGORY": "TILING SOLUTION",
+            "PRODUCT_CODE": "27109003",
+            "PRODUCT_NAME": "K2 EPOXYFIL 2K DARK BROWN",
+            "PACK_SIZE": "KGS",
+            "BILLING_PRICE": 500.03,
+            "GST_AMOUNT": 90.01,
+            "DEALER_PRICE": 590.03,
+            "AVAILABLE_STOCK": 0
+        },
+        {
+            "id": 11,
+            "PRODUCT_CATEGORY": "BUILDING REPAIR",
+            "PRODUCT_CODE": "27067003",
+            "PRODUCT_NAME": "K2 BARCOAT EP",
+            "PACK_SIZE": "4 LTR",
+            "BILLING_PRICE": 1467.95,
+            "GST_AMOUNT": 264.23,
+            "DEALER_PRICE": 1732.18,
+            "AVAILABLE_STOCK": 0
+        },
+        {
+            "id": 12,
+            "PRODUCT_CATEGORY": "TILING SOLUTION",
+            "PRODUCT_CODE": "27109005",
+            "PRODUCT_NAME": "K2 EPOXYFIL 2K DARK GREY",
+            "PACK_SIZE": "4KGS",
+            "BILLING_PRICE": 1779.54,
+            "GST_AMOUNT": 320.32,
+            "DEALER_PRICE": 2099.86,
+            "AVAILABLE_STOCK": 0
+        },
+        {
+            "id": 13,
+            "PRODUCT_CATEGORY": "TILING SOLUTION",
+            "PRODUCT_CODE": "27109005",
+            "PRODUCT_NAME": "K2 EPOXYFIL 2K DARK GREY",
+            "PACK_SIZE": "KGS",
+            "BILLING_PRICE": 500.03,
+            "GST_AMOUNT": 90.01,
+            "DEALER_PRICE": 590.03,
+            "AVAILABLE_STOCK": 0
+        },
+        {
+            "id": 14,
+            "PRODUCT_CATEGORY": "TILING SOLUTION",
+            "PRODUCT_CODE": "27109002",
+            "PRODUCT_NAME": "K2 EPOXYFIL 2K IVORY",
+            "PACK_SIZE": "4KGS",
+            "BILLING_PRICE": 1779.54,
+            "GST_AMOUNT": 320.32,
+            "DEALER_PRICE": 2099.86,
+            "AVAILABLE_STOCK": 0
+        },
+        {
+            "id": 15,
+            "PRODUCT_CATEGORY": "WP COATING ",
+            "PRODUCT_CODE": "27048001",
+            "PRODUCT_NAME": "K2 BITUCOAT",
+            "PACK_SIZE": "1 LTR",
+            "BILLING_PRICE": 191.89,
+            "GST_AMOUNT": 34.54,
+            "DEALER_PRICE": 226.43,
+            "AVAILABLE_STOCK": 94
+        },
+        {
+            "id": 16,
+            "PRODUCT_CATEGORY": "TILING SOLUTION",
+            "PRODUCT_CODE": "27109002",
+            "PRODUCT_NAME": "K2 EPOXYFIL 2K IVORY",
+            "PACK_SIZE": "KGS",
+            "BILLING_PRICE": 500.03,
+            "GST_AMOUNT": 90.01,
+            "DEALER_PRICE": 590.03,
+            "AVAILABLE_STOCK": 0
+        },
+        {
+            "id": 17,
+            "PRODUCT_CATEGORY": "TILING SOLUTION",
+            "PRODUCT_CODE": "27109004",
+            "PRODUCT_NAME": "K2 EPOXYFIL 2K TERRA RED",
+            "PACK_SIZE": "4KGS",
+            "BILLING_PRICE": 1779.54,
+            "GST_AMOUNT": 320.32,
+            "DEALER_PRICE": 2099.86,
+            "AVAILABLE_STOCK": 0
+        },
+        {
+            "id": 18,
+            "PRODUCT_CATEGORY": "TILING SOLUTION",
+            "PRODUCT_CODE": "27109004",
+            "PRODUCT_NAME": "K2 EPOXYFIL 2K TERRA RED",
+            "PACK_SIZE": "KGS",
+            "BILLING_PRICE": 500.03,
+            "GST_AMOUNT": 90.01,
+            "DEALER_PRICE": 590.03,
+            "AVAILABLE_STOCK": 0
+        },
+        {
+            "id": 19,
+            "PRODUCT_CATEGORY": "TILING SOLUTION",
+            "PRODUCT_CODE": "27109001",
+            "PRODUCT_NAME": "K2 EPOXYFIL 2K WHITE",
+            "PACK_SIZE": "4KGS",
+            "BILLING_PRICE": 1779.54,
+            "GST_AMOUNT": 320.32,
+            "DEALER_PRICE": 2099.86,
+            "AVAILABLE_STOCK": 0
+        },
+        {
+            "id": 20,
+            "PRODUCT_CATEGORY": "WP COATING ",
+            "PRODUCT_CODE": "27048001",
+            "PRODUCT_NAME": "K2 BITUCOAT",
+            "PACK_SIZE": "20LTR",
+            "BILLING_PRICE": 3353.27,
+            "GST_AMOUNT": 603.59,
+            "DEALER_PRICE": 3956.86,
+            "AVAILABLE_STOCK": 0
+        },
+        {
+            "id": 21,
+            "PRODUCT_CATEGORY": "TILING SOLUTION",
+            "PRODUCT_CODE": "27109001",
+            "PRODUCT_NAME": "K2 EPOXYFIL 2K WHITE",
+            "PACK_SIZE": "KGS",
+            "BILLING_PRICE": 500.03,
+            "GST_AMOUNT": 90.01,
+            "DEALER_PRICE": 590.03,
+            "AVAILABLE_STOCK": 0
+        },
+        {
+            "id": 22,
+            "PRODUCT_CATEGORY": "TILING SOLUTION",
+            "PRODUCT_CODE": "27043008",
+            "PRODUCT_NAME": "K2 EPOXYFIL BLACK (POWDER)",
+            "PACK_SIZE": "0.725KG",
+            "BILLING_PRICE": 81.18,
+            "GST_AMOUNT": 14.61,
+            "DEALER_PRICE": 95.79,
+            "AVAILABLE_STOCK": 0
+        },
+        {
+            "id": 23,
+            "PRODUCT_CATEGORY": "WP COATING ",
+            "PRODUCT_CODE": "27048001",
+            "PRODUCT_NAME": "K2 BITUCOAT",
+            "PACK_SIZE": "4 LTR",
+            "BILLING_PRICE": 710.87,
+            "GST_AMOUNT": 127.96,
+            "DEALER_PRICE": 838.82,
+            "AVAILABLE_STOCK": 0
+        },
+        {
+            "id": 24,
+            "PRODUCT_CATEGORY": "TILING SOLUTION",
+            "PRODUCT_CODE": "27043009",
+            "PRODUCT_NAME": "K2 EPOXYFIL C. BROWN (POWDER)",
+            "PACK_SIZE": "0.725KG",
+            "BILLING_PRICE": 81.18,
+            "GST_AMOUNT": 14.61,
+            "DEALER_PRICE": 95.79,
+            "AVAILABLE_STOCK": 0
+        },
+        {
+            "id": 25,
+            "PRODUCT_CATEGORY": "WP COATING ",
+            "PRODUCT_CODE": "27048001",
+            "PRODUCT_NAME": "K2 BITUCOAT",
+            "PACK_SIZE": "500ML",
+            "BILLING_PRICE": 106.5,
+            "GST_AMOUNT": 19.17,
+            "DEALER_PRICE": 125.67,
+            "AVAILABLE_STOCK": 88
+        },
+        {
+            "id": 26,
+            "PRODUCT_CATEGORY": "TILING SOLUTION",
+            "PRODUCT_CODE": "27043007",
+            "PRODUCT_NAME": "K2 EPOXYFIL CREAM (POWDER)",
+            "PACK_SIZE": "0.725KG",
+            "BILLING_PRICE": 81.18,
+            "GST_AMOUNT": 14.61,
+            "DEALER_PRICE": 95.79,
+            "AVAILABLE_STOCK": 0
+        },
+        {
+            "id": 27,
+            "PRODUCT_CATEGORY": "TILING SOLUTION",
+            "PRODUCT_CODE": "27043013",
+            "PRODUCT_NAME": "K2 EPOXYFIL D. GREY (POWDER)",
+            "PACK_SIZE": "0.725KG",
+            "BILLING_PRICE": 81.18,
+            "GST_AMOUNT": 14.61,
+            "DEALER_PRICE": 95.79,
+            "AVAILABLE_STOCK": 0
+        },
+        {
+            "id": 28,
+            "PRODUCT_CATEGORY": "TILING SOLUTION",
+            "PRODUCT_CODE": "27043015",
+            "PRODUCT_NAME": "K2 EPOXYFIL D.BLUE (POWDER)",
+            "PACK_SIZE": "0.725KG",
+            "BILLING_PRICE": 81.18,
+            "GST_AMOUNT": 14.61,
+            "DEALER_PRICE": 95.79,
+            "AVAILABLE_STOCK": 0
+        },
+        {
+            "id": 29,
+            "PRODUCT_CATEGORY": "TILING SOLUTION",
+            "PRODUCT_CODE": "27043017",
+            "PRODUCT_NAME": "K2 EPOXYFIL D.BROWN (POWDER)",
+            "PACK_SIZE": "0.725KG",
+            "BILLING_PRICE": 81.18,
+            "GST_AMOUNT": 14.61,
+            "DEALER_PRICE": 95.79,
+            "AVAILABLE_STOCK": 0
+        },
+        {
+            "id": 30,
+            "PRODUCT_CATEGORY": "TILING SOLUTION",
+            "PRODUCT_CODE": "27043016",
+            "PRODUCT_NAME": "K2 EPOXYFIL D.GREEN (POWDER)",
+            "PACK_SIZE": "0.725KG",
+            "BILLING_PRICE": 81.18,
+            "GST_AMOUNT": 14.61,
+            "DEALER_PRICE": 95.79,
+            "AVAILABLE_STOCK": 0
+        },
+        {
+            "id": 31,
+            "PRODUCT_CATEGORY": "TILING SOLUTION",
+            "PRODUCT_CODE": "27043025",
+            "PRODUCT_NAME": "K2 EPOXYFIL GRANITE GREY (POWDER)",
+            "PACK_SIZE": "0.725KG",
+            "BILLING_PRICE": 81.18,
+            "GST_AMOUNT": 14.61,
+            "DEALER_PRICE": 95.79,
+            "AVAILABLE_STOCK": 0
+        },
+        {
+            "id": 32,
+            "PRODUCT_CATEGORY": "TILING SOLUTION",
+            "PRODUCT_CODE": "27043019",
+            "PRODUCT_NAME": "K2 EPOXYFIL GREY BROWN (POWDER)",
+            "PACK_SIZE": "0.725KG",
+            "BILLING_PRICE": 81.18,
+            "GST_AMOUNT": 14.61,
+            "DEALER_PRICE": 95.79,
+            "AVAILABLE_STOCK": 0
+        },
+        {
+            "id": 33,
+            "PRODUCT_CATEGORY": "TILING SOLUTION",
+            "PRODUCT_CODE": "27043002",
+            "PRODUCT_NAME": "K2 EPOXYFIL IVORY (POWDER)",
+            "PACK_SIZE": "0.725KG",
+            "BILLING_PRICE": 81.18,
+            "GST_AMOUNT": 14.61,
+            "DEALER_PRICE": 95.79,
+            "AVAILABLE_STOCK": 0
+        },
+        {
+            "id": 34,
+            "PRODUCT_CATEGORY": "TILING SOLUTION",
+            "PRODUCT_CODE": "27043018",
+            "PRODUCT_NAME": "K2 EPOXYFIL KOTA GREEN (POWDER)",
+            "PACK_SIZE": "0.725KG",
+            "BILLING_PRICE": 81.18,
+            "GST_AMOUNT": 14.61,
+            "DEALER_PRICE": 95.79,
+            "AVAILABLE_STOCK": 0
+        },
+        {
+            "id": 35,
+            "PRODUCT_CATEGORY": "BUILDING REPAIR",
+            "PRODUCT_CODE": "27115002",
+            "PRODUCT_NAME": "K2 BITUSEAL ( 100MM X 10 METER )",
+            "PACK_SIZE": "PACK",
+            "BILLING_PRICE": 774,
+            "GST_AMOUNT": 139.32,
+            "DEALER_PRICE": 913.32,
+            "AVAILABLE_STOCK": 0
+        },
+        {
+            "id": 36,
+            "PRODUCT_CATEGORY": "BUILDING REPAIR",
+            "PRODUCT_CODE": "27115001",
+            "PRODUCT_NAME": "K2 BITUSEAL ( 50MM X 10 METER )",
+            "PACK_SIZE": "PACK",
+            "BILLING_PRICE": 420,
+            "GST_AMOUNT": 75.6,
+            "DEALER_PRICE": 495.6,
+            "AVAILABLE_STOCK": 0
+        },
+        {
+            "id": 37,
+            "PRODUCT_CATEGORY": "TILING SOLUTION",
+            "PRODUCT_CODE": "27043012",
+            "PRODUCT_NAME": "K2 EPOXYFIL MUSHROOM (POWDER)",
+            "PACK_SIZE": "0.725KG",
+            "BILLING_PRICE": 81.18,
+            "GST_AMOUNT": 14.61,
+            "DEALER_PRICE": 95.79,
+            "AVAILABLE_STOCK": 0
+        },
+        {
+            "id": 38,
+            "PRODUCT_CATEGORY": "TILING SOLUTION",
+            "PRODUCT_CODE": "27043023",
+            "PRODUCT_NAME": "K2 EPOXYFIL NIGHT GLOW (POWDER)",
+            "PACK_SIZE": "0.725KG",
+            "BILLING_PRICE": 1727.1,
+            "GST_AMOUNT": 310.88,
+            "DEALER_PRICE": 2037.98,
+            "AVAILABLE_STOCK": 0
+        },
+        {
+            "id": 39,
+            "PRODUCT_CATEGORY": "TILING SOLUTION",
+            "PRODUCT_CODE": "27043021",
+            "PRODUCT_NAME": "K2 EPOXYFIL OCEAN BLUE (POWDER)",
+            "PACK_SIZE": "0.725KG",
+            "BILLING_PRICE": 81.18,
+            "GST_AMOUNT": 14.61,
+            "DEALER_PRICE": 95.79,
+            "AVAILABLE_STOCK": 0
+        },
+        {
+            "id": 40,
+            "PRODUCT_CATEGORY": "TILING SOLUTION",
+            "PRODUCT_CODE": "27043006",
+            "PRODUCT_NAME": "K2 EPOXYFIL P. GREEN (POWDER)",
+            "PACK_SIZE": "0.725KG",
+            "BILLING_PRICE": 81.18,
+            "GST_AMOUNT": 14.61,
+            "DEALER_PRICE": 95.79,
+            "AVAILABLE_STOCK": 0
+        },
+        {
+            "id": 41,
+            "PRODUCT_CATEGORY": "TILING SOLUTION",
+            "PRODUCT_CODE": "27043003",
+            "PRODUCT_NAME": "K2 EPOXYFIL P. PINK (POWDER)",
+            "PACK_SIZE": "0.725KG",
+            "BILLING_PRICE": 81.18,
+            "GST_AMOUNT": 14.61,
+            "DEALER_PRICE": 95.79,
+            "AVAILABLE_STOCK": 0
+        },
+        {
+            "id": 42,
+            "PRODUCT_CATEGORY": "TILING SOLUTION",
+            "PRODUCT_CODE": "27043010",
+            "PRODUCT_NAME": "K2 EPOXYFIL S. GREY (POWDER)",
+            "PACK_SIZE": "0.725KG",
+            "BILLING_PRICE": 81.18,
+            "GST_AMOUNT": 14.61,
+            "DEALER_PRICE": 95.79,
+            "AVAILABLE_STOCK": 0
+        },
+        {
+            "id": 43,
+            "PRODUCT_CATEGORY": "TILING SOLUTION",
+            "PRODUCT_CODE": "27043022",
+            "PRODUCT_NAME": "K2 EPOXYFIL SAGE GREEN (POWDER)",
+            "PACK_SIZE": "0.725KG",
+            "BILLING_PRICE": 81.18,
+            "GST_AMOUNT": 14.61,
+            "DEALER_PRICE": 95.79,
+            "AVAILABLE_STOCK": 0
+        },
+        {
+            "id": 44,
+            "PRODUCT_CATEGORY": "TILING SOLUTION",
+            "PRODUCT_CODE": "27043004",
+            "PRODUCT_NAME": "K2 EPOXYFIL SKY BLUE (POWDER)",
+            "PACK_SIZE": "0.725KG",
+            "BILLING_PRICE": 81.18,
+            "GST_AMOUNT": 14.61,
+            "DEALER_PRICE": 95.79,
+            "AVAILABLE_STOCK": 0
+        },
+        {
+            "id": 45,
+            "PRODUCT_CATEGORY": "TILING SOLUTION",
+            "PRODUCT_CODE": "27043020",
+            "PRODUCT_NAME": "K2 EPOXYFIL SMOKE GREY (POWDER)",
+            "PACK_SIZE": "0.725KG",
+            "BILLING_PRICE": 81.18,
+            "GST_AMOUNT": 14.61,
+            "DEALER_PRICE": 95.79,
+            "AVAILABLE_STOCK": 0
+        },
+        {
+            "id": 46,
+            "PRODUCT_CATEGORY": "TILING SOLUTION",
+            "PRODUCT_CODE": "27043024",
+            "PRODUCT_NAME": "K2 EPOXYFIL TERRA BROWN (POWDER)",
+            "PACK_SIZE": "0.725KG",
+            "BILLING_PRICE": 81.18,
+            "GST_AMOUNT": 14.61,
+            "DEALER_PRICE": 95.79,
+            "AVAILABLE_STOCK": 0
+        },
+        {
+            "id": 47,
+            "PRODUCT_CATEGORY": "TILING SOLUTION",
+            "PRODUCT_CODE": "27043005",
+            "PRODUCT_NAME": "K2 EPOXYFIL TERRA RED (POWDER)",
+            "PACK_SIZE": "0.725KG",
+            "BILLING_PRICE": 81.18,
+            "GST_AMOUNT": 14.61,
+            "DEALER_PRICE": 95.79,
+            "AVAILABLE_STOCK": 0
+        },
+        {
+            "id": 48,
+            "PRODUCT_CATEGORY": "TILING SOLUTION",
+            "PRODUCT_CODE": "27042003",
+            "PRODUCT_NAME": "K2 EPOXYFIL TJF KIT (PART A & B)",
+            "PACK_SIZE": "0.275KG",
+            "BILLING_PRICE": 425.93,
+            "GST_AMOUNT": 76.67,
+            "DEALER_PRICE": 502.6,
+            "AVAILABLE_STOCK": 0
+        },
+        {
+            "id": 49,
+            "PRODUCT_CATEGORY": "PLASTISIZERS",
+            "PRODUCT_CODE": "27101001",
+            "PRODUCT_NAME": "K2 BLOCK CURE",
+            "PACK_SIZE": "250 KG",
+            "BILLING_PRICE": 8650.65,
+            "GST_AMOUNT": 1557.12,
+            "DEALER_PRICE": 10207.77,
+            "AVAILABLE_STOCK": 0
+        },
+        {
+            "id": 50,
+            "PRODUCT_CATEGORY": "TILING SOLUTION",
+            "PRODUCT_CODE": "27042003",
+            "PRODUCT_NAME": "K2 EPOXYFIL TJF KIT (PART A & B)",
+            "PACK_SIZE": "1.375KG",
+            "BILLING_PRICE": 1821.56,
+            "GST_AMOUNT": 327.88,
+            "DEALER_PRICE": 2149.45,
+            "AVAILABLE_STOCK": 0
+        },
+        {
+            "id": 51,
+            "PRODUCT_CATEGORY": "PLASTISIZERS",
+            "PRODUCT_CODE": "27101001",
+            "PRODUCT_NAME": "K2 BLOCK CURE",
+            "PACK_SIZE": "30 KG",
+            "BILLING_PRICE": 1131.52,
+            "GST_AMOUNT": 203.67,
+            "DEALER_PRICE": 1335.2,
+            "AVAILABLE_STOCK": 0
+        },
+        {
+            "id": 52,
+            "PRODUCT_CATEGORY": "TILING SOLUTION",
+            "PRODUCT_CODE": "27042003",
+            "PRODUCT_NAME": "K2 EPOXYFIL TJF KIT (PART A & B)",
+            "PACK_SIZE": "5.5KG",
+            "BILLING_PRICE": 6432.73,
+            "GST_AMOUNT": 1157.89,
+            "DEALER_PRICE": 7590.62,
+            "AVAILABLE_STOCK": 0
+        },
+        {
+            "id": 53,
+            "PRODUCT_CATEGORY": "PLASTISIZERS",
+            "PRODUCT_CODE": "27035001",
+            "PRODUCT_NAME": "K2 BLOCK MIX PC",
+            "PACK_SIZE": "250KG",
+            "BILLING_PRICE": 13863.71,
+            "GST_AMOUNT": 2495.47,
+            "DEALER_PRICE": 16359.18,
+            "AVAILABLE_STOCK": 0
+        },
+        {
+            "id": 54,
+            "PRODUCT_CATEGORY": "TILING SOLUTION",
+            "PRODUCT_CODE": "27043001",
+            "PRODUCT_NAME": "K2 EPOXYFIL WHITE (POWDER)",
+            "PACK_SIZE": "0.725KG",
+            "BILLING_PRICE": 81.18,
+            "GST_AMOUNT": 14.61,
+            "DEALER_PRICE": 95.79,
+            "AVAILABLE_STOCK": 0
+        },
+        {
+            "id": 55,
+            "PRODUCT_CATEGORY": "TILING SOLUTION",
+            "PRODUCT_CODE": "27043011",
+            "PRODUCT_NAME": "K2 EPOXYFIL YELLOW (POWDER)",
+            "PACK_SIZE": "0.725KG",
+            "BILLING_PRICE": 81.18,
+            "GST_AMOUNT": 14.61,
+            "DEALER_PRICE": 95.79,
+            "AVAILABLE_STOCK": 0
+        },
+        {
+            "id": 56,
+            "PRODUCT_CATEGORY": "WP COATING ",
+            "PRODUCT_CODE": "27013001",
+            "PRODUCT_NAME": "K2 EXPEL SWR",
+            "PACK_SIZE": "20LTR",
+            "BILLING_PRICE": 4092.44,
+            "GST_AMOUNT": 736.64,
+            "DEALER_PRICE": 4829.08,
+            "AVAILABLE_STOCK": 0
+        },
+        {
+            "id": 57,
+            "PRODUCT_CATEGORY": "WP COATING ",
+            "PRODUCT_CODE": "27013001",
+            "PRODUCT_NAME": "K2 EXPEL SWR",
+            "PACK_SIZE": "5LTR",
+            "BILLING_PRICE": 1067.27,
+            "GST_AMOUNT": 192.11,
+            "DEALER_PRICE": 1259.38,
+            "AVAILABLE_STOCK": 0
+        },
+        {
+            "id": 58,
+            "PRODUCT_CATEGORY": "WP COATING ",
+            "PRODUCT_CODE": "27013001",
+            "PRODUCT_NAME": "K2 EXPEL SWR",
+            "PACK_SIZE": "LTR",
+            "BILLING_PRICE": 222.46,
+            "GST_AMOUNT": 40.04,
+            "DEALER_PRICE": 262.5,
+            "AVAILABLE_STOCK": 0
+        },
+        {
+            "id": 59,
+            "PRODUCT_CATEGORY": "PLASTISIZERS",
+            "PRODUCT_CODE": "27035001",
+            "PRODUCT_NAME": "K2 BLOCK MIX PC",
+            "PACK_SIZE": "30 KG",
+            "BILLING_PRICE": 1780.9,
+            "GST_AMOUNT": 320.56,
+            "DEALER_PRICE": 2101.46,
+            "AVAILABLE_STOCK": 0
+        },
+        {
+            "id": 60,
+            "PRODUCT_CATEGORY": "WP COATING ",
+            "PRODUCT_CODE": "27116003",
+            "PRODUCT_NAME": "K2 FLEXIGARD",
+            "PACK_SIZE": "7.5KG+10.5KG",
+            "BILLING_PRICE": 2265.84,
+            "GST_AMOUNT": 407.85,
+            "DEALER_PRICE": 2673.69,
+            "AVAILABLE_STOCK": 0
+        },
+        {
+            "id": 61,
+            "PRODUCT_CATEGORY": "TILING SOLUTION",
+            "PRODUCT_CODE": "27036001",
+            "PRODUCT_NAME": "K2 BLOCKFIX",
+            "PACK_SIZE": "30 KG",
+            "BILLING_PRICE": 403.2,
+            "GST_AMOUNT": 72.58,
+            "DEALER_PRICE": 475.78,
+            "AVAILABLE_STOCK": 0
+        },
+        {
+            "id": 62,
+            "PRODUCT_CATEGORY": "PLASTISIZERS",
+            "PRODUCT_CODE": "27091001",
+            "PRODUCT_NAME": "K2 FOAM MASTER",
+            "PACK_SIZE": "200 KG",
+            "BILLING_PRICE": 12333.31,
+            "GST_AMOUNT": 2220,
+            "DEALER_PRICE": 14553.31,
+            "AVAILABLE_STOCK": 0
+        },
+        {
+            "id": 263,
+            "PRODUCT_CATEGORY": "WP COATING ",
+            "PRODUCT_CODE": "27070001",
+            "PRODUCT_NAME": "K2 UNIPRIME",
+            "PACK_SIZE": "LTR",
+            "BILLING_PRICE": 178.3,
+            "GST_AMOUNT": 32.09,
+            "DEALER_PRICE": 210.39,
+            "AVAILABLE_STOCK": 0
+        },
+        {
+            "id": 268,
+            "PRODUCT_CODE": "38244010",
+            "PRODUCT_NAME": "K2 PATCHPLUG CB",
+            "PACK_SIZE": "1 KG",
+            "BILLING_PRICE": 102,
+            "AVAILABLE_STOCK": 4
+        },
+        {
+            "id": 269,
+            "PRODUCT_CODE": "382440",
+            "PRODUCT_NAME": "K2 TILEFIX",
+            "PACK_SIZE": "20 KG",
+            "BILLING_PRICE": 232.8,
+            "AVAILABLE_STOCK": 0
+        }
+    ],
+    "invoices": [
+        {
+            "id": 1,
+            "invoice_no": "GURU/25-26/1",
+            "invoice_date": "2026-03-04T13:19:52.474Z",
+            "buyer_name": "KUPERA PAINTS",
+            "buyer_phone": "",
+            "buyer_address": "36, Devipattinam Road, Kenikarai, Ramnad.\nGST.NO 33AUYPK6494Q1ZC",
+            "total_billing": 783.1999999999999,
+            "total_gst": 140.97599999999997,
+            "grand_total": 924.1759999999999
+        },
+        {
+            "id": 2,
+            "invoice_no": "GURU/25-26/2",
+            "invoice_date": "2026-03-04T13:41:50.004Z",
+            "buyer_name": "QUALITY COLORS",
+            "buyer_phone": "7418831122",
+            "buyer_address": "Ramanathapuram\nGST NO: 33EMXPS2411G1ZT",
+            "total_billing": 11002.32,
+            "total_gst": 1980.4176,
+            "grand_total": 12982.7376
+        },
+        {
+            "id": 3,
+            "invoice_no": "GURU/25-26/3",
+            "invoice_date": "2026-03-04T13:53:07.345Z",
+            "buyer_name": "METRO ELECTRICALS & PAINTS",
+            "buyer_phone": "",
+            "buyer_address": "Rameswaram\nGST NO: 33ATHPS5362D1ZP",
+            "total_billing": 1604.16,
+            "total_gst": 288.7488,
+            "grand_total": 1892.9088000000002,
+            "cancelled": true,
+            "cancelled_date": "2026-03-14T06:55:02.104Z"
+        },
+        {
+            "id": 4,
+            "invoice_no": "GURU/25-26/4",
+            "invoice_date": "2026-03-04T14:08:25.479Z",
+            "buyer_name": "AYYANS & CO",
+            "buyer_phone": "9842419226",
+            "buyer_address": "431, Thangachimadam mani road, Ramnad\nGST NO: 33AFBPV4931K1Z9",
+            "total_billing": 3381.7,
+            "total_gst": 608.7059999999999,
+            "grand_total": 3990.406
+        },
+        {
+            "id": 5,
+            "invoice_no": "GURU/25-26/5",
+            "invoice_date": "2026-03-09T14:35:06.167Z",
+            "buyer_name": "KUPERA PAINTS",
+            "buyer_phone": "",
+            "buyer_address": "36, Devipattinam Road, Kenikarai, Ramnad. GST.NO 33AUYPK6494Q1ZC",
+            "total_billing": 2228.88,
+            "total_gst": 401.1984,
+            "grand_total": 2630.0784000000003,
+            "grand_total_rounded": 2630,
+            "cancelled": false
+        },
+        {
+            "id": 6,
+            "invoice_no": "GURU/25-26/6",
+            "invoice_date": "2026-03-09T14:37:40.172Z",
+            "buyer_name": "DEEN HARDWARES",
+            "buyer_phone": "",
+            "buyer_address": "GH ROAD , RAMANATHAPURAM.",
+            "total_billing": 396.33000000000004,
+            "total_gst": 71.3394,
+            "grand_total": 467.66940000000005,
+            "grand_total_rounded": 468,
+            "cancelled": false
+        },
+        {
+            "id": 7,
+            "invoice_no": "GURU/25-26/7",
+            "invoice_date": "2026-03-14T06:42:54.777Z",
+            "buyer_name": "KUPERA PAINTS",
+            "buyer_phone": "",
+            "buyer_address": "36, Devipattinam Road, Kenikarai, Ramnad. \nGST.NO 33AUYPK6494Q1ZC",
+            "total_billing": 783.1999999999999,
+            "total_gst": 140.97599999999997,
+            "grand_total": 924.1759999999999,
+            "grand_total_rounded": 924,
+            "cancelled": false
+        },
+        {
+            "id": 8,
+            "invoice_no": "GURU/25-26/8",
+            "invoice_date": "2026-03-14T06:50:24.186Z",
+            "buyer_name": "BALA PAINTS",
+            "buyer_phone": "8610095302",
+            "buyer_address": "3/14-9, Valayarvadi, Vedalai. 623518\nMandapam Road, Ramnad Dist\nGSTIN: 33AILPU2311F1ZI",
+            "total_billing": 2328,
+            "total_gst": 419.03999999999996,
+            "grand_total": 2747.04,
+            "grand_total_rounded": 2747,
+            "cancelled": false
+        },
+        {
+            "id": 9,
+            "invoice_no": "GURU/25-26/9",
+            "invoice_date": "2026-03-14T06:54:31.931Z",
+            "buyer_name": "METRO ELECTRICALS & PAINTS",
+            "buyer_phone": "",
+            "buyer_address": "Rameswaram. GST NO: 33ATHPS5362D1ZP",
+            "total_billing": 2216.1600000000003,
+            "total_gst": 398.9088,
+            "grand_total": 2615.0688000000005,
+            "grand_total_rounded": 2615,
+            "cancelled": false
+        },
+        {
+            "id": 10,
+            "invoice_no": "GURU/25-26/10",
+            "invoice_date": "2026-03-19T07:30:31.120Z",
+            "buyer_name": "QUALITY COLORS",
+            "buyer_phone": "7418831122",
+            "buyer_address": "Ramanathapuram GST NO: 33EMXPS2411G1ZT",
+            "total_billing": 3545.5199999999995,
+            "total_gst": 638.1936,
+            "grand_total": 4183.713599999999,
+            "grand_total_rounded": 4184,
+            "cancelled": false
+        },
+        {
+            "id": 11,
+            "invoice_no": "GURU/25-26/11",
+            "invoice_date": "2026-03-19T14:07:28.564Z",
+            "buyer_name": "Urban Primary Health Centre",
+            "buyer_phone": "7530077381",
+            "buyer_address": "Dr. Deepika\nFathima Nagar, Ramnad.",
+            "total_billing": 154.92000000000002,
+            "total_gst": 27.885599999999997,
+            "grand_total": 182.80560000000003,
+            "grand_total_rounded": 183,
+            "cancelled": false
+        }
+    ],
+    "invoiceItems": [
+        {
+            "id": "v69xxr27b",
+            "invoice_id": 1,
+            "product_code": "27015008",
+            "product_name": "K2 COLORFIL TJF (BLACK)",
+            "pack_size": "KGS",
+            "quantity": 20,
+            "unit_price": 39.16,
+            "gst": 140.97599999999997,
+            "total": 924.1759999999998
+        },
+        {
+            "id": "jmlews370",
+            "invoice_id": 2,
+            "product_code": "27028001",
+            "product_name": "K2 HEAT GUARD",
+            "pack_size": "LTR",
+            "quantity": 12,
+            "unit_price": 295.46,
+            "gst": 638.1936,
+            "total": 4183.713599999999
+        },
+        {
+            "id": "onemcaqyi",
+            "invoice_id": 2,
+            "product_code": "27017001",
+            "product_name": "K2 MULTI CLEAN",
+            "pack_size": "LTR",
+            "quantity": 8,
+            "unit_price": 88.06,
+            "gst": 126.8064,
+            "total": 831.2864
+        },
+        {
+            "id": "x6bqqq4kb",
+            "invoice_id": 2,
+            "product_code": "27017001",
+            "product_name": "K2 MULTI CLEAN",
+            "pack_size": "500ML",
+            "quantity": 12,
+            "unit_price": 49.1,
+            "gst": 106.056,
+            "total": 695.256
+        },
+        {
+            "id": "p665yvift",
+            "invoice_id": 2,
+            "product_code": "27048001",
+            "product_name": "K2 BITUCOAT",
+            "pack_size": "1 LTR",
+            "quantity": 6,
+            "unit_price": 191.89,
+            "gst": 207.24119999999996,
+            "total": 1358.5811999999999
+        },
+        {
+            "id": "tydzmce7n",
+            "invoice_id": 2,
+            "product_code": "27048001",
+            "product_name": "K2 BITUCOAT",
+            "pack_size": "500ML",
+            "quantity": 12,
+            "unit_price": 106.5,
+            "gst": 230.04,
+            "total": 1508.04
+        },
+        {
+            "id": "jsbm07mur",
+            "invoice_id": 2,
+            "product_code": "27011005",
+            "product_name": "K2 BRUSHGARD WHITE",
+            "pack_size": "3 KG",
+            "quantity": 6,
+            "unit_price": 313.27,
+            "gst": 338.3316,
+            "total": 2217.9516
+        },
+        {
+            "id": "ex90r67it",
+            "invoice_id": 2,
+            "product_code": "27033001",
+            "product_name": "K2 SEAL COAT",
+            "pack_size": "LTR",
+            "quantity": 8,
+            "unit_price": 231.77,
+            "gst": 333.7488,
+            "total": 2187.9088
+        },
+        {
+            "id": "8gr98qucr",
+            "invoice_id": 3,
+            "product_code": "27033001",
+            "product_name": "K2 SEAL COAT",
+            "pack_size": "LTR",
+            "quantity": 6,
+            "unit_price": 231.77,
+            "gst": 250.3116,
+            "total": 1640.9316000000001
+        },
+        {
+            "id": "4973zmq87",
+            "invoice_id": 3,
+            "product_code": "27097001",
+            "product_name": "K2 CONFIBRE 6MM",
+            "pack_size": "125 GMS",
+            "quantity": 6,
+            "unit_price": 35.59,
+            "gst": 38.437200000000004,
+            "total": 251.9772
+        },
+        {
+            "id": "vk9xvmrau",
+            "invoice_id": 4,
+            "product_code": "27028001",
+            "product_name": "K2 HEAT GUARD",
+            "pack_size": "LTR",
+            "quantity": 6,
+            "unit_price": 295.46,
+            "gst": 319.0968,
+            "total": 2091.8567999999996
+        },
+        {
+            "id": "488sbbpdw",
+            "invoice_id": 4,
+            "product_code": "27076001",
+            "product_name": "K2 KRACKSEAL PASTE",
+            "pack_size": "1 KG",
+            "quantity": 6,
+            "unit_price": 185.74,
+            "gst": 200.5992,
+            "total": 1315.0392
+        },
+        {
+            "id": "jhajzp0b3",
+            "invoice_id": 4,
+            "product_code": "27004001",
+            "product_name": "K2 DRYPROOF WPC",
+            "pack_size": "KGS",
+            "quantity": 25,
+            "unit_price": 19.78,
+            "gst": 89.00999999999999,
+            "total": 583.51
+        },
+        {
+            "id": "lftme14qf",
+            "invoice_id": 5,
+            "product_code": "27076001",
+            "product_name": "K2 KRACKSEAL PASTE",
+            "pack_size": "1 KG",
+            "quantity": 12,
+            "unit_price": 185.74,
+            "gst": 401.1984,
+            "total": 2630.0784
+        },
+        {
+            "id": "rsxotrseo",
+            "invoice_id": 6,
+            "product_code": "27008003",
+            "product_name": "K2 RESIGROUT",
+            "pack_size": "500 GM",
+            "quantity": 3,
+            "unit_price": 132.11,
+            "gst": 71.3394,
+            "total": 467.6694
+        },
+        {
+            "id": "kwzsz4r6w",
+            "invoice_id": 7,
+            "product_code": "27015001",
+            "product_name": "K2 COLORFIL TJF(WHITE)",
+            "pack_size": "KGS",
+            "quantity": 20,
+            "unit_price": 39.16,
+            "gst": 140.97599999999997,
+            "total": 924.1759999999998
+        },
+        {
+            "id": "7j8qg1i4h",
+            "invoice_id": 8,
+            "product_code": "382440",
+            "product_name": "K2 TILEFIX",
+            "pack_size": "20 KG",
+            "quantity": 10,
+            "unit_price": 232.8,
+            "gst": 419.03999999999996,
+            "total": 2747.04
+        },
+        {
+            "id": "nme4fgis3",
+            "invoice_id": 9,
+            "product_code": "38244010",
+            "product_name": "K2 PATCHPLUG CB",
+            "pack_size": "1 KG",
+            "quantity": 6,
+            "unit_price": 102,
+            "gst": 110.16,
+            "total": 722.16
+        },
+        {
+            "id": "5r60v7zbs",
+            "invoice_id": 9,
+            "product_code": "27033001",
+            "product_name": "K2 SEAL COAT",
+            "pack_size": "LTR",
+            "quantity": 6,
+            "unit_price": 231.77,
+            "gst": 250.3116,
+            "total": 1640.9316000000001
+        },
+        {
+            "id": "bou1t22pd",
+            "invoice_id": 9,
+            "product_code": "27097001",
+            "product_name": "K2 CONFIBRE 6MM",
+            "pack_size": "125 GMS",
+            "quantity": 6,
+            "unit_price": 35.59,
+            "gst": 38.437200000000004,
+            "total": 251.9772
+        },
+        {
+            "id": "obabrrmm3",
+            "invoice_id": 10,
+            "product_code": "27028001",
+            "product_name": "K2 HEAT GUARD",
+            "pack_size": "LTR",
+            "quantity": 12,
+            "unit_price": 295.46,
+            "gst": 638.1936,
+            "total": 4183.713599999999
+        },
+        {
+            "id": "p0at0mou8",
+            "invoice_id": 11,
+            "product_code": "27017001",
+            "product_name": "K2 MULTI CLEAN",
+            "pack_size": "LTR",
+            "quantity": 1,
+            "unit_price": 88.06,
+            "gst": 15.8508,
+            "total": 103.9108
+        },
+        {
+            "id": "3ka7omjx3",
+            "invoice_id": 11,
+            "product_code": "27059001",
+            "product_name": "K2 SOFT CLEAN",
+            "pack_size": "500ML",
+            "quantity": 1,
+            "unit_price": 66.86,
+            "gst": 12.034799999999999,
+            "total": 78.89479999999999
+        }
+    ],
+    "lastSync": "2026-03-19T16:27:38.761Z"
+};
 
             const fileInput = document.createElement('input');
             fileInput.type = 'file';
@@ -991,37 +2094,6 @@
                 <div class="search-box">
                     <input type="text" id="searchProducts" placeholder="🔍 Search product by name or code">
                 </div>
-                <div style="margin:10px 0;">
-                    <button onclick="document.getElementById('addProductForm').classList.toggle('hidden');">➕ Add Product</button>
-                    <div id="addProductForm" class="hidden" style="margin-top:10px; padding:10px; border:1px solid #eee; border-radius:6px; background:#fafafa;">
-                        <div class="grid">
-                            <div class="form-group">
-                                <label>Product Code</label>
-                                <input type="text" id="newProdCode" placeholder="e.g. 27113001">
-                            </div>
-                            <div class="form-group">
-                                <label>Product Name</label>
-                                <input type="text" id="newProdName" placeholder="Product name">
-                            </div>
-                            <div class="form-group">
-                                <label>Pack Size</label>
-                                <input type="text" id="newProdPack" placeholder="e.g. 20 LTR">
-                            </div>
-                            <div class="form-group">
-                                <label>Price</label>
-                                <input type="number" id="newProdPrice" step="0.01" placeholder="0.00">
-                            </div>
-                            <div class="form-group">
-                                <label>Available Stock</label>
-                                <input type="number" id="newProdStock" placeholder="0" value="0">
-                            </div>
-                        </div>
-                        <div class="button-group" style="margin-top:8px;">
-                            <button onclick="addNewProduct()">Save Product</button>
-                            <button class="secondary" onclick="document.getElementById('addProductForm').classList.add('hidden')">Cancel</button>
-                        </div>
-                    </div>
-                </div>
                 <table>
                     <thead>
                         <tr>
@@ -1139,7 +2211,7 @@
                                 <h3>${inv.invoice_no} ${inv.cancelled ? '<span style="color:#c00; font-size:12px; margin-left:8px;">(CANCELLED)</span>' : ''}</h3>
                                 <p><strong>${inv.buyer_name || 'No Name'}</strong></p>
                                 <p style="color: #666;">${inv.invoice_date}</p>
-                                <p style="font-size: 16px; color: #111; font-weight: bold;">${formatCurrency(displayTotal)}</p>
+                                <p style="font-size: 16px; color: #007bff; font-weight: bold;">${formatCurrency(displayTotal)}</p>
                                 <p style="font-size: 12px; color: #999;">Items: ${items.length}</p>
                                 <div style="margin-top:10px; display:flex; gap:8px;">
                                     <button onclick="viewInvoice(${inv.id})">View</button>
@@ -1448,8 +2520,8 @@
 
             modal.innerHTML = `
                 <div class="invoice-modal-inner" style="background: white; width: 100%; max-width: 900px; max-height: 90vh; overflow-y: auto; border-radius: 8px;">
-                    <div style="position: sticky; top: 0; background: #222; color: white; padding: 12px; display: flex; justify-content: space-between; align-items:center;">
-                        <h3 style="margin: 0; font-size:16px;">${invoice.invoice_no}${invoice.cancelled ? ' (CANCELLED)' : ''}</h3>
+                    <div style="position: sticky; top: 0; background: #007bff; color: white; padding: 15px; display: flex; justify-content: space-between; align-items:center;">
+                        <h3 style="margin: 0;">${invoice.invoice_no}${invoice.cancelled ? ' (CANCELLED)' : ''}</h3>
                         <div>
                             <button class="secondary close-modal" style="margin-right:8px;">Close</button>
                             ${invoice.cancelled ? `<button class="danger" disabled>Cancelled</button>` : `<button class="danger" onclick="cancelInvoice(${invoice.id})">🗑️ Cancel Invoice</button>`}
@@ -1501,12 +2573,12 @@
             });
 
             return `
-                <div style="font-family: Arial, sans-serif; font-size: 11px; color:#111;">
-                    <div style="background:#222; color:#fff; padding:10px 8px; border-radius:4px; margin-bottom:10px; text-align:center;">
-                        <h1 style="margin: 0; font-size:16px; font-weight:700;">GURU AGENCIES</h1>
+                <div style="font-family: Arial, sans-serif; font-size: 12px;">
+                    <div style="text-align: center; border-bottom: 2px solid #007bff; padding-bottom: 15px;">
+                        <h1 style="margin: 0; color: #007bff; font-size: 20px;">GURU AGENCIES</h1>
                         <p style="margin: 3px 0; font-size: 11px;">KAVARAYAR STREET, RAMANATHAPURAM 623504</p>
                         <p style="margin: 3px 0; font-size: 11px;">Phone: 7823941892 | GSTIN: 33LKAPS1968J1ZM</p>
-                        <p style="margin: 5px 0; font-weight:700;">TAX INVOICE</p>
+                        <p style="margin: 5px 0; font-weight: bold;">TAX INVOICE</p>
                     </div>
                     
                     <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin: 15px 0;">
@@ -1565,109 +2637,20 @@
                             <span>Round Off:</span>
                             <strong>${roundingAdjustment >= 0 ? '+' : '-'}${formatCurrency(Math.abs(roundingAdjustment)).replace('₹', '')}</strong>
                         </div>
-                        <div style="display: flex; justify-content: space-between; padding: 8px 0; font-weight: bold; font-size: 14px; color: #111;">
+                        <div style="display: flex; justify-content: space-between; padding: 8px 0; font-weight: bold; font-size: 14px; color: #007bff;">
                             <span>GRAND TOTAL (Rounded):</span>
                             <span>${formatCurrency(displayedGrand)}</span>
                         </div>
                     </div>
                     
-                    <div style="background: #f7f7f7; padding: 10px; border-left: 3px solid #222; margin: 15px 0; border-radius: 4px;">
+                    <div style="background: #eef7ff; padding: 10px; border-left: 3px solid #007bff; margin: 15px 0; border-radius: 4px;">
                         <p style="margin: 0 0 5px 0; font-weight: bold;">Amount in Words:</p>
-                        <p style="margin: 0; color: #111; font-weight: bold;">${amountToWords(displayedGrand)}</p>
+                        <p style="margin: 0; color: #007bff; font-weight: bold;">${amountToWords(displayedGrand)}</p>
                     </div>
                     
                     <p style="text-align: center; color: #999; font-size: 10px; margin-top: 20px;">Computer-generated invoice. No signature required.</p>
                 </div>
             `;
-
-            return page;
-        };
-
-        // ========== STOCK PAGE ==========
-        const renderStockPage = () => {
-            const page = document.createElement('div');
-            page.className = 'page active';
-            page.id = 'stock';
-
-            // compute sales numbers per product (exclude cancelled invoices)
-            const validInvoices = app.invoices.filter(inv => !inv.cancelled);
-            // last 30 days sales
-            const now = new Date();
-            const start30 = new Date(now);
-            start30.setDate(now.getDate() - 30);
-
-            const salesMap = {}; // key: product_code|pack or name|pack
-            app.products.forEach(p => {
-                const key = `${p.PRODUCT_CODE || p.id}||${p.PACK_SIZE}`;
-                salesMap[key] = { product: p, sold30: 0 };
-            });
-
-            app.invoiceItems.forEach(it => {
-                const inv = app.invoices.find(i => i.id === it.invoice_id);
-                if (!inv || inv.cancelled) return;
-                const dateOnly = new Date(inv.invoice_date.slice(0,10));
-                const key = `${it.product_code || ''}||${it.pack_size}`;
-                if (salesMap[key]) {
-                    if (dateOnly >= start30) salesMap[key].sold30 += (it.quantity || 0);
-                } else {
-                    // try match by name
-                    const altKey = Object.keys(salesMap).find(k => salesMap[k].product.PRODUCT_NAME === it.product_name && salesMap[k].product.PACK_SIZE === it.pack_size);
-                    if (altKey && dateOnly >= start30) salesMap[altKey].sold30 += (it.quantity || 0);
-                }
-            });
-
-            const rows = Object.values(salesMap);
-            const maxSold = Math.max(1, ...rows.map(r => r.sold30));
-
-            page.innerHTML = `
-                <h2>Stock & Sales</h2>
-                <p style="color:#666; font-size:13px;">Showing sales for last 30 days and simple 30-day projection per product.</p>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Product</th>
-                            <th>Pack</th>
-                            <th>Stock</th>
-                            <th>Sold (30d)</th>
-                            <th>Avg/Day</th>
-                            <th>Proj 30d</th>
-                            <th>Projected Stock</th>
-                            <th>Trend</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        ${rows.map(r => {
-                            const p = r.product;
-                            const sold30 = r.sold30 || 0;
-                            const avgDay = +(sold30 / 30).toFixed(2);
-                            const proj30 = Math.round(avgDay * 30);
-                            const projectedStock = (p.AVAILABLE_STOCK || 0) - proj30;
-                            const barPct = Math.round((sold30 / maxSold) * 100);
-                            return `
-                                <tr>
-                                    <td title="${(p.PRODUCT_NAME||'').replace(/"/g,'&quot;')}">${p.PRODUCT_NAME || ''}</td>
-                                    <td>${p.PACK_SIZE || ''}</td>
-                                    <td><strong>${p.AVAILABLE_STOCK || 0}</strong></td>
-                                    <td>${sold30}</td>
-                                    <td>${avgDay}</td>
-                                    <td>${proj30}</td>
-                                    <td style="color:${projectedStock<0?'#c00':'#080'}; font-weight:bold;">${projectedStock}</td>
-                                    <td style="width:200px;">
-                                                <div style="background:#eee; height:10px; border-radius:4px; overflow:hidden;">
-                                                        <div style="width:${barPct}%; background:#222; height:100%;"></div>
-                                                    </div>
-                                    </td>
-                                </tr>
-                            `;
-                        }).join('')}
-                    </tbody>
-                </table>
-                <div style="margin-top:12px;">
-                    <button onclick="downloadDateWiseInvoices(document.getElementById('reportsFrom')?.value || new Date().toISOString().slice(0,10), document.getElementById('reportsTo')?.value || new Date().toISOString().slice(0,10))">📄 Print Date-wise (Reports Range)</button>
-                </div>
-            `;
-
-            return page;
         };
 
         const clearInvoice = () => {
@@ -1783,26 +2766,6 @@
             product.AVAILABLE_STOCK = (product.AVAILABLE_STOCK || 0) + qty;
             saveData();
             showAlert(`Added ${qty} units to ${prodName}`, 'success');
-            render();
-        };
-
-        // Add a new product to inventory
-        const addNewProduct = () => {
-            const code = document.getElementById('newProdCode') ? document.getElementById('newProdCode').value.trim() : '';
-            const name = document.getElementById('newProdName') ? document.getElementById('newProdName').value.trim() : '';
-            const pack = document.getElementById('newProdPack') ? document.getElementById('newProdPack').value.trim() : '';
-            const price = parseFloat(document.getElementById('newProdPrice') ? document.getElementById('newProdPrice').value : '0') || 0;
-            const stock = parseInt(document.getElementById('newProdStock') ? document.getElementById('newProdStock').value : '0') || 0;
-
-            if (!name || !pack) { showAlert('Product name and pack are required', 'error'); return; }
-
-            // generate id
-            const nextId = Math.max(...app.products.map(p => p.id || 0), 0) + 1;
-            app.products.push({ id: nextId, PRODUCT_CODE: code, PRODUCT_NAME: name, PACK_SIZE: pack, BILLING_PRICE: price, AVAILABLE_STOCK: stock });
-            saveData();
-            showAlert('Product added', 'success');
-            // hide form and re-render
-            const form = document.getElementById('addProductForm'); if (form) form.classList.add('hidden');
             render();
         };
 
@@ -1973,7 +2936,6 @@
                 { id: 'invoice', label: '📄 Invoice' },
                 { id: 'inventory', label: '📦 Inventory' },
                 { id: 'history', label: '📜 History' },
-                { id: 'stock', label: '📈 Stock' },
                 { id: 'reports', label: '📊 Reports' }
             ];
 
@@ -1992,9 +2954,6 @@
                     break;
                 case 'history':
                     page = renderHistoryPage();
-                    break;
-                case 'stock':
-                    page = renderStockPage();
                     break;
                 case 'reports':
                     page = renderReportsPage();
