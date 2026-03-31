@@ -9,7 +9,7 @@
       "BILLING_PRICE": 19.78,
       "GST_AMOUNT": 3.56,
       "DEALER_PRICE": 23.34,
-      "AVAILABLE_STOCK": 65
+      "AVAILABLE_STOCK": 75
     },
     {
       "id": 2,
@@ -3142,7 +3142,8 @@
       "total_gst": 35.604,
       "grand_total": 233.404,
       "grand_total_rounded": 233,
-      "cancelled": false
+      "cancelled": true,
+      "cancelled_date": "2026-03-31T18:58:53.184Z"
     }
   ],
   "invoiceItems": [
@@ -3456,5 +3457,5 @@
     }
   ],
   "customers": [],
-  "lastSync": "2026-03-31T18:52:31.353Z"
+  "lastSync": "2026-03-31T18:59:06.966Z"
 }
