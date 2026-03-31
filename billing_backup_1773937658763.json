@@ -9,7 +9,7 @@
       "BILLING_PRICE": 19.78,
       "GST_AMOUNT": 3.56,
       "DEALER_PRICE": 23.34,
-      "AVAILABLE_STOCK": 75
+      "AVAILABLE_STOCK": 65
     },
     {
       "id": 2,
@@ -3144,6 +3144,19 @@
       "grand_total_rounded": 233,
       "cancelled": true,
       "cancelled_date": "2026-03-31T18:58:53.184Z"
+    },
+    {
+      "id": 16,
+      "invoice_no": "GURU/26-27/2",
+      "invoice_date": "2026-03-31T19:00:49.398Z",
+      "buyer_name": "Balaji",
+      "buyer_phone": "555",
+      "buyer_address": "Fgjh",
+      "total_billing": 197.8,
+      "total_gst": 35.604,
+      "grand_total": 233.404,
+      "grand_total_rounded": 233,
+      "cancelled": false
     }
   ],
   "invoiceItems": [
@@ -3454,8 +3467,19 @@
       "unit_price": 19.78,
       "gst": 35.604,
       "total": 233.404
+    },
+    {
+      "id": "ifrdbvnm8",
+      "invoice_id": 16,
+      "product_code": "27004001",
+      "product_name": "K2 DRYPROOF WPC",
+      "pack_size": "KGS",
+      "quantity": 10,
+      "unit_price": 19.78,
+      "gst": 35.604,
+      "total": 233.404
     }
   ],
   "customers": [],
-  "lastSync": "2026-03-31T18:59:06.966Z"
+  "lastSync": "2026-03-31T19:03:05.630Z"
 }
