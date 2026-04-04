@@ -592,7 +592,8 @@
             <div class="status">
                 <span class="status-dot"></span>
                 <span>developed by Mugavai Systems Ramanathapuram</span>
-                <span id="lastSync" style="margin-left: auto; font-size: 11px;"></span>
+                <button id="updateBillsBtn" onclick="promptLoadHostedData()" style="margin-left: auto; background: rgba(255,255,255,0.12); border: none; color: white; padding: 6px 10px; border-radius: 4px; cursor: pointer; font-size: 12px;">Update Bills</button>
+                <span id="lastSync" style="margin-left:8px; font-size: 11px;"></span>
             </div>
             <nav id="navTabs"></nav>
         </div>
@@ -1282,6 +1283,16 @@
                     <button class="secondary" onclick="promptLoadHostedData()">⬇️ Load hosted data (direct GitHub)</button>
                 </div>
                 <p style="margin-top:8px; color:#666; font-size:12px;">Direct GitHub save requires a Personal Access Token (PAT). Do not share your PAT. The app will request it each time and does not store it.</p>
+                <div style="margin-top:12px;">
+                    <label style="display:block; font-weight:600; margin-bottom:6px;">Quick repo & PAT (copyable)</label>
+                    <textarea id="quickCreds" readonly style="width:100%; min-height:70px; padding:8px; border:1px solid #ddd; border-radius:6px; font-family:monospace; font-size:12px;">tigerprasath gurusalesramnad
+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</textarea>
+                    <div class="button-group" style="margin-top:8px;">
+                        <button onclick="copyQuickCreds()">📋 Copy</button>
+                        
+                    </div>
+                    <p style="margin-top:6px; color:#a00; font-size:12px;">Warning: this contains your PAT. Do not share this page or leave this open on public machines.</p>
+                </div>
                 <div style="margin-top:20px; border-top:1px solid #ddd; padding-top:15px;">
                     <h3>Download Monthly Bills</h3>
                     <div class="grid">
@@ -1637,80 +1648,103 @@
             page.className = 'page active';
             page.id = 'stock';
 
-            // compute sales numbers per product (exclude cancelled invoices)
+            // Show only invoiced products and provide sales-focused summary & projection (till date)
             const validInvoices = app.invoices.filter(inv => !inv.cancelled);
-            // last 30 days sales
             const now = new Date();
-            const start30 = new Date(now);
-            start30.setDate(now.getDate() - 30);
 
-            const salesMap = {}; // key: product_code|pack or name|pack
-            app.products.forEach(p => {
-                const key = `${p.PRODUCT_CODE || p.id}||${p.PACK_SIZE}`;
-                salesMap[key] = { product: p, sold30: 0 };
-            });
+            // determine earliest invoice date for averaging
+            const invoiceDates = validInvoices.map(inv => new Date(inv.invoice_date.slice(0,10))).filter(d => !isNaN(d));
+            const earliest = invoiceDates.length ? new Date(Math.min(...invoiceDates.map(d => d.getTime()))) : now;
+            const daysSince = Math.max(1, Math.ceil((now - earliest) / (1000*60*60*24)));
 
+            // Build a map of invoiced items grouped by product_code|pack
+            const invoicedMap = {};
             app.invoiceItems.forEach(it => {
                 const inv = app.invoices.find(i => i.id === it.invoice_id);
                 if (!inv || inv.cancelled) return;
-                const dateOnly = new Date(inv.invoice_date.slice(0,10));
                 const key = `${it.product_code || ''}||${it.pack_size}`;
-                if (salesMap[key]) {
-                    if (dateOnly >= start30) salesMap[key].sold30 += (it.quantity || 0);
-                } else {
-                    // try match by name
-                    const altKey = Object.keys(salesMap).find(k => salesMap[k].product.PRODUCT_NAME === it.product_name && salesMap[k].product.PACK_SIZE === it.pack_size);
-                    if (altKey && dateOnly >= start30) salesMap[altKey].sold30 += (it.quantity || 0);
+                if (!invoicedMap[key]) {
+                    invoicedMap[key] = { product_code: it.product_code, pack: it.pack_size, name: it.product_name, soldTotal: 0, totalQty: 0, revenueTotal: 0 };
                 }
+                // accumulate overall totals (till date)
+                invoicedMap[key].totalQty += (it.quantity || 0);
+                invoicedMap[key].soldTotal += (it.quantity || 0);
+                const itemRevenue = (it.unit_price || 0) * (it.quantity || 0) * 1.18; // incl GST approx
+                invoicedMap[key].revenueTotal += itemRevenue;
             });
 
-            const rows = Object.values(salesMap);
-            const maxSold = Math.max(1, ...rows.map(r => r.sold30));
+            // Map to include product stock and price where available
+            const rows = Object.keys(invoicedMap).map(key => {
+                const info = invoicedMap[key];
+                const prod = app.products.find(p => (String(p.PRODUCT_CODE) === String(info.product_code) || String(p.id) === String(info.product_code)) && p.PACK_SIZE === info.pack) || app.products.find(p => p.PRODUCT_NAME === info.name && p.PACK_SIZE === info.pack) || null;
+                return {
+                    key,
+                    name: info.name || (prod && prod.PRODUCT_NAME) || 'Unknown',
+                    pack: info.pack || (prod && prod.PACK_SIZE) || '',
+                    code: info.product_code || (prod && prod.PRODUCT_CODE) || '',
+                    stock: prod ? (prod.AVAILABLE_STOCK || 0) : 0,
+                    price: prod ? (prod.BILLING_PRICE || 0) : 0,
+                    soldTotal: info.soldTotal || 0,
+                    totalQty: info.totalQty || 0,
+                    revenueTotal: +(info.revenueTotal || 0)
+                };
+            }).sort((a,b) => b.soldTotal - a.soldTotal);
+
+            const maxSold = Math.max(1, ...rows.map(r => r.soldTotal));
+            const totalRevenue = rows.reduce((s,r) => s + (r.revenueTotal || 0), 0);
+            const runningMargin = totalRevenue * 0.15; // 15% running margin
 
             page.innerHTML = `
-                <h2>Stock & Sales</h2>
-                <p style="color:#666; font-size:13px;">Showing sales for last 30 days and simple 30-day projection per product.</p>
+                <h2>Sales-focused Stock View (Till Date)</h2>
+                <p style="color:#666; font-size:13px;">Showing only products that have been invoiced. Includes till-date sales, average/day, 30-day projection (based on avg/day) and revenue contribution.</p>
                 <table>
                     <thead>
                         <tr>
                             <th>Product</th>
                             <th>Pack</th>
                             <th>Stock</th>
-                            <th>Sold (30d)</th>
+                            <th>Sold (Till Date)</th>
                             <th>Avg/Day</th>
                             <th>Proj 30d</th>
                             <th>Projected Stock</th>
-                            <th>Trend</th>
+                            <th>Revenue (Till Date)</th>
+                            <th>Contribution</th>
                         </tr>
                     </thead>
                     <tbody>
                         ${rows.map(r => {
-                            const p = r.product;
-                            const sold30 = r.sold30 || 0;
-                            const avgDay = +(sold30 / 30).toFixed(2);
+                            const soldTotal = r.soldTotal || 0;
+                            const avgDay = +(soldTotal / daysSince).toFixed(2);
                             const proj30 = Math.round(avgDay * 30);
-                            const projectedStock = (p.AVAILABLE_STOCK || 0) - proj30;
-                            const barPct = Math.round((sold30 / maxSold) * 100);
+                            const projectedStock = (r.stock || 0) - proj30;
+                            const barPct = Math.round((soldTotal / maxSold) * 100);
+                            const contribution = totalRevenue ? Math.round((r.revenueTotal / totalRevenue) * 1000) / 10 : 0;
                             return `
                                 <tr>
-                                    <td title="${(p.PRODUCT_NAME||'').replace(/"/g,'&quot;')}">${p.PRODUCT_NAME || ''}</td>
-                                    <td>${p.PACK_SIZE || ''}</td>
-                                    <td><strong>${p.AVAILABLE_STOCK || 0}</strong></td>
-                                    <td>${sold30}</td>
+                                    <td title="${(r.name||'').replace(/"/g,'&quot;')}">${r.name}</td>
+                                    <td>${r.pack}</td>
+                                    <td><strong>${r.stock}</strong></td>
+                                    <td>${soldTotal}</td>
                                     <td>${avgDay}</td>
                                     <td>${proj30}</td>
                                     <td style="color:${projectedStock<0?'#c00':'#080'}; font-weight:bold;">${projectedStock}</td>
-                                    <td style="width:200px;">
-                                                <div style="background:#eee; height:10px; border-radius:4px; overflow:hidden;">
-                                                        <div style="width:${barPct}%; background:#222; height:100%;"></div>
-                                                    </div>
+                                    <td style="text-align:right;">${formatCurrency(r.revenueTotal || 0)}</td>
+                                    <td style="width:120px;">
+                                        <div style="display:flex; align-items:center; gap:8px;">
+                                            <div style="flex:1; background:#eee; height:10px; border-radius:4px; overflow:hidden;">
+                                                <div style="width:${barPct}%; background:#007bff; height:100%;"></div>
+                                            </div>
+                                            <div style="min-width:38px; text-align:right; font-size:12px;">${contribution}%</div>
+                                        </div>
                                     </td>
                                 </tr>
                             `;
                         }).join('')}
                     </tbody>
                 </table>
-                <div style="margin-top:12px;">
+                <div style="margin-top:12px; display:flex; gap:10px; align-items:center;">
+                    <div style="font-size:13px; color:#333;">Total revenue (till date): <strong>${formatCurrency(totalRevenue)}</strong></div>
+                    <div style="font-size:13px; color:#333;">Running margin (15%): <strong>${formatCurrency(runningMargin)}</strong></div>
                     <button onclick="downloadDateWiseInvoices(document.getElementById('reportsFrom')?.value || new Date().toISOString().slice(0,10), document.getElementById('reportsTo')?.value || new Date().toISOString().slice(0,10))">📄 Print Date-wise (Reports Range)</button>
                 </div>
             `;
@@ -1773,15 +1807,24 @@
         // Prompt the user for GitHub repo info and PAT, then save the current data file
         const promptSaveToGitHub = async () => {
             const defaultPath = 'billing_backup_1773937658763.json';
-            const savedRepo = localStorage.getItem('billing_repo') || '';
+            // prefill repo with saved value or the requested default
+            const savedRepo = localStorage.getItem('billing_repo') || 'tigerprasath/gurusalesramnad';
             const savedPath = localStorage.getItem('billing_path') || defaultPath;
             const repoFull = prompt('Enter GitHub repository (owner/repo). Example: myuser/myrepo', savedRepo);
             if (!repoFull) return showAlert('Cancelled', 'info');
-            // don't store the token
-            const token = prompt('Enter a GitHub Personal Access Token (repo scope)\nIt will be used only for this operation.');
+            // For convenience, allow a session-scoped stored token (not persisted permanently).
+            const sessionToken = sessionStorage.getItem('billing_token_session') || '';
+            const token = prompt('Enter a GitHub Personal Access Token (repo scope)\nIt will be used only for this operation.', sessionToken);
             if (!token) return showAlert('Token required', 'error');
             const path = prompt('Path in repo to update', savedPath) || savedPath;
-            // save choices for convenience (but not the token)
+            // optionally remember token for this browser session (not persisted permanently)
+            try {
+                if (token && !sessionToken) {
+                    const remember = confirm('Remember this token for this browser session? (It will be stored only in this browser tab/window)');
+                    if (remember) sessionStorage.setItem('billing_token_session', token);
+                }
+            } catch (e) {}
+            // save choices for convenience (but not the token in localStorage)
             try { localStorage.setItem('billing_repo', repoFull); localStorage.setItem('billing_path', path); } catch (e) {}
 
             // prepare the data to save (same shape as exportData)
@@ -1975,6 +2018,19 @@
             } catch (err) {
                 console.error(err);
                 showAlert('Failed to load hosted data: ' + (err.message || err), 'error');
+            }
+        };
+
+        const copyQuickCreds = () => {
+            const ta = document.getElementById('quickCreds');
+            if (!ta) return showAlert('Nothing to copy', 'error');
+            const text = ta.value;
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+                navigator.clipboard.writeText(text).then(() => showAlert('Copied to clipboard', 'success')).catch(err => { console.error(err); showAlert('Copy failed', 'error'); });
+            } else {
+                // fallback
+                ta.select();
+                try { document.execCommand('copy'); showAlert('Copied to clipboard', 'success'); } catch (e) { showAlert('Copy not supported', 'error'); }
             }
         };
 
