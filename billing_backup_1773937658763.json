@@ -1483,7 +1483,7 @@
       "BILLING_PRICE": 40.89,
       "GST_AMOUNT": 7.36,
       "DEALER_PRICE": 48.25,
-      "AVAILABLE_STOCK": 100
+      "AVAILABLE_STOCK": 75
     },
     {
       "id": 136,
@@ -1824,7 +1824,7 @@
       "BILLING_PRICE": 49.1,
       "GST_AMOUNT": 8.84,
       "DEALER_PRICE": 57.94,
-      "AVAILABLE_STOCK": 88
+      "AVAILABLE_STOCK": 76
     },
     {
       "id": 167,
@@ -1846,7 +1846,7 @@
       "BILLING_PRICE": 88.06,
       "GST_AMOUNT": 15.85,
       "DEALER_PRICE": 103.91,
-      "AVAILABLE_STOCK": 91
+      "AVAILABLE_STOCK": 75
     },
     {
       "id": 169,
@@ -2209,7 +2209,7 @@
       "BILLING_PRICE": 39.16,
       "GST_AMOUNT": 7.05,
       "DEALER_PRICE": 46.2,
-      "AVAILABLE_STOCK": 80
+      "AVAILABLE_STOCK": 60
     },
     {
       "id": 202,
@@ -2308,7 +2308,7 @@
       "BILLING_PRICE": 132.11,
       "GST_AMOUNT": 23.78,
       "DEALER_PRICE": 155.89,
-      "AVAILABLE_STOCK": 79
+      "AVAILABLE_STOCK": 76
     },
     {
       "id": 211,
@@ -3134,30 +3134,28 @@
     {
       "id": 15,
       "invoice_no": "GURU/26-27/1",
-      "invoice_date": "2026-03-31T18:51:43.630Z",
-      "buyer_name": "Prasath",
-      "buyer_phone": "87688",
-      "buyer_address": "Cfhhgf",
-      "total_billing": 197.8,
-      "total_gst": 35.604,
-      "grand_total": 233.404,
-      "grand_total_rounded": 233,
-      "cancelled": true,
-      "cancelled_date": "2026-03-31T18:58:53.184Z"
+      "invoice_date": "2026-04-03T08:32:07.701Z",
+      "buyer_name": "KUPERA PAINTS",
+      "buyer_phone": "",
+      "buyer_address": "36, Devipattinam Road, Kenikarai, Ramnad. GST.NO 33AUYPK6494Q1ZC",
+      "total_billing": 1805.4499999999998,
+      "total_gst": 324.981,
+      "grand_total": 2130.4309999999996,
+      "grand_total_rounded": 2130,
+      "cancelled": false
     },
     {
       "id": 16,
       "invoice_no": "GURU/26-27/2",
-      "invoice_date": "2026-03-31T19:00:49.398Z",
-      "buyer_name": "Balaji",
-      "buyer_phone": "555",
-      "buyer_address": "Fgjh",
-      "total_billing": 197.8,
-      "total_gst": 35.604,
-      "grand_total": 233.404,
-      "grand_total_rounded": 233,
-      "cancelled": true,
-      "cancelled_date": "2026-03-31T19:03:58.753Z"
+      "invoice_date": "2026-04-03T08:34:43.457Z",
+      "buyer_name": "DEEN HARDWARES",
+      "buyer_phone": "",
+      "buyer_address": "GH ROAD , RAMANATHAPURAM.",
+      "total_billing": 2394.4900000000002,
+      "total_gst": 431.0082,
+      "grand_total": 2825.4982,
+      "grand_total_rounded": 2825,
+      "cancelled": false
     }
   ],
   "invoiceItems": [
@@ -3459,28 +3457,77 @@
       "total": 5260.1568
     },
     {
-      "id": "dk7adh7kd",
+      "id": "z5lck1yj6",
       "invoice_id": 15,
-      "product_code": "27004001",
-      "product_name": "K2 DRYPROOF WPC",
+      "product_code": "27015001",
+      "product_name": "K2 COLORFIL TJF(WHITE)",
       "pack_size": "KGS",
-      "quantity": 10,
-      "unit_price": 19.78,
-      "gst": 35.604,
-      "total": 233.404
+      "quantity": 20,
+      "unit_price": 39.16,
+      "gst": 140.97599999999997,
+      "total": 924.1759999999998
     },
     {
-      "id": "ifrdbvnm8",
-      "invoice_id": 16,
-      "product_code": "27004001",
-      "product_name": "K2 DRYPROOF WPC",
+      "id": "juvqhihj7",
+      "invoice_id": 15,
+      "product_code": "27027001",
+      "product_name": "K2 KRACK SEAL",
       "pack_size": "KGS",
-      "quantity": 10,
-      "unit_price": 19.78,
-      "gst": 35.604,
-      "total": 233.404
+      "quantity": 25,
+      "unit_price": 40.89,
+      "gst": 184.005,
+      "total": 1206.2549999999999
+    },
+    {
+      "id": "ss4un0y8r",
+      "invoice_id": 16,
+      "product_code": "27017001",
+      "product_name": "K2 MULTI CLEAN",
+      "pack_size": "LTR",
+      "quantity": 16,
+      "unit_price": 88.06,
+      "gst": 253.6128,
+      "total": 1662.5728
+    },
+    {
+      "id": "macqvbqqv",
+      "invoice_id": 16,
+      "product_code": "27017001",
+      "product_name": "K2 MULTI CLEAN",
+      "pack_size": "500ML",
+      "quantity": 12,
+      "unit_price": 49.1,
+      "gst": 106.056,
+      "total": 695.256
+    },
+    {
+      "id": "0kcxih7qy",
+      "invoice_id": 16,
+      "product_code": "27008003",
+      "product_name": "K2 RESIGROUT",
+      "pack_size": "500 GM",
+      "quantity": 3,
+      "unit_price": 132.11,
+      "gst": 71.3394,
+      "total": 467.6694
     }
   ],
-  "customers": [],
-  "lastSync": "2026-03-31T19:04:18.236Z"
+  "customers": [
+    {
+      "name": "SMD Traders",
+      "phone": "9944131370",
+      "address": "2/26, Nainar Kovil Road, Pandiyur. 623705\nGST No: 33GROPS1364A1ZS"
+    },
+    {
+      "name": "AWINCO GLOBAL PRIVATE LIMITED",
+      "phone": "7708692157",
+      "address": "Door no: 5/387, S.no: 17/6A1A, Ramanathapuram Bypass, Pattinamkattan, Ramanathapuram.623504\nGST NO: 33ABACA6161A1ZD"
+    },
+    {
+      "name": "Shree alagarmalaiyan paints",
+      "phone": "",
+      "address": "Paramakudi"
+    }
+  ],
+  "lastSync": "2026-04-04T16:11:19.740Z"
 }
