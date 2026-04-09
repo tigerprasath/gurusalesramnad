@@ -1186,7 +1186,7 @@
       "BILLING_PRICE": 313.27,
       "GST_AMOUNT": 56.39,
       "DEALER_PRICE": 369.66,
-      "AVAILABLE_STOCK": 94
+      "AVAILABLE_STOCK": 88
     },
     {
       "id": 109,
@@ -1824,7 +1824,7 @@
       "BILLING_PRICE": 49.1,
       "GST_AMOUNT": 8.84,
       "DEALER_PRICE": 57.94,
-      "AVAILABLE_STOCK": 73
+      "AVAILABLE_STOCK": 49
     },
     {
       "id": 167,
@@ -1846,7 +1846,7 @@
       "BILLING_PRICE": 88.06,
       "GST_AMOUNT": 15.85,
       "DEALER_PRICE": 103.91,
-      "AVAILABLE_STOCK": 72
+      "AVAILABLE_STOCK": 56
     },
     {
       "id": 169,
@@ -2264,7 +2264,7 @@
       "BILLING_PRICE": 35.59,
       "GST_AMOUNT": 6.41,
       "DEALER_PRICE": 42,
-      "AVAILABLE_STOCK": 94
+      "AVAILABLE_STOCK": 84
     },
     {
       "id": 207,
@@ -2308,7 +2308,7 @@
       "BILLING_PRICE": 132.11,
       "GST_AMOUNT": 23.78,
       "DEALER_PRICE": 155.89,
-      "AVAILABLE_STOCK": 76
+      "AVAILABLE_STOCK": 67
     },
     {
       "id": 211,
@@ -2528,7 +2528,7 @@
       "BILLING_PRICE": 66.86,
       "GST_AMOUNT": 12.04,
       "DEALER_PRICE": 78.9,
-      "AVAILABLE_STOCK": 99
+      "AVAILABLE_STOCK": 89
     },
     {
       "id": 231,
@@ -3182,6 +3182,45 @@
       "grand_total": 2412.51,
       "grand_total_rounded": 2413,
       "cancelled": false
+    },
+    {
+      "id": 19,
+      "invoice_no": "GURU/26-27/5",
+      "invoice_date": "2026-04-09T07:42:16.914Z",
+      "buyer_name": "MR TRADERS",
+      "buyer_phone": "",
+      "buyer_address": "61C1 R.F Road\nRamanathapuram 623504\nGSTIN: 33AAMFM4186H1Z2",
+      "total_billing": 1544.8900000000003,
+      "total_gst": 278.08020000000005,
+      "grand_total": 1822.9702000000004,
+      "grand_total_rounded": 1823,
+      "cancelled": false
+    },
+    {
+      "id": 20,
+      "invoice_no": "GURU/26-27/6",
+      "invoice_date": "2026-04-09T07:49:00.696Z",
+      "buyer_name": "Basheer Tiles House",
+      "buyer_phone": "04567355818",
+      "buyer_address": "69 A2, Railway Feeder Road,\nRamanathapuram 623501\nGSTIN: 33CAFPS9890B1ZF",
+      "total_billing": 3255.96,
+      "total_gst": 586.0727999999999,
+      "grand_total": 3842.0328,
+      "grand_total_rounded": 3842,
+      "cancelled": false
+    },
+    {
+      "id": 21,
+      "invoice_no": "GURU/26-27/7",
+      "invoice_date": "2026-04-09T07:55:36.350Z",
+      "buyer_name": "Shree alagarmalaiyan paints",
+      "buyer_phone": "",
+      "buyer_address": "Paramakudi",
+      "total_billing": 1879.62,
+      "total_gst": 338.3316,
+      "grand_total": 2217.9516,
+      "grand_total_rounded": 2218,
+      "cancelled": false
     }
   ],
   "invoiceItems": [
@@ -3591,6 +3630,72 @@
       "unit_price": 40.89,
       "gst": 368.01,
       "total": 2412.5099999999998
+    },
+    {
+      "id": "ila9jz0e3",
+      "invoice_id": 19,
+      "product_code": "27097001",
+      "product_name": "K2 CONFIBRE 6MM",
+      "pack_size": "125 GMS",
+      "quantity": 10,
+      "unit_price": 35.59,
+      "gst": 64.062,
+      "total": 419.96200000000005
+    },
+    {
+      "id": "4rxuxcfyp",
+      "invoice_id": 19,
+      "product_code": "27008003",
+      "product_name": "K2 RESIGROUT",
+      "pack_size": "500 GM",
+      "quantity": 9,
+      "unit_price": 132.11,
+      "gst": 214.01820000000004,
+      "total": 1403.0082000000002
+    },
+    {
+      "id": "910hraccy",
+      "invoice_id": 20,
+      "product_code": "27017001",
+      "product_name": "K2 MULTI CLEAN",
+      "pack_size": "LTR",
+      "quantity": 16,
+      "unit_price": 88.06,
+      "gst": 253.6128,
+      "total": 1662.5728
+    },
+    {
+      "id": "6um8vgpk1",
+      "invoice_id": 20,
+      "product_code": "27017001",
+      "product_name": "K2 MULTI CLEAN",
+      "pack_size": "500ML",
+      "quantity": 24,
+      "unit_price": 49.1,
+      "gst": 212.112,
+      "total": 1390.512
+    },
+    {
+      "id": "gjw7utqjr",
+      "invoice_id": 20,
+      "product_code": "27059001",
+      "product_name": "K2 SOFT CLEAN",
+      "pack_size": "500ML",
+      "quantity": 10,
+      "unit_price": 66.86,
+      "gst": 120.348,
+      "total": 788.948
+    },
+    {
+      "id": "b4830zgpy",
+      "invoice_id": 21,
+      "product_code": "27011005",
+      "product_name": "K2 BRUSHGARD WHITE",
+      "pack_size": "3 KG",
+      "quantity": 6,
+      "unit_price": 313.27,
+      "gst": 338.3316,
+      "total": 2217.9516
     }
   ],
   "customers": [
@@ -3610,5 +3715,5 @@
       "address": "Paramakudi"
     }
   ],
-  "lastSync": "2026-04-09T05:53:28.419Z"
+  "lastSync": "2026-04-09T08:10:07.566Z"
 }
