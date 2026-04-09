@@ -163,7 +163,7 @@
       "BILLING_PRICE": 191.89,
       "GST_AMOUNT": 34.54,
       "DEALER_PRICE": 226.43,
-      "AVAILABLE_STOCK": 94
+      "AVAILABLE_STOCK": 88
     },
     {
       "id": 16,
@@ -1483,7 +1483,7 @@
       "BILLING_PRICE": 40.89,
       "GST_AMOUNT": 7.36,
       "DEALER_PRICE": 48.25,
-      "AVAILABLE_STOCK": 75
+      "AVAILABLE_STOCK": 25
     },
     {
       "id": 136,
@@ -1824,7 +1824,7 @@
       "BILLING_PRICE": 49.1,
       "GST_AMOUNT": 8.84,
       "DEALER_PRICE": 57.94,
-      "AVAILABLE_STOCK": 76
+      "AVAILABLE_STOCK": 73
     },
     {
       "id": 167,
@@ -1846,7 +1846,7 @@
       "BILLING_PRICE": 88.06,
       "GST_AMOUNT": 15.85,
       "DEALER_PRICE": 103.91,
-      "AVAILABLE_STOCK": 75
+      "AVAILABLE_STOCK": 72
     },
     {
       "id": 169,
@@ -2253,7 +2253,7 @@
       "BILLING_PRICE": 35.59,
       "GST_AMOUNT": 6.41,
       "DEALER_PRICE": 42,
-      "AVAILABLE_STOCK": 100
+      "AVAILABLE_STOCK": 88
     },
     {
       "id": 206,
@@ -3156,6 +3156,32 @@
       "grand_total": 2825.4982,
       "grand_total_rounded": 2825,
       "cancelled": false
+    },
+    {
+      "id": 17,
+      "invoice_no": "GURU/26-27/3",
+      "invoice_date": "2026-04-09T04:55:23.217Z",
+      "buyer_name": "KTRR PANDIAN PAINTS ELECTRICALS",
+      "buyer_phone": "9843260505",
+      "buyer_address": "19/44 V S SALAI\nKILAKARAI, RAMANATHAPURAM-623517\nGSTIN: 33AJYPP5770B2ZU",
+      "total_billing": 1989.9,
+      "total_gst": 358.18199999999996,
+      "grand_total": 2348.082,
+      "grand_total_rounded": 2348,
+      "cancelled": false
+    },
+    {
+      "id": 18,
+      "invoice_no": "GURU/26-27/4",
+      "invoice_date": "2026-04-09T05:29:20.312Z",
+      "buyer_name": "KUPERA PAINTS",
+      "buyer_phone": "",
+      "buyer_address": "36, Devipattinam Road, Kenikarai, Ramnad. GST.NO 33AUYPK6494Q1ZC",
+      "total_billing": 2044.5,
+      "total_gst": 368.01,
+      "grand_total": 2412.51,
+      "grand_total_rounded": 2413,
+      "cancelled": false
     }
   ],
   "invoiceItems": [
@@ -3510,6 +3536,61 @@
       "unit_price": 132.11,
       "gst": 71.3394,
       "total": 467.6694
+    },
+    {
+      "id": "qgl48f564",
+      "invoice_id": 17,
+      "product_code": "27048001",
+      "product_name": "K2 BITUCOAT",
+      "pack_size": "1 LTR",
+      "quantity": 6,
+      "unit_price": 191.89,
+      "gst": 207.24119999999996,
+      "total": 1358.5811999999999
+    },
+    {
+      "id": "hwqoa1wuz",
+      "invoice_id": 17,
+      "product_code": "27097002",
+      "product_name": "K2 CONFIBRE 12MM",
+      "pack_size": "125 GMS",
+      "quantity": 12,
+      "unit_price": 35.59,
+      "gst": 76.87440000000001,
+      "total": 503.9544
+    },
+    {
+      "id": "wcwgqso71",
+      "invoice_id": 17,
+      "product_code": "27017001",
+      "product_name": "K2 MULTI CLEAN",
+      "pack_size": "LTR",
+      "quantity": 3,
+      "unit_price": 88.06,
+      "gst": 47.5524,
+      "total": 311.7324
+    },
+    {
+      "id": "7zgruzam7",
+      "invoice_id": 17,
+      "product_code": "27017001",
+      "product_name": "K2 MULTI CLEAN",
+      "pack_size": "500ML",
+      "quantity": 3,
+      "unit_price": 49.1,
+      "gst": 26.514,
+      "total": 173.814
+    },
+    {
+      "id": "jqw8cr01r",
+      "invoice_id": 18,
+      "product_code": "27027001",
+      "product_name": "K2 KRACK SEAL",
+      "pack_size": "KGS",
+      "quantity": 50,
+      "unit_price": 40.89,
+      "gst": 368.01,
+      "total": 2412.5099999999998
     }
   ],
   "customers": [
@@ -3529,5 +3610,5 @@
       "address": "Paramakudi"
     }
   ],
-  "lastSync": "2026-04-04T16:11:19.740Z"
+  "lastSync": "2026-04-09T05:53:28.419Z"
 }
