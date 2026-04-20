@@ -1186,7 +1186,7 @@
       "BILLING_PRICE": 313.27,
       "GST_AMOUNT": 56.39,
       "DEALER_PRICE": 369.66,
-      "AVAILABLE_STOCK": 88
+      "AVAILABLE_STOCK": 82
     },
     {
       "id": 109,
@@ -1362,7 +1362,7 @@
       "BILLING_PRICE": 109.92,
       "GST_AMOUNT": 19.79,
       "DEALER_PRICE": 129.71,
-      "AVAILABLE_STOCK": 100
+      "AVAILABLE_STOCK": 99
     },
     {
       "id": 125,
@@ -1846,7 +1846,7 @@
       "BILLING_PRICE": 88.06,
       "GST_AMOUNT": 15.85,
       "DEALER_PRICE": 103.91,
-      "AVAILABLE_STOCK": 56
+      "AVAILABLE_STOCK": 55
     },
     {
       "id": 169,
@@ -3221,6 +3221,32 @@
       "grand_total": 2217.9516,
       "grand_total_rounded": 2218,
       "cancelled": false
+    },
+    {
+      "id": 22,
+      "invoice_no": "GURU/26-27/8",
+      "invoice_date": "2026-04-18T04:47:24.629Z",
+      "buyer_name": "Shree alagarmalaiyan paints",
+      "buyer_phone": "",
+      "buyer_address": "Paramakudi",
+      "total_billing": 1879.62,
+      "total_gst": 338.3316,
+      "grand_total": 2217.9516,
+      "grand_total_rounded": 2218,
+      "cancelled": false
+    },
+    {
+      "id": 23,
+      "invoice_no": "GURU/26-27/9",
+      "invoice_date": "2026-04-20T03:13:34.096Z",
+      "buyer_name": "Ph",
+      "buyer_phone": "",
+      "buyer_address": "Ramnad",
+      "total_billing": 197.98000000000002,
+      "total_gst": 35.636399999999995,
+      "grand_total": 233.6164,
+      "grand_total_rounded": 234,
+      "cancelled": false
     }
   ],
   "invoiceItems": [
@@ -3696,6 +3722,39 @@
       "unit_price": 313.27,
       "gst": 338.3316,
       "total": 2217.9516
+    },
+    {
+      "id": "yqdh73vsf",
+      "invoice_id": 22,
+      "product_code": "27011005",
+      "product_name": "K2 BRUSHGARD WHITE",
+      "pack_size": "3 KG",
+      "quantity": 6,
+      "unit_price": 313.27,
+      "gst": 338.3316,
+      "total": 2217.9516
+    },
+    {
+      "id": "a2wdwao01",
+      "invoice_id": 23,
+      "product_code": "27017001",
+      "product_name": "K2 MULTI CLEAN",
+      "pack_size": "LTR",
+      "quantity": 1,
+      "unit_price": 88.06,
+      "gst": 15.8508,
+      "total": 103.9108
+    },
+    {
+      "id": "4u4q6453z",
+      "invoice_id": 23,
+      "product_code": "27110001",
+      "product_name": "K2 CHROMECLEAN",
+      "pack_size": "200ML",
+      "quantity": 1,
+      "unit_price": 109.92,
+      "gst": 19.7856,
+      "total": 129.7056
     }
   ],
   "customers": [
@@ -3715,5 +3774,5 @@
       "address": "Paramakudi"
     }
   ],
-  "lastSync": "2026-04-09T08:14:44.846Z"
+  "lastSync": "2026-04-20T03:14:25.899Z"
 }
