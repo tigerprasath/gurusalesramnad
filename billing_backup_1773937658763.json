@@ -790,7 +790,7 @@
       "BILLING_PRICE": 1140.55,
       "GST_AMOUNT": 205.3,
       "DEALER_PRICE": 1345.85,
-      "AVAILABLE_STOCK": 0
+      "AVAILABLE_STOCK": 96
     },
     {
       "id": 73,
@@ -867,7 +867,7 @@
       "BILLING_PRICE": 316.8,
       "GST_AMOUNT": 57.02,
       "DEALER_PRICE": 373.82,
-      "AVAILABLE_STOCK": 100
+      "AVAILABLE_STOCK": 94
     },
     {
       "id": 80,
@@ -1164,7 +1164,7 @@
       "BILLING_PRICE": 213.91,
       "GST_AMOUNT": 38.5,
       "DEALER_PRICE": 252.42,
-      "AVAILABLE_STOCK": 100
+      "AVAILABLE_STOCK": 95
     },
     {
       "id": 107,
@@ -1186,7 +1186,7 @@
       "BILLING_PRICE": 313.27,
       "GST_AMOUNT": 56.39,
       "DEALER_PRICE": 369.66,
-      "AVAILABLE_STOCK": 82
+      "AVAILABLE_STOCK": 79
     },
     {
       "id": 109,
@@ -1824,7 +1824,7 @@
       "BILLING_PRICE": 49.1,
       "GST_AMOUNT": 8.84,
       "DEALER_PRICE": 57.94,
-      "AVAILABLE_STOCK": 49
+      "AVAILABLE_STOCK": 44
     },
     {
       "id": 167,
@@ -2429,7 +2429,7 @@
       "BILLING_PRICE": 231.77,
       "GST_AMOUNT": 41.72,
       "DEALER_PRICE": 273.49,
-      "AVAILABLE_STOCK": 86
+      "AVAILABLE_STOCK": 81
     },
     {
       "id": 222,
@@ -3247,6 +3247,45 @@
       "grand_total": 233.6164,
       "grand_total_rounded": 234,
       "cancelled": false
+    },
+    {
+      "id": 24,
+      "invoice_no": "GURU/26-27/10",
+      "invoice_date": "2026-04-20T03:56:59.546Z",
+      "buyer_name": "QUALITY COLORS",
+      "buyer_phone": "7418831122",
+      "buyer_address": "Ramanathapuram GST NO: 33EMXPS2411G1ZT",
+      "total_billing": 4562.2,
+      "total_gst": 821.1959999999999,
+      "grand_total": 5383.396,
+      "grand_total_rounded": 5383,
+      "cancelled": false
+    },
+    {
+      "id": 25,
+      "invoice_no": "GURU/26-27/11",
+      "invoice_date": "2026-04-20T04:25:18.293Z",
+      "buyer_name": "BALA PAINTS",
+      "buyer_phone": "8610095302",
+      "buyer_address": "3/14-9, Valayarvadi, Vedalai. 623518 Mandapam Road, Ramnad Dist GSTIN: 33AILPU2311F1ZI",
+      "total_billing": 2840.61,
+      "total_gst": 511.3098,
+      "grand_total": 3351.9198,
+      "grand_total_rounded": 3352,
+      "cancelled": false
+    },
+    {
+      "id": 26,
+      "invoice_no": "GURU/26-27/12",
+      "invoice_date": "2026-04-20T04:30:30.583Z",
+      "buyer_name": "K.B.Baskaran traders",
+      "buyer_phone": "9442986163",
+      "buyer_address": "Uchipilli. 623534\nGST NO: 33BEFPB2543M1ZQ",
+      "total_billing": 2473.9,
+      "total_gst": 445.302,
+      "grand_total": 2919.202,
+      "grand_total_rounded": 2919,
+      "cancelled": false
     }
   ],
   "invoiceItems": [
@@ -3755,6 +3794,72 @@
       "unit_price": 109.92,
       "gst": 19.7856,
       "total": 129.7056
+    },
+    {
+      "id": "ntg8lkry6",
+      "invoice_id": 24,
+      "product_code": "27028001",
+      "product_name": "K2 HEAT GUARD",
+      "pack_size": "4 LTR",
+      "quantity": 4,
+      "unit_price": 1140.55,
+      "gst": 821.1959999999999,
+      "total": 5383.396
+    },
+    {
+      "id": "h0c4yz1pa",
+      "invoice_id": 25,
+      "product_code": "27117001",
+      "product_name": "K2 HYDROSEAL",
+      "pack_size": "LTR",
+      "quantity": 6,
+      "unit_price": 316.8,
+      "gst": 342.144,
+      "total": 2242.944
+    },
+    {
+      "id": "e2szr5tq3",
+      "invoice_id": 25,
+      "product_code": "27011005",
+      "product_name": "K2 BRUSHGARD WHITE",
+      "pack_size": "3 KG",
+      "quantity": 3,
+      "unit_price": 313.27,
+      "gst": 169.1658,
+      "total": 1108.9758
+    },
+    {
+      "id": "wo8qcc4fv",
+      "invoice_id": 26,
+      "product_code": "27033001",
+      "product_name": "K2 SEAL COAT",
+      "pack_size": "LTR",
+      "quantity": 5,
+      "unit_price": 231.77,
+      "gst": 208.59300000000002,
+      "total": 1367.443
+    },
+    {
+      "id": "sk3hohzn0",
+      "invoice_id": 26,
+      "product_code": "27017001",
+      "product_name": "K2 MULTI CLEAN",
+      "pack_size": "500ML",
+      "quantity": 5,
+      "unit_price": 49.1,
+      "gst": 44.19,
+      "total": 289.69
+    },
+    {
+      "id": "l1bmqrmr4",
+      "invoice_id": 26,
+      "product_code": "27009001",
+      "product_name": "K2 BOND SBR",
+      "pack_size": "LTR",
+      "quantity": 5,
+      "unit_price": 213.91,
+      "gst": 192.51899999999998,
+      "total": 1262.069
     }
   ],
   "customers": [
@@ -3772,7 +3877,17 @@
       "name": "Shree alagarmalaiyan paints",
       "phone": "",
       "address": "Paramakudi"
+    },
+    {
+      "name": "BALA PAINTS",
+      "phone": "8610095302",
+      "address": "3/14-9, Valayarvadi, Vedalai. 623518 Mandapam Road, Ramnad Dist GSTIN: 33AILPU2311F1ZI"
+    },
+    {
+      "name": "K.B.Baskaran traders",
+      "phone": "9442986163",
+      "address": "Uchipilli. 623534\nGST NO: 33BEFPB2543M1ZQ"
     }
   ],
-  "lastSync": "2026-04-20T03:14:25.899Z"
+  "lastSync": "2026-04-20T18:34:23.677Z"
 }
