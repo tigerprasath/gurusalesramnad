@@ -339,7 +339,7 @@
       "BILLING_PRICE": 81.18,
       "GST_AMOUNT": 14.61,
       "DEALER_PRICE": 95.79,
-      "AVAILABLE_STOCK": 0
+      "AVAILABLE_STOCK": 9
     },
     {
       "id": 32,
@@ -504,7 +504,7 @@
       "BILLING_PRICE": 81.18,
       "GST_AMOUNT": 14.61,
       "DEALER_PRICE": 95.79,
-      "AVAILABLE_STOCK": 0
+      "AVAILABLE_STOCK": 10
     },
     {
       "id": 47,
@@ -526,7 +526,7 @@
       "BILLING_PRICE": 425.93,
       "GST_AMOUNT": 76.67,
       "DEALER_PRICE": 502.6,
-      "AVAILABLE_STOCK": 0
+      "AVAILABLE_STOCK": 8
     },
     {
       "id": 49,
@@ -592,7 +592,7 @@
       "BILLING_PRICE": 81.18,
       "GST_AMOUNT": 14.61,
       "DEALER_PRICE": 95.79,
-      "AVAILABLE_STOCK": 0
+      "AVAILABLE_STOCK": 9
     },
     {
       "id": 55,
@@ -801,7 +801,7 @@
       "BILLING_PRICE": 295.46,
       "GST_AMOUNT": 53.18,
       "DEALER_PRICE": 348.64,
-      "AVAILABLE_STOCK": 70
+      "AVAILABLE_STOCK": 64
     },
     {
       "id": 74,
@@ -867,7 +867,7 @@
       "BILLING_PRICE": 316.8,
       "GST_AMOUNT": 57.02,
       "DEALER_PRICE": 373.82,
-      "AVAILABLE_STOCK": 94
+      "AVAILABLE_STOCK": 88
     },
     {
       "id": 80,
@@ -1186,7 +1186,7 @@
       "BILLING_PRICE": 313.27,
       "GST_AMOUNT": 56.39,
       "DEALER_PRICE": 369.66,
-      "AVAILABLE_STOCK": 79
+      "AVAILABLE_STOCK": 76
     },
     {
       "id": 109,
@@ -2264,7 +2264,7 @@
       "BILLING_PRICE": 35.59,
       "GST_AMOUNT": 6.41,
       "DEALER_PRICE": 42,
-      "AVAILABLE_STOCK": 84
+      "AVAILABLE_STOCK": 79
     },
     {
       "id": 207,
@@ -2308,7 +2308,7 @@
       "BILLING_PRICE": 132.11,
       "GST_AMOUNT": 23.78,
       "DEALER_PRICE": 155.89,
-      "AVAILABLE_STOCK": 67
+      "AVAILABLE_STOCK": 52
     },
     {
       "id": 211,
@@ -2952,6 +2952,14 @@
       "PACK_SIZE": "20 KG",
       "BILLING_PRICE": 232.8,
       "AVAILABLE_STOCK": 0
+    },
+    {
+      "id": 270,
+      "PRODUCT_CODE": "2601",
+      "PRODUCT_NAME": "K2 EPOXYFIL TJF PART C",
+      "PACK_SIZE": "0.725g",
+      "BILLING_PRICE": 72.88,
+      "AVAILABLE_STOCK": 10
     }
   ],
   "invoices": [
@@ -3298,6 +3306,58 @@
       "total_gst": 401.1984,
       "grand_total": 2630.0784000000003,
       "grand_total_rounded": 2630,
+      "cancelled": false
+    },
+    {
+      "id": 28,
+      "invoice_no": "GURU/26-27/14",
+      "invoice_date": "2026-04-27T04:51:08.636Z",
+      "buyer_name": "KUPERA PAINTS",
+      "buyer_phone": "",
+      "buyer_address": "36, Devipattinam Road, Kenikarai, Ramnad. GST.NO 33AUYPK6494Q1ZC",
+      "total_billing": 2297.13,
+      "total_gst": 413.4834,
+      "grand_total": 2710.6134,
+      "grand_total_rounded": 2711,
+      "cancelled": false
+    },
+    {
+      "id": 29,
+      "invoice_no": "GURU/26-27/15",
+      "invoice_date": "2026-04-27T04:52:45.197Z",
+      "buyer_name": "BALA PAINTS",
+      "buyer_phone": "8610095302",
+      "buyer_address": "3/14-9, Valayarvadi, Vedalai. 623518 Mandapam Road, Ramnad Dist GSTIN: 33AILPU2311F1ZI",
+      "total_billing": 939.81,
+      "total_gst": 169.1658,
+      "grand_total": 1108.9758,
+      "grand_total_rounded": 1109,
+      "cancelled": false
+    },
+    {
+      "id": 30,
+      "invoice_no": "GURU/26-27/16",
+      "invoice_date": "2026-04-27T04:57:45.713Z",
+      "buyer_name": "Madina Hardwares",
+      "buyer_phone": "9486610924",
+      "buyer_address": "Anna nagar, Regunathapuram, Ramnad Dist\nGST. NO: 33CKHPD3522RIZI",
+      "total_billing": 574.2800000000001,
+      "total_gst": 103.37039999999999,
+      "grand_total": 677.6504000000001,
+      "grand_total_rounded": 678,
+      "cancelled": false
+    },
+    {
+      "id": 31,
+      "invoice_no": "GURU/26-27/17",
+      "invoice_date": "2026-04-27T05:26:02.876Z",
+      "buyer_name": "KTRR PANDIAN PAINTS ELECTRICALS",
+      "buyer_phone": "9843260505",
+      "buyer_address": "19/44 V S SALAI KILAKARAI, RAMANATHAPURAM-623517 GSTIN: 33AJYPP5770B2ZU",
+      "total_billing": 3975.97,
+      "total_gst": 715.6746,
+      "grand_total": 4691.6446,
+      "grand_total_rounded": 4692,
       "cancelled": false
     }
   ],
@@ -3884,6 +3944,116 @@
       "unit_price": 185.74,
       "gst": 401.1984,
       "total": 2630.0784
+    },
+    {
+      "id": "ywvm5yt93",
+      "invoice_id": 28,
+      "product_code": "27117001",
+      "product_name": "K2 HYDROSEAL",
+      "pack_size": "LTR",
+      "quantity": 6,
+      "unit_price": 316.8,
+      "gst": 342.144,
+      "total": 2242.944
+    },
+    {
+      "id": "fod5r9dhg",
+      "invoice_id": 28,
+      "product_code": "27008003",
+      "product_name": "K2 RESIGROUT",
+      "pack_size": "500 GM",
+      "quantity": 3,
+      "unit_price": 132.11,
+      "gst": 71.3394,
+      "total": 467.6694
+    },
+    {
+      "id": "34m5oqyev",
+      "invoice_id": 29,
+      "product_code": "27011005",
+      "product_name": "K2 BRUSHGARD WHITE",
+      "pack_size": "3 KG",
+      "quantity": 3,
+      "unit_price": 313.27,
+      "gst": 169.1658,
+      "total": 1108.9758
+    },
+    {
+      "id": "rfgv4zm37",
+      "invoice_id": 30,
+      "product_code": "27008003",
+      "product_name": "K2 RESIGROUT",
+      "pack_size": "500 GM",
+      "quantity": 3,
+      "unit_price": 132.11,
+      "gst": 71.3394,
+      "total": 467.6694
+    },
+    {
+      "id": "xzhqv85z5",
+      "invoice_id": 30,
+      "product_code": "27097001",
+      "product_name": "K2 CONFIBRE 6MM",
+      "pack_size": "125 GMS",
+      "quantity": 5,
+      "unit_price": 35.59,
+      "gst": 32.031,
+      "total": 209.98100000000002
+    },
+    {
+      "id": "zakxbrzd6",
+      "invoice_id": 31,
+      "product_code": "27043001",
+      "product_name": "K2 EPOXYFIL WHITE (POWDER)",
+      "pack_size": "0.725KG",
+      "quantity": 1,
+      "unit_price": 81.18,
+      "gst": 14.612400000000001,
+      "total": 95.7924
+    },
+    {
+      "id": "bxatda815",
+      "invoice_id": 31,
+      "product_code": "27043025",
+      "product_name": "K2 EPOXYFIL GRANITE GREY (POWDER)",
+      "pack_size": "0.725KG",
+      "quantity": 1,
+      "unit_price": 81.18,
+      "gst": 14.612400000000001,
+      "total": 95.7924
+    },
+    {
+      "id": "qmn2r0hex",
+      "invoice_id": 31,
+      "product_code": "27042003",
+      "product_name": "K2 EPOXYFIL TJF KIT (PART A & B)",
+      "pack_size": "0.275KG",
+      "quantity": 2,
+      "unit_price": 425.93,
+      "gst": 153.3348,
+      "total": 1005.1948
+    },
+    {
+      "id": "faoqk3pcp",
+      "invoice_id": 31,
+      "product_code": "27028001",
+      "product_name": "K2 HEAT GUARD",
+      "pack_size": "LTR",
+      "quantity": 6,
+      "unit_price": 295.46,
+      "gst": 319.0968,
+      "total": 2091.8567999999996
+    },
+    {
+      "id": "vm199eyoj",
+      "invoice_id": 31,
+      "product_code": "27008003",
+      "product_name": "K2 RESIGROUT",
+      "pack_size": "500 GM",
+      "quantity": 9,
+      "unit_price": 132.11,
+      "gst": 214.01820000000004,
+      "total": 1403.0082000000002
     }
   ],
   "customers": [
@@ -3911,7 +4081,12 @@
       "name": "K.B.Baskaran traders",
       "phone": "9442986163",
       "address": "Uchipilli. 623534\nGST NO: 33BEFPB2543M1ZQ"
+    },
+    {
+      "name": "Madina Hardwares",
+      "phone": "9486610924",
+      "address": "Anna nagar, Regunathapuram, Ramnad Dist\nGST. NO: 33CKHPD3522RIZI"
     }
   ],
-  "lastSync": "2026-04-27T04:50:17.856Z"
+  "lastSync": "2026-04-27T05:27:48.192Z"
 }
