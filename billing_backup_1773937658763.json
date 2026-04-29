@@ -1186,7 +1186,7 @@
       "BILLING_PRICE": 313.27,
       "GST_AMOUNT": 56.39,
       "DEALER_PRICE": 369.66,
-      "AVAILABLE_STOCK": 76
+      "AVAILABLE_STOCK": 70
     },
     {
       "id": 109,
@@ -1252,7 +1252,7 @@
       "BILLING_PRICE": 288.78,
       "GST_AMOUNT": 51.98,
       "DEALER_PRICE": 340.76,
-      "AVAILABLE_STOCK": 0
+      "AVAILABLE_STOCK": 94
     },
     {
       "id": 115,
@@ -3359,6 +3359,19 @@
       "grand_total": 4691.6446,
       "grand_total_rounded": 4692,
       "cancelled": false
+    },
+    {
+      "id": 32,
+      "invoice_no": "GURU/26-27/18",
+      "invoice_date": "2026-04-29T05:44:32.573Z",
+      "buyer_name": "MEGA HARDWARES",
+      "buyer_phone": "",
+      "buyer_address": "12/2829/2, 12/2829/3, 12/2829/4, NORTH 5TH STREET,\nPattinamkaathan, Ramanathapuram\n623503.\nGST.NO; 33ABXFM2732P1ZK",
+      "total_billing": 3612.2999999999997,
+      "total_gst": 650.2139999999999,
+      "grand_total": 4262.513999999999,
+      "grand_total_rounded": 4263,
+      "cancelled": false
     }
   ],
   "invoiceItems": [
@@ -4054,6 +4067,28 @@
       "unit_price": 132.11,
       "gst": 214.01820000000004,
       "total": 1403.0082000000002
+    },
+    {
+      "id": "8ib3mdiou",
+      "invoice_id": 32,
+      "product_code": "27011003",
+      "product_name": "K2 BRUSHGARD",
+      "pack_size": "3 KG",
+      "quantity": 6,
+      "unit_price": 288.78,
+      "gst": 311.88239999999996,
+      "total": 2044.5623999999998
+    },
+    {
+      "id": "fo0l1875z",
+      "invoice_id": 32,
+      "product_code": "27011005",
+      "product_name": "K2 BRUSHGARD WHITE",
+      "pack_size": "3 KG",
+      "quantity": 6,
+      "unit_price": 313.27,
+      "gst": 338.3316,
+      "total": 2217.9516
     }
   ],
   "customers": [
@@ -4086,7 +4121,12 @@
       "name": "Madina Hardwares",
       "phone": "9486610924",
       "address": "Anna nagar, Regunathapuram, Ramnad Dist\nGST. NO: 33CKHPD3522RIZI"
+    },
+    {
+      "name": "MEGA HARDWARES",
+      "phone": "",
+      "address": "12/2829/2, 12/2829/3, 12/2829/4, NORTH 5TH STREET, Pattinamkaathan, Ramanathapuram\n623503.\nGST.NO; 33ABXFM2732P1ZK"
     }
   ],
-  "lastSync": "2026-04-27T05:27:48.192Z"
+  "lastSync": "2026-04-29T06:05:21.287Z"
 }
