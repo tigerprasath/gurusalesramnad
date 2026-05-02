@@ -867,7 +867,7 @@
       "BILLING_PRICE": 316.8,
       "GST_AMOUNT": 57.02,
       "DEALER_PRICE": 373.82,
-      "AVAILABLE_STOCK": 88
+      "AVAILABLE_STOCK": 76
     },
     {
       "id": 80,
@@ -1384,7 +1384,7 @@
       "BILLING_PRICE": 39.16,
       "GST_AMOUNT": 7.05,
       "DEALER_PRICE": 46.2,
-      "AVAILABLE_STOCK": 80
+      "AVAILABLE_STOCK": 60
     },
     {
       "id": 127,
@@ -1494,7 +1494,7 @@
       "BILLING_PRICE": 185.74,
       "GST_AMOUNT": 33.43,
       "DEALER_PRICE": 219.17,
-      "AVAILABLE_STOCK": 34
+      "AVAILABLE_STOCK": 10
     },
     {
       "id": 137,
@@ -2209,7 +2209,7 @@
       "BILLING_PRICE": 39.16,
       "GST_AMOUNT": 7.05,
       "DEALER_PRICE": 46.2,
-      "AVAILABLE_STOCK": 60
+      "AVAILABLE_STOCK": 20
     },
     {
       "id": 202,
@@ -3372,6 +3372,32 @@
       "grand_total": 4262.513999999999,
       "grand_total_rounded": 4263,
       "cancelled": false
+    },
+    {
+      "id": 33,
+      "invoice_no": "GURU/26-27/19",
+      "invoice_date": "2026-05-01T03:35:14.585Z",
+      "buyer_name": "MEGA HARDWARES",
+      "buyer_phone": "",
+      "buyer_address": "12/2829/2, 12/2829/3, 12/2829/4, NORTH 5TH STREET, Pattinamkaathan, Ramanathapuram 623503. GST.NO; 33ABXFM2732P1ZK",
+      "total_billing": 1900.8000000000002,
+      "total_gst": 342.144,
+      "grand_total": 2242.9440000000004,
+      "grand_total_rounded": 2243,
+      "cancelled": false
+    },
+    {
+      "id": 34,
+      "invoice_no": "GURU/26-27/20",
+      "invoice_date": "2026-05-02T15:22:47.928Z",
+      "buyer_name": "Shree alagarmalaiyan paints",
+      "buyer_phone": "",
+      "buyer_address": "Paramakudi",
+      "total_billing": 8708.16,
+      "total_gst": 1567.4687999999999,
+      "grand_total": 10275.6288,
+      "grand_total_rounded": 10276,
+      "cancelled": false
     }
   ],
   "invoiceItems": [
@@ -4089,6 +4115,61 @@
       "unit_price": 313.27,
       "gst": 338.3316,
       "total": 2217.9516
+    },
+    {
+      "id": "qdkuo56in",
+      "invoice_id": 33,
+      "product_code": "27117001",
+      "product_name": "K2 HYDROSEAL",
+      "pack_size": "LTR",
+      "quantity": 6,
+      "unit_price": 316.8,
+      "gst": 342.144,
+      "total": 2242.944
+    },
+    {
+      "id": "623hg5xcg",
+      "invoice_id": 34,
+      "product_code": "27015001",
+      "product_name": "K2 COLORFIL TJF(WHITE)",
+      "pack_size": "KGS",
+      "quantity": 40,
+      "unit_price": 39.16,
+      "gst": 281.95199999999994,
+      "total": 1848.3519999999996
+    },
+    {
+      "id": "kvku63ddw",
+      "invoice_id": 34,
+      "product_code": "27015008",
+      "product_name": "K2 COLORFIL TJF (BLACK)",
+      "pack_size": "KGS",
+      "quantity": 20,
+      "unit_price": 39.16,
+      "gst": 140.97599999999997,
+      "total": 924.1759999999998
+    },
+    {
+      "id": "rqw5kyqwy",
+      "invoice_id": 34,
+      "product_code": "27076001",
+      "product_name": "K2 KRACKSEAL PASTE",
+      "pack_size": "1 KG",
+      "quantity": 24,
+      "unit_price": 185.74,
+      "gst": 802.3968,
+      "total": 5260.1568
+    },
+    {
+      "id": "elza3vx6j",
+      "invoice_id": 34,
+      "product_code": "27117001",
+      "product_name": "K2 HYDROSEAL",
+      "pack_size": "LTR",
+      "quantity": 6,
+      "unit_price": 316.8,
+      "gst": 342.144,
+      "total": 2242.944
     }
   ],
   "customers": [
@@ -4128,5 +4209,5 @@
       "address": "12/2829/2, 12/2829/3, 12/2829/4, NORTH 5TH STREET, Pattinamkaathan, Ramanathapuram\n623503.\nGST.NO; 33ABXFM2732P1ZK"
     }
   ],
-  "lastSync": "2026-04-29T06:05:21.287Z"
+  "lastSync": "2026-05-02T15:23:37.980Z"
 }
