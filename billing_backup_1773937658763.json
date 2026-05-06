@@ -1483,7 +1483,7 @@
       "BILLING_PRICE": 40.89,
       "GST_AMOUNT": 7.36,
       "DEALER_PRICE": 48.25,
-      "AVAILABLE_STOCK": 25
+      "AVAILABLE_STOCK": 23
     },
     {
       "id": 136,
@@ -1494,7 +1494,7 @@
       "BILLING_PRICE": 185.74,
       "GST_AMOUNT": 33.43,
       "DEALER_PRICE": 219.17,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 8
     },
     {
       "id": 137,
@@ -2209,7 +2209,7 @@
       "BILLING_PRICE": 39.16,
       "GST_AMOUNT": 7.05,
       "DEALER_PRICE": 46.2,
-      "AVAILABLE_STOCK": 20
+      "AVAILABLE_STOCK": -20
     },
     {
       "id": 202,
@@ -3398,6 +3398,45 @@
       "grand_total": 10275.6288,
       "grand_total_rounded": 10276,
       "cancelled": false
+    },
+    {
+      "id": 35,
+      "invoice_no": "GURU/26-27/21",
+      "invoice_date": "2026-05-06T04:19:19.704Z",
+      "buyer_name": "KUPERA PAINTS",
+      "buyer_phone": "",
+      "buyer_address": "36, Devipattinam Road, Kenikarai, Ramnad. GST.NO 33AUYPK6494Q1ZC",
+      "total_billing": 783.1999999999999,
+      "total_gst": 140.97599999999997,
+      "grand_total": 924.1759999999999,
+      "grand_total_rounded": 924,
+      "cancelled": false
+    },
+    {
+      "id": 36,
+      "invoice_no": "GURU/26-27/22",
+      "invoice_date": "2026-05-06T04:19:44.491Z",
+      "buyer_name": "KUPERA PAINTS",
+      "buyer_phone": "",
+      "buyer_address": "36, Devipattinam Road, Kenikarai, Ramnad. GST.NO 33AUYPK6494Q1ZC",
+      "total_billing": 783.1999999999999,
+      "total_gst": 140.97599999999997,
+      "grand_total": 924.1759999999999,
+      "grand_total_rounded": 924,
+      "cancelled": false
+    },
+    {
+      "id": 37,
+      "invoice_no": "GURU/26-27/23",
+      "invoice_date": "2026-05-06T04:20:55.117Z",
+      "buyer_name": "QUALITY COLORS",
+      "buyer_phone": "7418831122",
+      "buyer_address": "Ramanathapuram GST NO: 33EMXPS2411G1ZT",
+      "total_billing": 453.26,
+      "total_gst": 81.5868,
+      "grand_total": 534.8468,
+      "grand_total_rounded": 535,
+      "cancelled": false
     }
   ],
   "invoiceItems": [
@@ -4170,6 +4209,50 @@
       "unit_price": 316.8,
       "gst": 342.144,
       "total": 2242.944
+    },
+    {
+      "id": "aqu1ndz7e",
+      "invoice_id": 35,
+      "product_code": "27015001",
+      "product_name": "K2 COLORFIL TJF(WHITE)",
+      "pack_size": "KGS",
+      "quantity": 20,
+      "unit_price": 39.16,
+      "gst": 140.97599999999997,
+      "total": 924.1759999999998
+    },
+    {
+      "id": "i5126y5wd",
+      "invoice_id": 36,
+      "product_code": "27015001",
+      "product_name": "K2 COLORFIL TJF(WHITE)",
+      "pack_size": "KGS",
+      "quantity": 20,
+      "unit_price": 39.16,
+      "gst": 140.97599999999997,
+      "total": 924.1759999999998
+    },
+    {
+      "id": "kdk1see39",
+      "invoice_id": 37,
+      "product_code": "27027001",
+      "product_name": "K2 KRACK SEAL",
+      "pack_size": "KGS",
+      "quantity": 2,
+      "unit_price": 40.89,
+      "gst": 14.7204,
+      "total": 96.5004
+    },
+    {
+      "id": "pua8gtafa",
+      "invoice_id": 37,
+      "product_code": "27076001",
+      "product_name": "K2 KRACKSEAL PASTE",
+      "pack_size": "1 KG",
+      "quantity": 2,
+      "unit_price": 185.74,
+      "gst": 66.8664,
+      "total": 438.3464
     }
   ],
   "customers": [
@@ -4209,5 +4292,5 @@
       "address": "12/2829/2, 12/2829/3, 12/2829/4, NORTH 5TH STREET, Pattinamkaathan, Ramanathapuram\n623503.\nGST.NO; 33ABXFM2732P1ZK"
     }
   ],
-  "lastSync": "2026-05-04T18:48:06.318Z"
+  "lastSync": "2026-05-06T04:22:32.158Z"
 }
