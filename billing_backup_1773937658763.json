@@ -1186,7 +1186,7 @@
       "BILLING_PRICE": 313.27,
       "GST_AMOUNT": 56.39,
       "DEALER_PRICE": 369.66,
-      "AVAILABLE_STOCK": 70
+      "AVAILABLE_STOCK": 64
     },
     {
       "id": 109,
@@ -1824,7 +1824,7 @@
       "BILLING_PRICE": 49.1,
       "GST_AMOUNT": 8.84,
       "DEALER_PRICE": 57.94,
-      "AVAILABLE_STOCK": 44
+      "AVAILABLE_STOCK": 39
     },
     {
       "id": 167,
@@ -1846,7 +1846,7 @@
       "BILLING_PRICE": 88.06,
       "GST_AMOUNT": 15.85,
       "DEALER_PRICE": 103.91,
-      "AVAILABLE_STOCK": 55
+      "AVAILABLE_STOCK": 50
     },
     {
       "id": 169,
@@ -3437,6 +3437,19 @@
       "grand_total": 534.8468,
       "grand_total_rounded": 535,
       "cancelled": false
+    },
+    {
+      "id": 38,
+      "invoice_no": "GURU/26-27/24",
+      "invoice_date": "2026-05-07T04:19:16.921Z",
+      "buyer_name": "Sethupathy & Sons Paints",
+      "buyer_phone": "9003926421",
+      "buyer_address": "Paramakudi",
+      "total_billing": 2565.42,
+      "total_gst": 461.7756,
+      "grand_total": 3027.1956,
+      "grand_total_rounded": 3027,
+      "cancelled": false
     }
   ],
   "invoiceItems": [
@@ -4253,6 +4266,39 @@
       "unit_price": 185.74,
       "gst": 66.8664,
       "total": 438.3464
+    },
+    {
+      "id": "7smd02gjh",
+      "invoice_id": 38,
+      "product_code": "27017001",
+      "product_name": "K2 MULTI CLEAN",
+      "pack_size": "LTR",
+      "quantity": 5,
+      "unit_price": 88.06,
+      "gst": 79.254,
+      "total": 519.554
+    },
+    {
+      "id": "zx2w93yiw",
+      "invoice_id": 38,
+      "product_code": "27017001",
+      "product_name": "K2 MULTI CLEAN",
+      "pack_size": "500ML",
+      "quantity": 5,
+      "unit_price": 49.1,
+      "gst": 44.19,
+      "total": 289.69
+    },
+    {
+      "id": "v017itfbg",
+      "invoice_id": 38,
+      "product_code": "27011005",
+      "product_name": "K2 BRUSHGARD WHITE",
+      "pack_size": "3 KG",
+      "quantity": 6,
+      "unit_price": 313.27,
+      "gst": 338.3316,
+      "total": 2217.9516
     }
   ],
   "customers": [
@@ -4290,7 +4336,12 @@
       "name": "MEGA HARDWARES",
       "phone": "",
       "address": "12/2829/2, 12/2829/3, 12/2829/4, NORTH 5TH STREET, Pattinamkaathan, Ramanathapuram\n623503.\nGST.NO; 33ABXFM2732P1ZK"
+    },
+    {
+      "name": "Sethupathy & Sons Paints",
+      "phone": "9003926421",
+      "address": "Paramakudi"
     }
   ],
-  "lastSync": "2026-05-06T04:22:32.158Z"
+  "lastSync": "2026-05-07T04:20:49.014Z"
 }
