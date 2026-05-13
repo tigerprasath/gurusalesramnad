@@ -790,7 +790,7 @@
       "BILLING_PRICE": 1140.55,
       "GST_AMOUNT": 205.3,
       "DEALER_PRICE": 1345.85,
-      "AVAILABLE_STOCK": 96
+      "AVAILABLE_STOCK": 92
     },
     {
       "id": 73,
@@ -801,7 +801,7 @@
       "BILLING_PRICE": 295.46,
       "GST_AMOUNT": 53.18,
       "DEALER_PRICE": 348.64,
-      "AVAILABLE_STOCK": 64
+      "AVAILABLE_STOCK": 58
     },
     {
       "id": 74,
@@ -1494,7 +1494,7 @@
       "BILLING_PRICE": 185.74,
       "GST_AMOUNT": 33.43,
       "DEALER_PRICE": 219.17,
-      "AVAILABLE_STOCK": 96
+      "AVAILABLE_STOCK": 86
     },
     {
       "id": 137,
@@ -1758,7 +1758,7 @@
       "BILLING_PRICE": 39.16,
       "GST_AMOUNT": 7.05,
       "DEALER_PRICE": 46.2,
-      "AVAILABLE_STOCK": 100
+      "AVAILABLE_STOCK": 80
     },
     {
       "id": 161,
@@ -2198,7 +2198,7 @@
       "BILLING_PRICE": 22.12,
       "GST_AMOUNT": 3.98,
       "DEALER_PRICE": 26.1,
-      "AVAILABLE_STOCK": 0
+      "AVAILABLE_STOCK": 100
     },
     {
       "id": 201,
@@ -2209,7 +2209,7 @@
       "BILLING_PRICE": 39.16,
       "GST_AMOUNT": 7.05,
       "DEALER_PRICE": 46.2,
-      "AVAILABLE_STOCK": -20
+      "AVAILABLE_STOCK": 40
     },
     {
       "id": 202,
@@ -3476,6 +3476,58 @@
       "grand_total": 3652.5248,
       "grand_total_rounded": 3653,
       "cancelled": false
+    },
+    {
+      "id": 41,
+      "invoice_no": "GURU/26-27/27",
+      "invoice_date": "2026-05-12T14:00:36.384Z",
+      "buyer_name": "KUPERA PAINTS",
+      "buyer_phone": "",
+      "buyer_address": "36, Devipattinam Road, Kenikarai, Ramnad. GST.NO 33AUYPK6494Q1ZC",
+      "total_billing": 2349.6,
+      "total_gst": 422.9279999999999,
+      "grand_total": 2772.528,
+      "grand_total_rounded": 2773,
+      "cancelled": false
+    },
+    {
+      "id": 42,
+      "invoice_no": "GURU/26-27/28",
+      "invoice_date": "2026-05-13T15:35:24.806Z",
+      "buyer_name": "AYYANS & CO",
+      "buyer_phone": "9842419226",
+      "buyer_address": "431, Thangachimadam mani road, Ramnad GST NO: 33AFBPV4931K1Z9",
+      "total_billing": 1772.7599999999998,
+      "total_gst": 319.0968,
+      "grand_total": 2091.8567999999996,
+      "grand_total_rounded": 2092,
+      "cancelled": false
+    },
+    {
+      "id": 43,
+      "invoice_no": "GURU/26-27/29",
+      "invoice_date": "2026-05-13T15:36:22.408Z",
+      "buyer_name": "KUPERA PAINTS",
+      "buyer_phone": "",
+      "buyer_address": "36, Devipattinam Road, Kenikarai, Ramnad. GST.NO 33AUYPK6494Q1ZC",
+      "total_billing": 1857.4,
+      "total_gst": 334.332,
+      "grand_total": 2191.732,
+      "grand_total_rounded": 2192,
+      "cancelled": false
+    },
+    {
+      "id": 44,
+      "invoice_no": "GURU/26-27/30",
+      "invoice_date": "2026-05-13T15:46:46.411Z",
+      "buyer_name": "Navasakthi Agencies",
+      "buyer_phone": "9994602114",
+      "buyer_address": "153-c, North Veli Street (opp. konal kadai), Simmakkal, Madurai-1\nGSTIN : 33AFWPY8815J1ZG",
+      "total_billing": 4562.2,
+      "total_gst": 821.1959999999999,
+      "grand_total": 5383.396,
+      "grand_total_rounded": 5383,
+      "cancelled": false
     }
   ],
   "invoiceItems": [
@@ -4347,6 +4399,61 @@
       "unit_price": 193.46,
       "gst": 557.1648,
       "total": 3652.5248
+    },
+    {
+      "id": "xewv5mlny",
+      "invoice_id": 41,
+      "product_code": "27015001",
+      "product_name": "K2 COLORFIL TJF(WHITE)",
+      "pack_size": "KGS",
+      "quantity": 40,
+      "unit_price": 39.16,
+      "gst": 281.95199999999994,
+      "total": 1848.3519999999996
+    },
+    {
+      "id": "g8owpyb5l",
+      "invoice_id": 41,
+      "product_code": "27015002",
+      "product_name": "K2 COLORFIL TJF(IVORY)",
+      "pack_size": "KGS",
+      "quantity": 20,
+      "unit_price": 39.16,
+      "gst": 140.97599999999997,
+      "total": 924.1759999999998
+    },
+    {
+      "id": "0025sg86a",
+      "invoice_id": 42,
+      "product_code": "27028001",
+      "product_name": "K2 HEAT GUARD",
+      "pack_size": "LTR",
+      "quantity": 6,
+      "unit_price": 295.46,
+      "gst": 319.0968,
+      "total": 2091.8567999999996
+    },
+    {
+      "id": "knayz0zth",
+      "invoice_id": 43,
+      "product_code": "27076001",
+      "product_name": "K2 KRACKSEAL PASTE",
+      "pack_size": "1 KG",
+      "quantity": 10,
+      "unit_price": 185.74,
+      "gst": 334.332,
+      "total": 2191.732
+    },
+    {
+      "id": "vg67zkh5v",
+      "invoice_id": 44,
+      "product_code": "27028001",
+      "product_name": "K2 HEAT GUARD",
+      "pack_size": "4 LTR",
+      "quantity": 4,
+      "unit_price": 1140.55,
+      "gst": 821.1959999999999,
+      "total": 5383.396
     }
   ],
   "customers": [
@@ -4389,7 +4496,12 @@
       "name": "Sethupathy & Sons Paints",
       "phone": "9003926421",
       "address": "Paramakudi"
+    },
+    {
+      "name": "Navasakthi Agencies",
+      "phone": "9994602114",
+      "address": "153-c, North Veli Street (opp. konal kadai), Simmakkal, Madurai-1\nGSTIN : 33AFWPY8815J1ZG"
     }
   ],
-  "lastSync": "2026-05-11T11:47:30.829Z"
+  "lastSync": "2026-05-13T15:48:26.185Z"
 }
