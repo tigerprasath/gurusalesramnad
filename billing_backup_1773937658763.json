@@ -4456,52 +4456,5 @@
       "total": 5383.396
     }
   ],
-  "customers": [
-    {
-      "name": "SMD Traders",
-      "phone": "9944131370",
-      "address": "2/26, Nainar Kovil Road, Pandiyur. 623705\nGST No: 33GROPS1364A1ZS"
-    },
-    {
-      "name": "AWINCO GLOBAL PRIVATE LIMITED",
-      "phone": "7708692157",
-      "address": "Door no: 5/387, S.no: 17/6A1A, Ramanathapuram Bypass, Pattinamkattan, Ramanathapuram.623504\nGST NO: 33ABACA6161A1ZD"
-    },
-    {
-      "name": "Shree alagarmalaiyan paints",
-      "phone": "",
-      "address": "Paramakudi"
-    },
-    {
-      "name": "BALA PAINTS",
-      "phone": "8610095302",
-      "address": "3/14-9, Valayarvadi, Vedalai. 623518 Mandapam Road, Ramnad Dist GSTIN: 33AILPU2311F1ZI"
-    },
-    {
-      "name": "K.B.Baskaran traders",
-      "phone": "9442986163",
-      "address": "Uchipilli. 623534\nGST NO: 33BEFPB2543M1ZQ"
-    },
-    {
-      "name": "Madina Hardwares",
-      "phone": "9486610924",
-      "address": "Anna nagar, Regunathapuram, Ramnad Dist\nGST. NO: 33CKHPD3522RIZI"
-    },
-    {
-      "name": "MEGA HARDWARES",
-      "phone": "",
-      "address": "12/2829/2, 12/2829/3, 12/2829/4, NORTH 5TH STREET, Pattinamkaathan, Ramanathapuram\n623503.\nGST.NO; 33ABXFM2732P1ZK"
-    },
-    {
-      "name": "Sethupathy & Sons Paints",
-      "phone": "9003926421",
-      "address": "Paramakudi"
-    },
-    {
-      "name": "Navasakthi Agencies",
-      "phone": "9994602114",
-      "address": "153-c, North Veli Street (opp. konal kadai), Simmakkal, Madurai-1\nGSTIN : 33AFWPY8815J1ZG"
-    }
-  ],
-  "lastSync": "2026-05-13T15:48:26.185Z"
+  "lastSync": "2026-05-17T14:01:36.777Z"
 }
