@@ -4332,7 +4332,23 @@
   ],
   "customers": [],
   "customerPayments": [],
-  "suppliers": [],
-  "supplierPayments": [],
-  "lastSync": "2026-05-24T11:51:30.678Z"
+  "suppliers": [
+    {
+      "id": "7kbysumfd",
+      "name": "Konkem 18/05/2026",
+      "openingBalance": 73973.27,
+      "phone": ""
+    }
+  ],
+  "supplierPayments": [
+    {
+      "id": "ygytx477t",
+      "supplierId": "7kbysumfd",
+      "supplierName": "Konkem 18/05/2026",
+      "amount": 73973.27,
+      "date": "2026-05-24",
+      "note": "paid"
+    }
+  ],
+  "lastSync": "2026-05-24T12:09:29.017Z"
 }
