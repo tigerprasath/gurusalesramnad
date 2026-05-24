@@ -350,7 +350,7 @@
       "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 0
+      "AVAILABLE_STOCK": 125
     },
     {
       "id": 33,
@@ -383,7 +383,7 @@
       "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 0
+      "AVAILABLE_STOCK": 72
     },
     {
       "id": 36,
@@ -746,7 +746,7 @@
       "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 0
+      "AVAILABLE_STOCK": 36
     },
     {
       "id": 69,
@@ -2682,7 +2682,7 @@
       "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 0
+      "AVAILABLE_STOCK": 12
     },
     {
       "id": 245,
@@ -2825,7 +2825,15 @@
       "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 0
+      "AVAILABLE_STOCK": 36
+    },
+    {
+      "id": 258,
+      "PRODUCT_CODE": "",
+      "PRODUCT_NAME": "K2 BRUSHGARD WHITE",
+      "PACK_SIZE": "03KG",
+      "BILLING_PRICE": 0,
+      "AVAILABLE_STOCK": 24
     }
   ],
   "invoices": [
@@ -4323,5 +4331,5 @@
     }
   ],
   "customers": [],
-  "lastSync": "2026-05-24T09:40:45.272Z"
+  "lastSync": "2026-05-24T09:58:12.532Z"
 }
