@@ -325,74 +325,6 @@
             padding: 4px 0;
         }
 
-        .summary-row.total {
-            font-weight: bold;
-            color: #007bff;
-            font-size: 14px;
-            border-top: 2px solid #ddd;
-            padding-top: 8px;
-        }
-
-        .amount-words {
-            background: #eef7ff;
-            padding: 10px;
-            border-left: 3px solid #007bff;
-            margin: 15px 0;
-            font-size: 12px;
-            border-radius: 4px;
-        }
-
-        @media print {
-            @page {
-                size: A5 portrait;
-                margin: 4mm;
-            }
-
-            header,
-            nav,
-            .button-group,
-            button {
-                display: none !important;
-            }
-
-            body {
-                background: white;
-                margin: 0;
-                padding: 0;
-                color: #000;
-            }
-
-            .invoice-preview {
-                box-shadow: none;
-                padding: 0;
-                margin: 0;
-            }
-
-            /* Target printed invoice modal to fit A5 on one page */
-            .invoice-modal-inner {
-                width: 148mm !important;
-                /* A5 width */
-                max-width: 148mm !important;
-                max-height: 210mm !important;
-                padding: 6mm !important;
-                border-radius: 0 !important;
-                overflow: visible !important;
-                box-shadow: none !important;
-                font-size: 11px !important;
-            }
-
-            /* Ensure printed invoice keeps background colors and dark areas visible
-               Many browsers remove background colors unless print-color-adjust is used
-               and/or the user enables "Background graphics" in print dialog. */
-            .invoice-modal-inner,
-            .invoice-modal-inner *,
-            .invoice-preview,
-            .a5 {
-                -webkit-print-color-adjust: exact !important;
-                print-color-adjust: exact !important;
-                color-adjust: exact !important;
-            }
-
             /* For printed invoices prefer bold black text on white background
                This improves legibility in print previews and avoids relying on
                "Background graphics" print settings. */
@@ -611,6 +543,12 @@
             invoices: [],
             invoiceItems: [],
             customers: [],
+            // customerPayments: [{ id, customerName, amount, date, note }]
+            customerPayments: [],
+            // suppliers: [{ id, name, openingBalance }]
+            suppliers: [],
+            // supplierPayments: [{ id, supplierId, amount, date, note }]
+            supplierPayments: [],
             currentInvoice: {
                 items: [],
                 buyerName: '',
@@ -756,6 +694,9 @@
                 app.invoices = data.invoices || [];
                 app.invoiceItems = data.invoiceItems || [];
                 app.customers = data.customers || [];
+                app.customerPayments = data.customerPayments || [];
+                app.suppliers = data.suppliers || [];
+                app.supplierPayments = data.supplierPayments || [];
                 document.getElementById('lastSync').textContent = `Last: ${data.lastSync || 'Never'}`;
             }
         };
@@ -766,6 +707,9 @@
                 invoices: app.invoices,
                 invoiceItems: app.invoiceItems,
                 customers: app.customers,
+                customerPayments: app.customerPayments,
+                suppliers: app.suppliers,
+                supplierPayments: app.supplierPayments,
                 lastSync: new Date().toLocaleString()
             }));
         };
@@ -1346,6 +1290,339 @@
             return page;
         };
 
+        // ========== SUMMARY PAGE ==========
+                const renderSummaryPage = () => {
+                    const page = document.createElement('div');
+                    page.className = 'page active';
+                    page.id = 'summary';
+
+                    // Use non-cancelled invoices
+                    const validInvoices = (app.invoices || []).filter(i => !i.cancelled);
+
+                    // total billed without rounding: prefer grand_total number, fallback to components
+                    const totalBilledNoRound = validInvoices.reduce((s, inv) => {
+                        if (typeof inv.grand_total === 'number') return s + inv.grand_total;
+                        return s + ((inv.total_billing || 0) + (inv.total_gst || 0));
+                    }, 0);
+
+                    // total collected from customers till date
+                    const totalCollected = (app.customerPayments || []).reduce((s, p) => s + Number(p.amount || 0), 0);
+
+                    // total outstanding from customers = billed - collected
+                    const totalOutstandingCustomers = Math.max(0, totalBilledNoRound - totalCollected);
+
+                    // total inventory value = sum of (stock * price)
+                    const totalInventoryValue = (app.products || []).reduce((s, prod) => s + ((Number(prod.AVAILABLE_STOCK) || 0) * (Number(prod.BILLING_PRICE) || 0)), 0);
+
+                    // total supplier opening till date
+                    const totalSupplierOpening = (app.suppliers || []).reduce((s, sup) => s + Number(sup.openingBalance || 0), 0);
+
+                    page.innerHTML = `
+                        <h2>Summary</h2>
+                        <div class="grid">
+                            <div class="metric">
+                                <span class="metric-label">Total Billed (no round-off)</span>
+                                <span class="metric-value">${formatCurrency(totalBilledNoRound)}</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-label">Total Collected (Customers)</span>
+                                <span class="metric-value">${formatCurrency(totalCollected)}</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-label">Total Outstanding (Customers)</span>
+                                <span class="metric-value">${formatCurrency(totalOutstandingCustomers)}</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-label">Total Inventory Value</span>
+                                <span class="metric-value">${formatCurrency(totalInventoryValue)}</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-label">Total Supplier Opening</span>
+                                <span class="metric-value">${formatCurrency(totalSupplierOpening)}</span>
+                            </div>
+                        </div>
+                    `;
+
+                    return page;
+                };
+
+        // ========== CUSTOMERS & PAYMENTS PAGE ==========
+        const renderCustomersPage = () => {
+            const page = document.createElement('div');
+            page.className = 'page active';
+            page.id = 'customers';
+
+            // Build customer list from explicit customers + invoices
+            const customers = getExistingCustomers();
+
+            // compute totals per customer from invoices
+            const totals = {};
+            app.invoices.filter(i => !i.cancelled).forEach(inv => {
+                const name = inv.buyer_name || 'Unknown';
+                totals[name] = totals[name] || { billed: 0, paid: 0 };
+                totals[name].billed += (inv.grand_total_rounded || Math.round(inv.grand_total || 0));
+            });
+
+            // accumulate payments
+            (app.customerPayments || []).forEach(p => {
+                totals[p.customerName] = totals[p.customerName] || { billed: 0, paid: 0 };
+                totals[p.customerName].paid += Number(p.amount || 0);
+            });
+
+            page.innerHTML = `
+                <h2>Customers & Payments</h2>
+                <div style="margin-bottom:12px; display:flex; gap:8px; align-items:center;">
+                    <input id="custSearch" placeholder="Search customers" style="flex:1; padding:8px;" />
+                    <button onclick="document.getElementById('addCustPaymentForm').classList.toggle('hidden')">➕ Record Payment</button>
+                </div>
+                <div id="addCustPaymentForm" class="hidden" style="padding:10px; border:1px solid #eee; margin-bottom:12px; background:#fafafa;">
+                    <div class="grid">
+                        <div class="form-group">
+                            <label>Customer</label>
+                            <select id="custSelect">
+                                <option value="">Select customer</option>
+                                ${customers.map(c => `<option value="${c.name}">${c.name} ${c.phone?(' - '+c.phone):''}</option>`).join('')}
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Amount Received</label>
+                            <input type="number" id="custPayAmt" placeholder="0.00" step="0.01" />
+                        </div>
+                        <div class="form-group">
+                            <label>Date</label>
+                            <input type="date" id="custPayDate" value="${new Date().toISOString().slice(0,10)}" />
+                        </div>
+                        <div class="form-group">
+                            <label>Note</label>
+                            <input id="custPayNote" />
+                        </div>
+                    </div>
+                    <div class="button-group" style="margin-top:8px;">
+                        <button onclick="addCustomerPayment()">Save Payment</button>
+                        <button class="secondary" onclick="document.getElementById('addCustPaymentForm').classList.add('hidden')">Cancel</button>
+                    </div>
+                </div>
+
+                <table>
+                    <thead>
+                        <tr><th>Customer</th><th>Phone</th><th>Total Billed</th><th>Total Paid</th><th>Balance</th><th>Actions</th></tr>
+                    </thead>
+                    <tbody id="customersTBody">
+                    ${customers.map(c => {
+                        const t = totals[c.name] || { billed:0, paid:0 };
+                        const bal = (t.billed || 0) - (t.paid || 0);
+                        return `
+                            <tr>
+                                <td>${c.name}</td>
+                                <td>${c.phone || ''}</td>
+                                <td><strong>${formatCurrency(t.billed || 0)}</strong></td>
+                                <td>${formatCurrency(t.paid || 0)}</td>
+                                <td style="color:${bal>0?'#c00':'#080'}; font-weight:bold;">${formatCurrency(bal)}</td>
+                                <td><button onclick="promptCustomerPayments('${c.name.replace(/'/g,"\\'")}')">View</button></td>
+                            </tr>
+                        `;
+                    }).join('')}
+                    </tbody>
+                </table>
+            `;
+
+            setTimeout(() => {
+                const search = document.getElementById('custSearch');
+                if (search) search.oninput = () => {
+                    const term = search.value.toLowerCase();
+                    document.querySelectorAll('#customersTBody tr').forEach(r => {
+                        r.style.display = r.textContent.toLowerCase().includes(term) ? '' : 'none';
+                    });
+                };
+            }, 0);
+
+            return page;
+        };
+
+        const promptCustomerPayments = (customerName) => {
+            // show a modal listing payments and a quick add
+            const modal = document.createElement('div');
+            const modalId = 'custPaymentsModal_' + customerName.replace(/[^a-zA-Z0-9]/g, '_');
+            modal.id = modalId;
+            modal.style.cssText = 'position:fixed;inset:0;background:rgba(0,0,0,0.5);display:flex;align-items:center;justify-content:center;z-index:1200;padding:12px;';
+            const payments = (app.customerPayments || []).filter(p => p.customerName === customerName).sort((a,b)=> new Date(b.date)-new Date(a.date));
+            let rows = payments.map(p=>`<div style="padding:6px 0;border-bottom:1px solid #eee;display:flex;justify-content:space-between;"><div><strong>${formatCurrency(p.amount)}</strong><div style="font-size:12px;color:#666">${p.date} ${p.note?(' - '+p.note):''}</div></div><div><button onclick="(function(){if(confirm('Delete this payment?')){deleteCustomerPayment('${p.id}'); modal.remove();}})()">Delete</button></div></div>`).join('') || '<div class="empty-state">No payments yet</div>';
+            modal.innerHTML = `
+                <div style="background:#fff;padding:16px;border-radius:8px;max-width:600px;width:100%;max-height:80vh;overflow:auto;">
+                    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;"><h3 style="margin:0">Payments - ${customerName}</h3><button onclick="document.getElementById('${modalId}').remove();">✕</button></div>
+                    <div>${rows}</div>
+                    <div style="margin-top:12px; border-top:1px solid #eee; padding-top:8px;">
+                        <h4 style="margin:0 0 8px 0">Quick Add Payment</h4>
+                        <div class="grid">
+                            <div class="form-group"><label>Amount</label><input id="quickCustAmt" type="number" step="0.01" /></div>
+                            <div class="form-group"><label>Date</label><input id="quickCustDate" type="date" value="${new Date().toISOString().slice(0,10)}"/></div>
+                            <div class="form-group"><label>Note</label><input id="quickCustNote" /></div>
+                        </div>
+                        <div style="margin-top:8px;display:flex;gap:8px;"><button onclick="(function(){const a=document.getElementById('quickCustAmt').value; const d=document.getElementById('quickCustDate').value; const n=document.getElementById('quickCustNote').value; if(!a){alert('Enter amount');return;} addCustomerPaymentDirect('${customerName.replace(/'/g,"\\'")}', a, d, n); document.getElementById('${modalId}').remove(); })()">Save</button><button class="secondary" onclick="document.getElementById('${modalId}').remove()">Close</button></div>
+                    </div>
+                </div>
+            `;
+            // mark element for close selector
+            modal.querySelector('div').setAttribute('role','modal');
+            document.body.appendChild(modal);
+        };
+
+        const addCustomerPayment = () => {
+            const sel = document.getElementById('custSelect');
+            const amt = document.getElementById('custPayAmt');
+            const dateEl = document.getElementById('custPayDate');
+            const noteEl = document.getElementById('custPayNote');
+            if (!sel || !amt || !dateEl) return showAlert('Form elements missing', 'error');
+            const name = sel.value;
+            const amount = parseFloat(amt.value || 0);
+            const date = dateEl.value;
+            const note = noteEl.value || '';
+            if (!name) return showAlert('Select customer', 'error');
+            if (!amount || amount <= 0) return showAlert('Enter valid amount', 'error');
+            const id = Math.random().toString(36).substr(2,9);
+            app.customerPayments = app.customerPayments || [];
+            app.customerPayments.push({ id, customerName: name, amount: amount, date: date, note });
+            saveData();
+            showAlert('Payment recorded', 'success');
+            document.getElementById('addCustPaymentForm').classList.add('hidden');
+            render();
+        };
+
+        const addCustomerPaymentDirect = (name, amount, date, note) => {
+            const id = Math.random().toString(36).substr(2,9);
+            app.customerPayments = app.customerPayments || [];
+            app.customerPayments.push({ id, customerName: name, amount: Number(amount), date: date || new Date().toISOString().slice(0,10), note: note || '' });
+            saveData();
+            showAlert('Payment recorded', 'success');
+            render();
+        };
+
+        const deleteCustomerPayment = (id) => {
+            app.customerPayments = (app.customerPayments || []).filter(p => p.id !== id);
+            saveData();
+            showAlert('Payment deleted', 'info');
+            render();
+        };
+
+        // ========== SUPPLIERS & PAYMENTS PAGE ==========
+        const renderSuppliersPage = () => {
+            const page = document.createElement('div');
+            page.className = 'page active';
+            page.id = 'suppliers';
+
+            // compute totals per supplier from supplierPayments
+            const totals = {};
+            (app.suppliers || []).forEach(s => {
+                totals[s.id] = { name: s.name, opening: Number(s.openingBalance || 0), paid: 0 };
+            });
+            (app.supplierPayments || []).forEach(p => {
+                if (!totals[p.supplierId]) totals[p.supplierId] = { name: p.supplierName || 'Unknown', opening: 0, paid: 0 };
+                totals[p.supplierId].paid += Number(p.amount || 0);
+            });
+
+            page.innerHTML = `
+                <h2>Suppliers & Payments</h2>
+                <div style="margin-bottom:12px; display:flex; gap:8px; align-items:center;">
+                    <input id="suppSearch" placeholder="Search suppliers" style="flex:1; padding:8px;" />
+                    <button onclick="document.getElementById('addSupplierForm').classList.toggle('hidden')">➕ Add Supplier</button>
+                </div>
+                <div id="addSupplierForm" class="hidden" style="padding:10px; border:1px solid #eee; margin-bottom:12px; background:#fafafa;">
+                    <div class="grid">
+                        <div class="form-group"><label>Name</label><input id="newSupplierName" /></div>
+                        <div class="form-group"><label>Opening Balance (owed to supplier)</label><input id="newSupplierOpening" type="number" step="0.01" value="0" /></div>
+                        <div class="form-group"><label>Phone</label><input id="newSupplierPhone" /></div>
+                    </div>
+                    <div class="button-group" style="margin-top:8px;"><button onclick="addSupplier()">Save Supplier</button><button class="secondary" onclick="document.getElementById('addSupplierForm').classList.add('hidden')">Cancel</button></div>
+                </div>
+
+                <table>
+                    <thead><tr><th>Supplier</th><th>Opening</th><th>Paid</th><th>Balance</th><th>Actions</th></tr></thead>
+                    <tbody id="suppliersTBody">
+                        ${(app.suppliers || []).map(s => {
+                            const t = totals[s.id] || { opening:0, paid:0 };
+                            const bal = (t.opening || 0) - (t.paid || 0);
+                            return `
+                                <tr>
+                                    <td>${s.name}${s.phone?(' - '+s.phone):''}</td>
+                                    <td>${formatCurrency(t.opening || 0)}</td>
+                                    <td>${formatCurrency(t.paid || 0)}</td>
+                                    <td style="color:${bal>0?'#c00':'#080'}; font-weight:bold;">${formatCurrency(bal)}</td>
+                                    <td><button onclick="promptSupplierPayments('${s.id}')">View</button></td>
+                                </tr>
+                            `;
+                        }).join('')}
+                    </tbody>
+                </table>
+            `;
+
+            setTimeout(()=>{
+                const search = document.getElementById('suppSearch');
+                if (search) search.oninput = () => {
+                    const term = search.value.toLowerCase();
+                    document.querySelectorAll('#suppliersTBody tr').forEach(r=>{ r.style.display = r.textContent.toLowerCase().includes(term)?'':'none'; });
+                };
+            },0);
+
+            return page;
+        };
+
+        const addSupplier = () => {
+            const name = document.getElementById('newSupplierName').value.trim();
+            const opening = parseFloat(document.getElementById('newSupplierOpening').value || 0) || 0;
+            const phone = document.getElementById('newSupplierPhone').value.trim();
+            if (!name) return showAlert('Enter supplier name', 'error');
+            const id = Math.random().toString(36).substr(2,9);
+            app.suppliers = app.suppliers || [];
+            app.suppliers.push({ id, name, openingBalance: opening, phone });
+            saveData();
+            showAlert('Supplier added', 'success');
+            document.getElementById('addSupplierForm').classList.add('hidden');
+            render();
+        };
+
+        const promptSupplierPayments = (supplierId) => {
+            const supplier = (app.suppliers||[]).find(s=>s.id===supplierId);
+            const payments = (app.supplierPayments||[]).filter(p=>p.supplierId===supplierId).sort((a,b)=> new Date(b.date)-new Date(a.date));
+            const modal = document.createElement('div');
+            const modalId = 'suppPaymentsModal_' + supplierId;
+            modal.id = modalId;
+            modal.style.cssText = 'position:fixed;inset:0;background:rgba(0,0,0,0.5);display:flex;align-items:center;justify-content:center;z-index:1200;padding:12px;';
+            let rows = payments.map(p=>`<div style="padding:6px 0;border-bottom:1px solid #eee;display:flex;justify-content:space-between;"><div><strong>${formatCurrency(p.amount)}</strong><div style="font-size:12px;color:#666">${p.date} ${p.note?(' - '+p.note):''}</div></div><div><button onclick="(function(){if(confirm('Delete this payment?')){deleteSupplierPayment('${p.id}'); document.getElementById('${modalId}').remove();}})()">Delete</button></div></div>`).join('') || '<div class="empty-state">No payments yet</div>';
+            modal.innerHTML = `
+                <div style="background:#fff;padding:16px;border-radius:8px;max-width:600px;width:100%;max-height:80vh;overflow:auto;">
+                    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;"><h3 style="margin:0">Payments - ${supplier?supplier.name:'Unknown'}</h3><button onclick="document.getElementById('${modalId}').remove()">✕</button></div>
+                    <div>${rows}</div>
+                    <div style="margin-top:12px; border-top:1px solid #eee; padding-top:8px;">
+                        <h4 style="margin:0 0 8px 0">Quick Add Payment</h4>
+                        <div class="grid">
+                            <div class="form-group"><label>Amount</label><input id="quickSuppAmt" type="number" step="0.01" /></div>
+                            <div class="form-group"><label>Date</label><input id="quickSuppDate" type="date" value="${new Date().toISOString().slice(0,10)}"/></div>
+                            <div class="form-group"><label>Note</label><input id="quickSuppNote" /></div>
+                        </div>
+                        <div style="margin-top:8px;display:flex;gap:8px;"><button onclick="(function(){const a=document.getElementById('quickSuppAmt').value; const d=document.getElementById('quickSuppDate').value; const n=document.getElementById('quickSuppNote').value; if(!a){alert('Enter amount');return;} addSupplierPaymentDirect('${supplierId}', a, d, n); document.getElementById('${modalId}').remove(); })()">Save</button><button class="secondary" onclick="document.getElementById('${modalId}').remove()">Close</button></div>
+                    </div>
+                </div>
+            `;
+            document.body.appendChild(modal);
+        };
+
+        const addSupplierPaymentDirect = (supplierId, amount, date, note) => {
+            const id = Math.random().toString(36).substr(2,9);
+            const supplier = (app.suppliers||[]).find(s=>s.id===supplierId);
+            app.supplierPayments = app.supplierPayments || [];
+            app.supplierPayments.push({ id, supplierId, supplierName: supplier?supplier.name:'Unknown', amount: Number(amount), date: date || new Date().toISOString().slice(0,10), note: note || '' });
+            saveData();
+            showAlert('Payment recorded', 'success');
+            render();
+        };
+
+        const deleteSupplierPayment = (id) => {
+            app.supplierPayments = (app.supplierPayments || []).filter(p => p.id !== id);
+            saveData();
+            showAlert('Payment deleted', 'info');
+            render();
+        };
+
         // ========== INVOICE FUNCTIONS ==========
         const addItemToInvoice = () => {
             // prefer selected value but fall back to search input
@@ -1800,6 +2077,10 @@
                 products: app.products,
                 invoices: app.invoices,
                 invoiceItems: app.invoiceItems,
+                customers: app.customers,
+                customerPayments: app.customerPayments,
+                suppliers: app.suppliers,
+                supplierPayments: app.supplierPayments,
                 lastSync: new Date().toISOString()
             };
 
@@ -1840,6 +2121,9 @@
                 invoices: app.invoices,
                 invoiceItems: app.invoiceItems,
                 customers: app.customers,
+                customerPayments: app.customerPayments,
+                suppliers: app.suppliers,
+                supplierPayments: app.supplierPayments,
                 lastSync: new Date().toISOString()
             };
 
@@ -1918,6 +2202,9 @@
                     invoices: app.invoices,
                     invoiceItems: app.invoiceItems,
                     customers: app.customers,
+                    customerPayments: app.customerPayments,
+                    suppliers: app.suppliers,
+                    supplierPayments: app.supplierPayments,
                     lastSync: new Date().toISOString()
                 }
             };
@@ -1970,6 +2257,9 @@
                 app.invoices = data.invoices || [];
                 app.invoiceItems = data.invoiceItems || [];
                 app.customers = data.customers || [];
+                app.customerPayments = data.customerPayments || [];
+                app.suppliers = data.suppliers || [];
+                app.supplierPayments = data.supplierPayments || [];
                 saveData();
                 showAlert('Hosted data loaded via proxy', 'success');
                 render();
@@ -2019,6 +2309,9 @@
                 app.invoices = data.invoices || [];
                 app.invoiceItems = data.invoiceItems || [];
                 app.customers = data.customers || [];
+                app.customerPayments = data.customerPayments || [];
+                app.suppliers = data.suppliers || [];
+                app.supplierPayments = data.supplierPayments || [];
                 saveData();
                 showAlert('Hosted data loaded successfully', 'success');
                 render();
@@ -2053,6 +2346,10 @@
                         app.products = data.products || app.products;
                         app.invoices = data.invoices || app.invoices;
                         app.invoiceItems = data.invoiceItems || app.invoiceItems;
+                        app.customers = data.customers || app.customers;
+                        app.customerPayments = data.customerPayments || app.customerPayments || [];
+                        app.suppliers = data.suppliers || app.suppliers || [];
+                        app.supplierPayments = data.supplierPayments || app.supplierPayments || [];
                         saveData();
                         showAlert('Data imported successfully', 'success');
                         render();
@@ -2353,7 +2650,10 @@
                 { id: 'inventory', label: '📦 Inventory' },
                 { id: 'history', label: '📜 History' },
                 { id: 'stock', label: '📈 Stock' },
-                { id: 'reports', label: '📊 Reports' }
+                { id: 'reports', label: '📊 Reports' },
+                { id: 'summary', label: '🧾 Summary' },
+                { id: 'customers', label: '👥 Customers' },
+                { id: 'suppliers', label: '🏷️ Suppliers' }
             ];
 
             navTabs.innerHTML = tabs.map(tab => `
@@ -2377,6 +2677,15 @@
                     break;
                 case 'reports':
                     page = renderReportsPage();
+                    break;
+                case 'summary':
+                    page = renderSummaryPage();
+                    break;
+                case 'customers':
+                    page = renderCustomersPage();
+                    break;
+                case 'suppliers':
+                    page = renderSuppliersPage();
                     break;
                 default:
                     page = renderInvoicePage();
