@@ -4331,7 +4331,22 @@
     }
   ],
   "customers": [],
-  "customerPayments": [],
+  "customerPayments": [
+    {
+      "id": "9ny3f59pq",
+      "customerName": "Ph",
+      "amount": 234,
+      "date": "2026-05-24",
+      "note": "paid on 24/5"
+    },
+    {
+      "id": "yqvgw1xcu",
+      "customerName": "Urban Primary Health Centre",
+      "amount": 183,
+      "date": "2026-05-24",
+      "note": "paid"
+    }
+  ],
   "suppliers": [
     {
       "id": "7kbysumfd",
@@ -4350,5 +4365,5 @@
       "note": "paid"
     }
   ],
-  "lastSync": "2026-05-24T12:09:29.017Z"
+  "lastSync": "2026-05-24T12:18:26.402Z"
 }
