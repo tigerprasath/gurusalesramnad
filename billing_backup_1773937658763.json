@@ -2833,7 +2833,7 @@
       "PRODUCT_NAME": "K2 BRUSHGARD WHITE",
       "PACK_SIZE": "03KG",
       "BILLING_PRICE": 0,
-      "AVAILABLE_STOCK": 24
+      "AVAILABLE_STOCK": 0
     }
   ],
   "invoices": [
@@ -4334,5 +4334,5 @@
   "customerPayments": [],
   "suppliers": [],
   "supplierPayments": [],
-  "lastSync": "2026-05-24T11:41:07.828Z"
+  "lastSync": "2026-05-24T11:51:30.678Z"
 }
