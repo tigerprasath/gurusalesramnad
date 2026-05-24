@@ -1087,8 +1087,8 @@
                                 <td>${p.PRODUCT_CODE || ''}</td>
                                 <td title="${(p.PRODUCT_NAME || '').replace(/"/g, '&quot;')}" style="white-space:normal; max-width:320px;">${p.PRODUCT_NAME || ''}</td>
                                 <td>${p.PACK_SIZE || ''}</td>
-                                <td>${formatCurrency(p.BILLING_PRICE || 0)}</td>
-                                <td><strong>${p.AVAILABLE_STOCK || 0}</strong></td>
+                                <td>${formatCurrency(0)}</td>
+                                <td><strong>0</strong></td>
                                 <td><button class="secondary" onclick="prefillStock(${p.id})">Select</button></td>
                             </tr>
                         `).join('')}
@@ -1111,11 +1111,11 @@
                         </div>
                         <div class="form-group">
                             <label>Price</label>
-                            <input type="number" id="invPrice" step="0.01" placeholder="0.00">
+                            <input type="number" id="invPrice" step="0.01" placeholder="0.00" value="0">
                         </div>
                         <div class="form-group">
                             <label>Quantity</label>
-                            <input type="number" id="invQty" min="1" value="1">
+                            <input type="number" id="invQty" min="0" value="0">
                         </div>
                     </div>
                     <div class="button-group">
@@ -1148,6 +1148,11 @@
                         [...new Set(packs)].forEach(pk => {
                             const o = document.createElement('option'); o.value = pk; o.textContent = pk; invPack.appendChild(o);
                         });
+                        // Reset price and quantity to 0 as requested
+                        const invPriceEl = document.getElementById('invPrice');
+                        const invQtyEl = document.getElementById('invQty');
+                        if (invPriceEl) invPriceEl.value = 0;
+                        if (invQtyEl) { invQtyEl.value = 0; invQtyEl.min = 0; }
                     };
                 }
             }, 0);
@@ -2141,8 +2146,9 @@
                 const o = document.createElement('option'); o.value = pk; o.textContent = pk; invPack.appendChild(o);
             });
             invPack.value = product.PACK_SIZE;
-            if (invPrice) invPrice.value = (typeof product.BILLING_PRICE !== 'undefined' && product.BILLING_PRICE !== null) ? product.BILLING_PRICE : '';
-            if (invQty) invQty.value = 1;
+            // Per request set defaults to 0 for now
+            if (invPrice) invPrice.value = 0;
+            if (invQty) invQty.value = 0;
             invQty && invQty.focus();
         };
 
