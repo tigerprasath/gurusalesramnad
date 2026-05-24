@@ -347,7 +347,7 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 KRACK SEAL",
       "PACK_SIZE": "01KG PU",
-      "BILLING_PRICE": 0,
+      "BILLING_PRICE": 43.116,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
       "AVAILABLE_STOCK": 125
@@ -380,7 +380,7 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 KRACKSEAL PASTE",
       "PACK_SIZE": "01KG PU",
-      "BILLING_PRICE": 0,
+      "BILLING_PRICE": 213.78,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
       "AVAILABLE_STOCK": 72
@@ -743,7 +743,7 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 TILEOADD",
       "PACK_SIZE": "200ML PU",
-      "BILLING_PRICE": 0,
+      "BILLING_PRICE": 67,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
       "AVAILABLE_STOCK": 36
@@ -974,10 +974,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 COLORFIL TJF (WHITE)",
       "PACK_SIZE": "01KG PU",
-      "BILLING_PRICE": 0,
+      "BILLING_PRICE": 40.75,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 0
+      "AVAILABLE_STOCK": 200
     },
     {
       "id": 90,
@@ -2030,10 +2030,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 POLYCRETE",
       "PACK_SIZE": "01LTR CBY",
-      "BILLING_PRICE": 0,
+      "BILLING_PRICE": 244.85,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 0
+      "AVAILABLE_STOCK": 96
     },
     {
       "id": 186,
@@ -2679,7 +2679,7 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 BRUSHGARD",
       "PACK_SIZE": "03KG CBY",
-      "BILLING_PRICE": 0,
+      "BILLING_PRICE": 303.756,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
       "AVAILABLE_STOCK": 12
@@ -2701,10 +2701,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 BRUSHGARD WHITE",
       "PACK_SIZE": "03KG CBY",
-      "BILLING_PRICE": 0,
+      "BILLING_PRICE": 345.144,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 0
+      "AVAILABLE_STOCK": 24
     },
     {
       "id": 247,
@@ -2822,7 +2822,7 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 HYDROSEAL",
       "PACK_SIZE": "01LTR CBY",
-      "BILLING_PRICE": 0,
+      "BILLING_PRICE": 334.85,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
       "AVAILABLE_STOCK": 36
@@ -4334,5 +4334,5 @@
   "customerPayments": [],
   "suppliers": [],
   "supplierPayments": [],
-  "lastSync": "2026-05-24T10:53:33.701Z"
+  "lastSync": "2026-05-24T11:41:07.828Z"
 }
