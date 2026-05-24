@@ -6,10 +6,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 IROX RED 20",
       "PACK_SIZE": "25KG BAG",
-      "BILLING_PRICE": 5598.93,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 2,
@@ -17,10 +17,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 IROX YELLOW 20",
       "PACK_SIZE": "25KG BAG",
-      "BILLING_PRICE": 5718.66,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 3,
@@ -28,10 +28,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 IROX BLACK 20",
       "PACK_SIZE": "25KG BAG",
-      "BILLING_PRICE": 4266.97,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 4,
@@ -39,10 +39,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 IROX RED 30",
       "PACK_SIZE": "25KG BAG",
-      "BILLING_PRICE": 5494.02,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 5,
@@ -50,10 +50,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 KURE CE",
       "PACK_SIZE": "200LTR CBY",
-      "BILLING_PRICE": 21093.59,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 6,
@@ -61,10 +61,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 KURE CE",
       "PACK_SIZE": "27LTR BAG",
-      "BILLING_PRICE": 2982.44,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 7,
@@ -72,10 +72,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 FOAM MASTER",
       "PACK_SIZE": "200KG CBY",
-      "BILLING_PRICE": 18191.64,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 8,
@@ -83,10 +83,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 FOAM MASTER",
       "PACK_SIZE": "27KG BAG",
-      "BILLING_PRICE": 2676.92,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 9,
@@ -94,10 +94,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 PLASTCURE",
       "PACK_SIZE": "30KG CBY",
-      "BILLING_PRICE": 1382.62,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 10,
@@ -105,10 +105,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 PLASTCURE",
       "PACK_SIZE": "250KG CBY",
-      "BILLING_PRICE": 10371.12,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 11,
@@ -116,10 +116,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 BLOCK MIX PC",
       "PACK_SIZE": "30KG CBY",
-      "BILLING_PRICE": 2626.82,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 12,
@@ -127,10 +127,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 BLOCK MIX PC",
       "PACK_SIZE": "250KG CBY",
-      "BILLING_PRICE": 20448.97,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 13,
@@ -138,10 +138,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 RESILACQ",
       "PACK_SIZE": "200LTR CBY",
-      "BILLING_PRICE": 39809.35,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 14,
@@ -149,10 +149,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 RESILACQ",
       "PACK_SIZE": "50LTR CBY",
-      "BILLING_PRICE": 10202.48,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 15,
@@ -160,10 +160,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 RESILACQ SUPER",
       "PACK_SIZE": "50LTR CBY",
-      "BILLING_PRICE": 12966.1,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 16,
@@ -171,10 +171,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 BLOCK CURE",
       "PACK_SIZE": "250KG CBY",
-      "BILLING_PRICE": 12759.7,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 17,
@@ -182,10 +182,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 BLOCK CURE",
       "PACK_SIZE": "30KG CBY",
-      "BILLING_PRICE": 1669.0,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 18,
@@ -193,10 +193,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 CENTREL EMRA",
       "PACK_SIZE": "200LTR CBY",
-      "BILLING_PRICE": 41193.75,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 19,
@@ -204,10 +204,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 CENTREL EMRA",
       "PACK_SIZE": "27LTR BAG",
-      "BILLING_PRICE": 5803.19,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 20,
@@ -215,10 +215,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 CENTREL EMRA",
       "PACK_SIZE": "05LTR CBY",
-      "BILLING_PRICE": 1192.9,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 21,
@@ -226,10 +226,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 CENTREL EMRA",
       "PACK_SIZE": "01LTR CBY",
-      "BILLING_PRICE": 257.66,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 22,
@@ -237,10 +237,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 SUPLAST SNF",
       "PACK_SIZE": "230KG CBY",
-      "BILLING_PRICE": 12210.58,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 23,
@@ -248,10 +248,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 SUPLAST SNF",
       "PACK_SIZE": "30KG CBY",
-      "BILLING_PRICE": 1648.41,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 24,
@@ -259,10 +259,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 SUPLAST AC",
       "PACK_SIZE": "250KG CBY",
-      "BILLING_PRICE": 19266.53,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 25,
@@ -270,10 +270,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 SUPLAST AC",
       "PACK_SIZE": "30KG CBY",
-      "BILLING_PRICE": 2518.91,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 26,
@@ -281,10 +281,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 SELFPLAST PCE",
       "PACK_SIZE": "30KG CBY",
-      "BILLING_PRICE": 5312.41,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 27,
@@ -292,10 +292,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 SELFPLAST PCE",
       "PACK_SIZE": "220KG CBY",
-      "BILLING_PRICE": 37081.2,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 28,
@@ -303,10 +303,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 SUPLAST 530",
       "PACK_SIZE": "220KG CBY",
-      "BILLING_PRICE": 13079.44,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 29,
@@ -314,10 +314,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 SUPLAST 520",
       "PACK_SIZE": "220KG CBY",
-      "BILLING_PRICE": 11697.05,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 30,
@@ -325,10 +325,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 SELFPLAST PC 20",
       "PACK_SIZE": "220KG CBY",
-      "BILLING_PRICE": 17703.09,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 31,
@@ -336,10 +336,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 RESIBOND ER",
       "PACK_SIZE": "1.5KG KIT",
-      "BILLING_PRICE": 1091.81,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 32,
@@ -347,10 +347,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 KRACK SEAL",
       "PACK_SIZE": "01KG PU",
-      "BILLING_PRICE": 54.05,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 33,
@@ -358,10 +358,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 KRACK SEAL",
       "PACK_SIZE": "500GM PU",
-      "BILLING_PRICE": 30.88,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 34,
@@ -369,10 +369,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 KRACKSEAL PASTE",
       "PACK_SIZE": "05KG CBY",
-      "BILLING_PRICE": 1246.52,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 35,
@@ -380,10 +380,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 KRACKSEAL PASTE",
       "PACK_SIZE": "01KG PU",
-      "BILLING_PRICE": 273.97,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 36,
@@ -391,10 +391,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 KRACKSEAL PASTE",
       "PACK_SIZE": "500GM PU",
-      "BILLING_PRICE": 158.86,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 37,
@@ -402,10 +402,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 JAPOXY IG",
       "PACK_SIZE": "01KG PU",
-      "BILLING_PRICE": 774.1,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 38,
@@ -413,10 +413,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 BITUSEAL (50MM X 10METER)",
       "PACK_SIZE": "PACK",
-      "BILLING_PRICE": 555.07,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 39,
@@ -424,10 +424,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 BITUSEAL (100MM X 10METER)",
       "PACK_SIZE": "PACK",
-      "BILLING_PRICE": 1022.92,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 40,
@@ -435,10 +435,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 GROUT 225",
       "PACK_SIZE": "225GM PU",
-      "BILLING_PRICE": 39.96,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 41,
@@ -446,10 +446,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2  RESIGROUT",
       "PACK_SIZE": "500GM PU",
-      "BILLING_PRICE": 174.59,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 42,
@@ -457,10 +457,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 GROUT NSFF",
       "PACK_SIZE": "25KG BAG",
-      "BILLING_PRICE": 494.76,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 43,
@@ -468,10 +468,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 UNIFLOR",
       "PACK_SIZE": "25KG BAG",
-      "BILLING_PRICE": 529.71,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 44,
@@ -479,10 +479,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 UNIFLOR M",
       "PACK_SIZE": "25KG BAG",
-      "BILLING_PRICE": 521.47,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 45,
@@ -490,10 +490,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 UNIFLOR HT",
       "PACK_SIZE": "30KG CBY",
-      "BILLING_PRICE": 523.35,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 46,
@@ -501,10 +501,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 UNIFLOR MT",
       "PACK_SIZE": "30KG CBY",
-      "BILLING_PRICE": 428.2,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 47,
@@ -512,10 +512,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 UNIFLOR LT",
       "PACK_SIZE": "30KG CBY",
-      "BILLING_PRICE": 380.62,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 48,
@@ -523,10 +523,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 PATCHPLUG CB",
       "PACK_SIZE": "01KG PU",
-      "BILLING_PRICE": 134.8,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 49,
@@ -534,10 +534,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 INSTA PLUG LD",
       "PACK_SIZE": "05LTR CBY",
-      "BILLING_PRICE": 470.41,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 50,
@@ -545,10 +545,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 INSTA PLUG LD",
       "PACK_SIZE": "01LTR CBY",
-      "BILLING_PRICE": 104.54,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 51,
@@ -556,10 +556,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 BARCOAT EP",
       "PACK_SIZE": "04LTR CBY",
-      "BILLING_PRICE": 1940.03,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 52,
@@ -567,10 +567,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 MICRO CONCRETE",
       "PACK_SIZE": "25KG BAG",
-      "BILLING_PRICE": 516.56,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 53,
@@ -578,10 +578,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 JAPOXY PRIMER",
       "PACK_SIZE": "500GM PU",
-      "BILLING_PRICE": 351.39,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 54,
@@ -589,10 +589,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 JAPOXY SCREED",
       "PACK_SIZE": "8.5KG CBY",
-      "BILLING_PRICE": 1194.74,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 55,
@@ -600,10 +600,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 CEMSCREED FR",
       "PACK_SIZE": "25KG BAG",
-      "BILLING_PRICE": 596.28,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 56,
@@ -611,10 +611,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 POLYSEAL 21G",
       "PACK_SIZE": "04KG CBY",
-      "BILLING_PRICE": 1598.31,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 57,
@@ -622,10 +622,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 POLYSEAL 22P",
       "PACK_SIZE": "04KG CBY",
-      "BILLING_PRICE": 1598.31,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 58,
@@ -633,10 +633,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 UNIFIX",
       "PACK_SIZE": "20KG BAG",
-      "BILLING_PRICE": 483.08,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 59,
@@ -644,10 +644,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 NEWFIX",
       "PACK_SIZE": "20KG BAG",
-      "BILLING_PRICE": 363.73,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 60,
@@ -655,10 +655,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 WHITE GTA",
       "PACK_SIZE": "20KG BAG",
-      "BILLING_PRICE": 780.75,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 61,
@@ -666,10 +666,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 BLOCKFIX",
       "PACK_SIZE": "30KG CBY",
-      "BILLING_PRICE": 532.87,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 62,
@@ -677,10 +677,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 ULTRAFIX",
       "PACK_SIZE": "20KG BAG",
-      "BILLING_PRICE": 1062.68,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 63,
@@ -688,10 +688,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 ULTRAFIX WHITE",
       "PACK_SIZE": "20KG BAG",
-      "BILLING_PRICE": 1302.54,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 64,
@@ -699,10 +699,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 JAYLASTIC T",
       "PACK_SIZE": "10KG CBY",
-      "BILLING_PRICE": 5770.2,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 65,
@@ -710,10 +710,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 JAYLASTIC T",
       "PACK_SIZE": "04KG CBY",
-      "BILLING_PRICE": 2677.09,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 66,
@@ -721,10 +721,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 TILEOADD",
       "PACK_SIZE": "05LTR CBY",
-      "BILLING_PRICE": 1528.78,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 67,
@@ -732,10 +732,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 TILEOADD",
       "PACK_SIZE": "01LTR CBY",
-      "BILLING_PRICE": 332.35,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 68,
@@ -743,10 +743,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 TILEOADD",
       "PACK_SIZE": "200ML PU",
-      "BILLING_PRICE": 85.46,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 69,
@@ -754,10 +754,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 JAYMASTIC SOLID IVORY",
       "PACK_SIZE": "1.5KG KIT",
-      "BILLING_PRICE": 738.08,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 70,
@@ -765,10 +765,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 JAYMASTIC LIQUID IVORY",
       "PACK_SIZE": "1.5KG KIT",
-      "BILLING_PRICE": 802.25,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 71,
@@ -776,10 +776,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 JAYMASTIC SOLID WHITE",
       "PACK_SIZE": "1.5KG KIT",
-      "BILLING_PRICE": 738.08,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 72,
@@ -787,10 +787,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 JAYMASTIC LIQUID WHITE",
       "PACK_SIZE": "1.5KG KIT",
-      "BILLING_PRICE": 802.25,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 73,
@@ -798,10 +798,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 JAYMASTIC LIQUID NEUTRAL",
       "PACK_SIZE": "01KG PU",
-      "BILLING_PRICE": 532.67,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 74,
@@ -809,10 +809,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 JAYMASTIC SOLID NEUTRAL",
       "PACK_SIZE": "01KG PU",
-      "BILLING_PRICE": 646.7,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 75,
@@ -820,10 +820,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 SUPERFIX",
       "PACK_SIZE": "20KG BAG",
-      "BILLING_PRICE": 742.04,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 76,
@@ -831,10 +831,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 TILEFIX",
       "PACK_SIZE": "40KG CBY",
-      "BILLING_PRICE": 675.15,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 77,
@@ -842,10 +842,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 TILEFIX",
       "PACK_SIZE": "20KG BAG",
-      "BILLING_PRICE": 335.99,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 78,
@@ -853,10 +853,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 WHITEFIX",
       "PACK_SIZE": "20KG BAG",
-      "BILLING_PRICE": 623.04,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 79,
@@ -864,10 +864,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 MULTI CLEAN",
       "PACK_SIZE": "500ML PU",
-      "BILLING_PRICE": 66.64,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 80,
@@ -875,10 +875,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 MULTI CLEAN",
       "PACK_SIZE": "01LTR CBY",
-      "BILLING_PRICE": 110.31,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 81,
@@ -886,10 +886,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 MULTI CLEAN",
       "PACK_SIZE": "05LTR CBY",
-      "BILLING_PRICE": 515.58,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 82,
@@ -897,10 +897,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 SOFT CLEAN",
       "PACK_SIZE": "01LTR CBY",
-      "BILLING_PRICE": 165.88,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 83,
@@ -908,10 +908,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 SOFT CLEAN",
       "PACK_SIZE": "500ML PU",
-      "BILLING_PRICE": 98.62,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 84,
@@ -919,10 +919,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 CHROMECLEAN",
       "PACK_SIZE": "500ML PU",
-      "BILLING_PRICE": 326.83,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 85,
@@ -930,10 +930,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 CHROMECLEAN",
       "PACK_SIZE": "200ML PU",
-      "BILLING_PRICE": 162.13,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 86,
@@ -941,10 +941,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 WALL PUTTY",
       "PACK_SIZE": "40KG BAG",
-      "BILLING_PRICE": 1145.43,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 87,
@@ -952,10 +952,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 WALL PUTTY",
       "PACK_SIZE": "20KG BAG",
-      "BILLING_PRICE": 645.43,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 88,
@@ -963,10 +963,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 COLORFIL TJF (WHITE)",
       "PACK_SIZE": "500GM PU",
-      "BILLING_PRICE": 29.23,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 89,
@@ -974,10 +974,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 COLORFIL TJF (WHITE)",
       "PACK_SIZE": "01KG PU",
-      "BILLING_PRICE": 51.75,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 90,
@@ -985,10 +985,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 COLORFIL TJF (IVORY)",
       "PACK_SIZE": "500GM PU",
-      "BILLING_PRICE": 29.23,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 91,
@@ -996,10 +996,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 COLORFIL TJF (IVORY)",
       "PACK_SIZE": "01KG PU",
-      "BILLING_PRICE": 51.75,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 92,
@@ -1007,10 +1007,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 COLORFIL TJF (PEARLY PINK)",
       "PACK_SIZE": "500GM PU",
-      "BILLING_PRICE": 29.23,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 93,
@@ -1018,10 +1018,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 COLORFIL TJF (PEARLY PINK)",
       "PACK_SIZE": "01KG PU",
-      "BILLING_PRICE": 51.75,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 94,
@@ -1029,10 +1029,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 COLORFIL TJF (SKY BLUE)",
       "PACK_SIZE": "500GM PU",
-      "BILLING_PRICE": 29.23,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 95,
@@ -1040,10 +1040,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 COLORFIL TJF (SKY BLUE)",
       "PACK_SIZE": "01KG PU",
-      "BILLING_PRICE": 51.75,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 96,
@@ -1051,10 +1051,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 COLORFIL TJF (TERRAACOTTA)",
       "PACK_SIZE": "500GM PU",
-      "BILLING_PRICE": 29.23,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 97,
@@ -1062,10 +1062,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 COLORFIL TJF (TERRAACOTTA)",
       "PACK_SIZE": "01KG PU",
-      "BILLING_PRICE": 51.75,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 98,
@@ -1073,10 +1073,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 COLORFIL TJF (PISTA GREEN)",
       "PACK_SIZE": "500GM PU",
-      "BILLING_PRICE": 29.23,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 99,
@@ -1084,10 +1084,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 COLORFIL TJF (PISTA GREEN)",
       "PACK_SIZE": "01KG PU",
-      "BILLING_PRICE": 51.75,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 100,
@@ -1095,10 +1095,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 COLORFIL TJF (CREAM)",
       "PACK_SIZE": "500GM PU",
-      "BILLING_PRICE": 29.23,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 101,
@@ -1106,10 +1106,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 COLORFIL TJF (CREAM)",
       "PACK_SIZE": "01KG PU",
-      "BILLING_PRICE": 51.75,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 102,
@@ -1117,10 +1117,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 COLORFIL TJF (BLACK)",
       "PACK_SIZE": "500GM PU",
-      "BILLING_PRICE": 29.23,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 103,
@@ -1128,10 +1128,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 COLORFIL TJF (BLACK)",
       "PACK_SIZE": "01KG PU",
-      "BILLING_PRICE": 51.75,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 104,
@@ -1139,10 +1139,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 COLORFIL TJF (COPPER BROWN)",
       "PACK_SIZE": "500GM PU",
-      "BILLING_PRICE": 29.23,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 105,
@@ -1150,10 +1150,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 COLORFIL TJF (COPPER BROWN)",
       "PACK_SIZE": "01KG PU",
-      "BILLING_PRICE": 51.75,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 106,
@@ -1161,10 +1161,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 COLORFIL TJF (STEEL GREY)",
       "PACK_SIZE": "500GM PU",
-      "BILLING_PRICE": 29.23,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 107,
@@ -1172,10 +1172,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 COLORFIL TJF (STEEL GREY)",
       "PACK_SIZE": "01KG PU",
-      "BILLING_PRICE": 51.75,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 108,
@@ -1183,10 +1183,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 COLORFIL TJF (YELLOW)",
       "PACK_SIZE": "500GM PU",
-      "BILLING_PRICE": 29.23,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 109,
@@ -1194,10 +1194,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 COLORFIL TJF (YELLOW)",
       "PACK_SIZE": "01KG PU",
-      "BILLING_PRICE": 51.75,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 110,
@@ -1205,10 +1205,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 COLORFIL TJF (MUSHROOM)",
       "PACK_SIZE": "500GM PU",
-      "BILLING_PRICE": 29.23,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 111,
@@ -1216,10 +1216,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 COLORFIL TJF (MUSHROOM)",
       "PACK_SIZE": "01KG PU",
-      "BILLING_PRICE": 51.75,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 112,
@@ -1227,10 +1227,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 COLORFIL TJF (DARK GREY)",
       "PACK_SIZE": "500GM PU",
-      "BILLING_PRICE": 29.23,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 113,
@@ -1238,10 +1238,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 COLORFIL TJF (DARK GREY)",
       "PACK_SIZE": "01KG PU",
-      "BILLING_PRICE": 51.75,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 114,
@@ -1249,10 +1249,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 COLORFIL TJF (CREAMY WHITE)",
       "PACK_SIZE": "500GM PU",
-      "BILLING_PRICE": 29.23,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 115,
@@ -1260,10 +1260,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 COLORFIL TJF (CREAMY WHITE)",
       "PACK_SIZE": "01KG PU",
-      "BILLING_PRICE": 51.75,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 116,
@@ -1271,10 +1271,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 COLORFIL TJF (DARK BLUE)",
       "PACK_SIZE": "500GM PU",
-      "BILLING_PRICE": 29.23,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 117,
@@ -1282,10 +1282,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 COLORFIL TJF (DARK BLUE)",
       "PACK_SIZE": "01KG PU",
-      "BILLING_PRICE": 51.75,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 118,
@@ -1293,10 +1293,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 COLORFIL TJF (DARK GREEN)",
       "PACK_SIZE": "500GM PU",
-      "BILLING_PRICE": 29.23,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 119,
@@ -1304,10 +1304,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 COLORFIL TJF (DARK GREEN)",
       "PACK_SIZE": "01KG PU",
-      "BILLING_PRICE": 51.75,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 120,
@@ -1315,10 +1315,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 COLORFIL TJF (DARK BROWN)",
       "PACK_SIZE": "500GM PU",
-      "BILLING_PRICE": 29.23,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 121,
@@ -1326,10 +1326,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 COLORFIL TJF (DARK BROWN)",
       "PACK_SIZE": "01KG PU",
-      "BILLING_PRICE": 51.75,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 122,
@@ -1337,10 +1337,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 COLORFIL TJF (KOTA GREEN)",
       "PACK_SIZE": "500GM PU",
-      "BILLING_PRICE": 29.23,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 123,
@@ -1348,10 +1348,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 COLORFIL TJF (KOTA GREEN)",
       "PACK_SIZE": "01KG PU",
-      "BILLING_PRICE": 51.75,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 124,
@@ -1359,10 +1359,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 COLORFIL TJF (SAGE GREEN)",
       "PACK_SIZE": "500GM PU",
-      "BILLING_PRICE": 29.23,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 125,
@@ -1370,10 +1370,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 COLORFIL TJF (SAGE GREEN)",
       "PACK_SIZE": "01KG PU",
-      "BILLING_PRICE": 51.75,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 126,
@@ -1381,10 +1381,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 COLORFIL TJF (TERRA BROWN)",
       "PACK_SIZE": "500GM PU",
-      "BILLING_PRICE": 29.23,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 127,
@@ -1392,10 +1392,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 COLORFIL TJF (TERRA BROWN)",
       "PACK_SIZE": "01KG PU",
-      "BILLING_PRICE": 51.75,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 128,
@@ -1403,10 +1403,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 EPOXYFIL TJF KIT (PART A & PART",
       "PACK_SIZE": "5.5KG BOX",
-      "BILLING_PRICE": 9488.28,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 129,
@@ -1414,10 +1414,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 EPOXYFIL TJF KIT (PART A & PART",
       "PACK_SIZE": "1.375KG",
-      "BILLING_PRICE": 2686.8,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 130,
@@ -1425,10 +1425,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 EPOXYFIL TJF KIT (PART A & PART",
       "PACK_SIZE": "0.275KG",
-      "BILLING_PRICE": 628.25,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 131,
@@ -1436,10 +1436,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 EPOXYFIL WHITE (POWDER)",
       "PACK_SIZE": "0.725KG PU",
-      "BILLING_PRICE": 107.29,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 132,
@@ -1447,10 +1447,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 EPOXYFIL IVORY (POWDER)",
       "PACK_SIZE": "0.725KG PU",
-      "BILLING_PRICE": 107.29,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 133,
@@ -1458,10 +1458,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 EPOXYFIL PEARLY PINK (POWDER",
       "PACK_SIZE": "0.725KG PU",
-      "BILLING_PRICE": 107.29,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 134,
@@ -1469,10 +1469,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 EPOXYFIL SKY BLUE (POWDER)",
       "PACK_SIZE": "0.725KG PU",
-      "BILLING_PRICE": 107.29,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 135,
@@ -1480,10 +1480,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 EPOXYFIL TERRA. RED (POWDER)",
       "PACK_SIZE": "0.725KG PU",
-      "BILLING_PRICE": 107.29,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 136,
@@ -1491,10 +1491,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 EPOXYFIL PISTA GREEN (POWDER",
       "PACK_SIZE": "0.725KG PU",
-      "BILLING_PRICE": 107.29,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 137,
@@ -1502,10 +1502,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 EPOXYFIL CREAM (POWDER)",
       "PACK_SIZE": "0.725KG PU",
-      "BILLING_PRICE": 107.29,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 138,
@@ -1513,10 +1513,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 EPOXYFIL BLACK (POWDER)",
       "PACK_SIZE": "0.725KG PU",
-      "BILLING_PRICE": 107.29,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 139,
@@ -1524,10 +1524,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 EPOXYFIL COPPER BROWN (POW",
       "PACK_SIZE": "0.725KG PU",
-      "BILLING_PRICE": 107.29,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 140,
@@ -1535,10 +1535,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 EPOXYFIL STEEL GREY (POWDER)",
       "PACK_SIZE": "0.725KG PU",
-      "BILLING_PRICE": 107.29,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 141,
@@ -1546,10 +1546,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 EPOXYFIL YELLOW (POWDER)",
       "PACK_SIZE": "0.725KG PU",
-      "BILLING_PRICE": 107.29,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 142,
@@ -1557,10 +1557,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 EPOXYFIL MUSHROOM (POWDER",
       "PACK_SIZE": "0.725KG PU",
-      "BILLING_PRICE": 107.29,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 143,
@@ -1568,10 +1568,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 EPOXYFIL DARK GREY (POWDER)",
       "PACK_SIZE": "0.725KG PU",
-      "BILLING_PRICE": 107.29,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 144,
@@ -1579,10 +1579,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 EPOXYFIL DARK BLUE (POWDER)",
       "PACK_SIZE": "0.725KG PU",
-      "BILLING_PRICE": 107.29,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 145,
@@ -1590,10 +1590,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 EPOXYFIL DARK GREEN (POWDER",
       "PACK_SIZE": "0.725KG PU",
-      "BILLING_PRICE": 107.29,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 146,
@@ -1601,10 +1601,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 EPOXYFIL DARK BROWN (POWDE",
       "PACK_SIZE": "0.725KG PU",
-      "BILLING_PRICE": 107.29,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 147,
@@ -1612,10 +1612,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 EPOXYFIL KOTA GREEN (POWDER",
       "PACK_SIZE": "0.725KG PU",
-      "BILLING_PRICE": 107.29,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 148,
@@ -1623,10 +1623,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 EPOXYFIL GREY BROWN (POWDE",
       "PACK_SIZE": "0.725KG PU",
-      "BILLING_PRICE": 107.29,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 149,
@@ -1634,10 +1634,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 EPOXYFIL SMOKE GREY (POWDER",
       "PACK_SIZE": "0.725KG PU",
-      "BILLING_PRICE": 107.29,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 150,
@@ -1645,10 +1645,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 EPOXYFIL OCEAN BLUE (POWDER",
       "PACK_SIZE": "0.725KG PU",
-      "BILLING_PRICE": 107.29,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 151,
@@ -1656,10 +1656,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 EPOXYFIL SAGE GREEN (POWDER",
       "PACK_SIZE": "0.725KG PU",
-      "BILLING_PRICE": 107.29,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 152,
@@ -1667,10 +1667,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 EPOXYFIL NIGHT GLOW (POWDER",
       "PACK_SIZE": "0.725KG PU",
-      "BILLING_PRICE": 2282.54,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 153,
@@ -1678,10 +1678,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 EPOXYFIL TERRA BROWN (POWD",
       "PACK_SIZE": "0.725KG PU",
-      "BILLING_PRICE": 107.29,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 154,
@@ -1689,10 +1689,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 EPOXYFIL GRANITE GREY (POWDE",
       "PACK_SIZE": "0.725KG PU",
-      "BILLING_PRICE": 107.29,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 155,
@@ -1700,10 +1700,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 GLITTER GOLD",
       "PACK_SIZE": "100GM PU",
-      "BILLING_PRICE": 529.58,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 156,
@@ -1711,10 +1711,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 GLITTER SILVER",
       "PACK_SIZE": "100GM PU",
-      "BILLING_PRICE": 575.65,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 157,
@@ -1722,10 +1722,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 GLITTER COPPER",
       "PACK_SIZE": "100GM PU",
-      "BILLING_PRICE": 529.58,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 158,
@@ -1733,10 +1733,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 EPOXYFIL 2K WHITE",
       "PACK_SIZE": "01KG PU",
-      "BILLING_PRICE": 660.83,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 159,
@@ -1744,10 +1744,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 EPOXYFIL 2K WHITE",
       "PACK_SIZE": "04KG CBY",
-      "BILLING_PRICE": 2351.83,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 160,
@@ -1755,10 +1755,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 EPOXYFIL 2K IVORY",
       "PACK_SIZE": "01KG PU",
-      "BILLING_PRICE": 660.83,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 161,
@@ -1766,10 +1766,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 EPOXYFIL 2K IVORY",
       "PACK_SIZE": "04KG CBY",
-      "BILLING_PRICE": 2351.83,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 162,
@@ -1777,10 +1777,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 EPOXYFIL 2K DARK BROWN",
       "PACK_SIZE": "01KG PU",
-      "BILLING_PRICE": 660.83,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 163,
@@ -1788,10 +1788,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 EPOXYFIL 2K DARK BROWN",
       "PACK_SIZE": "04KG CBY",
-      "BILLING_PRICE": 2351.83,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 164,
@@ -1799,10 +1799,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 EPOXYFIL 2K TERRA RED",
       "PACK_SIZE": "01KG PU",
-      "BILLING_PRICE": 660.83,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 165,
@@ -1810,10 +1810,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 EPOXYFIL 2K TERRA RED",
       "PACK_SIZE": "04KG CBY",
-      "BILLING_PRICE": 2351.83,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 166,
@@ -1821,10 +1821,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 EPOXYFIL 2K DARK GREY",
       "PACK_SIZE": "01KG PU",
-      "BILLING_PRICE": 660.83,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 167,
@@ -1832,10 +1832,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 EPOXYFIL 2K DARK GREY",
       "PACK_SIZE": "04KG CBY",
-      "BILLING_PRICE": 2351.83,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 168,
@@ -1843,10 +1843,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 EPOXYFIL 2K BLACK",
       "PACK_SIZE": "01KG PU",
-      "BILLING_PRICE": 660.83,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 169,
@@ -1854,10 +1854,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 EPOXYFIL 2K BLACK",
       "PACK_SIZE": "04KG CBY",
-      "BILLING_PRICE": 2351.83,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 170,
@@ -1865,10 +1865,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 COLORFIL TJF ( ALL SHADES )",
       "PACK_SIZE": "20KG BAG",
-      "BILLING_PRICE": 898.52,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 171,
@@ -1876,10 +1876,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 TILE SPACER 2 MM",
       "PACK_SIZE": "PACK",
-      "BILLING_PRICE": 53.5,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 172,
@@ -1887,10 +1887,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 TILE SPACER 3 MM",
       "PACK_SIZE": "PACK",
-      "BILLING_PRICE": 53.5,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 173,
@@ -1898,10 +1898,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 TILE SPACER 4 MM",
       "PACK_SIZE": "PACK",
-      "BILLING_PRICE": 76.41,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 174,
@@ -1909,10 +1909,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 TILE SPACER 5 MM",
       "PACK_SIZE": "PACK",
-      "BILLING_PRICE": 76.41,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 175,
@@ -1920,10 +1920,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 TILE LEVELER - 5 MM",
       "PACK_SIZE": "PACK",
-      "BILLING_PRICE": 215.64,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 176,
@@ -1931,10 +1931,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 TILE LEVELER - 3 MM",
       "PACK_SIZE": "PACK",
-      "BILLING_PRICE": 162.97,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 177,
@@ -1942,10 +1942,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 TILE LEVELER - WEDGE",
       "PACK_SIZE": "PACK",
-      "BILLING_PRICE": 213.94,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 178,
@@ -1953,10 +1953,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 SILICONE APPLICATOR KIT (4 PIEC",
       "PACK_SIZE": "PACK",
-      "BILLING_PRICE": 164.69,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 179,
@@ -1964,10 +1964,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 GROUT SPREADER (7 INCH)",
       "PACK_SIZE": "PACK",
-      "BILLING_PRICE": 169.69,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 180,
@@ -1975,10 +1975,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 NOTCH TROWEL CS (6X6 MM)",
       "PACK_SIZE": "PACK",
-      "BILLING_PRICE": 248.2,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 181,
@@ -1986,10 +1986,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 NOTCH TROWEL CS (12X12 MM)",
       "PACK_SIZE": "PACK",
-      "BILLING_PRICE": 248.2,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 182,
@@ -1997,10 +1997,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 TILE GROUT SAW",
       "PACK_SIZE": "PACK",
-      "BILLING_PRICE": 254.68,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 183,
@@ -2008,10 +2008,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 POLYCRETE",
       "PACK_SIZE": "500ML PU",
-      "BILLING_PRICE": 164.33,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 184,
@@ -2019,10 +2019,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 POLYCRETE",
       "PACK_SIZE": "05LTR CBY",
-      "BILLING_PRICE": 1377.48,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 185,
@@ -2030,10 +2030,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 POLYCRETE",
       "PACK_SIZE": "01LTR CBY",
-      "BILLING_PRICE": 285.35,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 186,
@@ -2041,10 +2041,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 POLYCRETE",
       "PACK_SIZE": "20LTR CBY",
-      "BILLING_PRICE": 5110.81,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 187,
@@ -2052,10 +2052,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 POLYCRETE",
       "PACK_SIZE": "200LTR CBY",
-      "BILLING_PRICE": 49282.75,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 188,
@@ -2063,10 +2063,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 EXPEL SWR",
       "PACK_SIZE": "20LTR CBY",
-      "BILLING_PRICE": 6338.17,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 189,
@@ -2074,10 +2074,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 EXPEL SWR",
       "PACK_SIZE": "05LTR CBY",
-      "BILLING_PRICE": 1652.93,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 190,
@@ -2085,10 +2085,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 EXPEL SWR",
       "PACK_SIZE": "01LTR CBY",
-      "BILLING_PRICE": 344.53,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 191,
@@ -2096,10 +2096,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 WM PROOF",
       "PACK_SIZE": "20KG CBY",
-      "BILLING_PRICE": 6510.77,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 192,
@@ -2107,10 +2107,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 HEAT GUARD",
       "PACK_SIZE": "20LTR CBY",
-      "BILLING_PRICE": 7291.03,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 193,
@@ -2118,10 +2118,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 HEAT GUARD",
       "PACK_SIZE": "04LTR CBY",
-      "BILLING_PRICE": 1507.36,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 194,
@@ -2129,10 +2129,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 HEAT GUARD",
       "PACK_SIZE": "01LTR CBY",
-      "BILLING_PRICE": 390.48,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 195,
@@ -2140,10 +2140,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 SEAL COAT",
       "PACK_SIZE": "20LTR CBY",
-      "BILLING_PRICE": 6028.12,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 196,
@@ -2151,10 +2151,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 SEAL COAT",
       "PACK_SIZE": "05LTR CBY",
-      "BILLING_PRICE": 1627.99,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 197,
@@ -2162,10 +2162,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 SEAL COAT",
       "PACK_SIZE": "01LTR CBY",
-      "BILLING_PRICE": 341.85,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 198,
@@ -2173,10 +2173,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 ELASTOMERIC",
       "PACK_SIZE": "20LTR CBY",
-      "BILLING_PRICE": 6575.41,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 199,
@@ -2184,10 +2184,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 ELASTOMERIC",
       "PACK_SIZE": "04LTR CBY",
-      "BILLING_PRICE": 1393.95,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 200,
@@ -2195,10 +2195,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 ELASTOMERIC",
       "PACK_SIZE": "01LTR CBY",
-      "BILLING_PRICE": 365.92,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 201,
@@ -2206,10 +2206,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 ELASTOMERIC",
       "PACK_SIZE": "10LTR CBY",
-      "BILLING_PRICE": 3419.64,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 202,
@@ -2217,10 +2217,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 UNIPRIME",
       "PACK_SIZE": "20LTR CBY",
-      "BILLING_PRICE": 4456.93,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 203,
@@ -2228,10 +2228,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 UNIPRIME",
       "PACK_SIZE": "04LTR CBY",
-      "BILLING_PRICE": 990.86,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 204,
@@ -2239,10 +2239,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 UNIPRIME",
       "PACK_SIZE": "01LTR CBY",
-      "BILLING_PRICE": 262.99,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 205,
@@ -2250,10 +2250,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 UNIPRIME",
       "PACK_SIZE": "10LTR CBY",
-      "BILLING_PRICE": 2655.0,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 206,
@@ -2261,10 +2261,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 SMARTCOAT",
       "PACK_SIZE": "20LTR CBY",
-      "BILLING_PRICE": 6122.98,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 207,
@@ -2272,10 +2272,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 SMARTCOAT",
       "PACK_SIZE": "04LTR CBY",
-      "BILLING_PRICE": 1322.54,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 208,
@@ -2283,10 +2283,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 SMARTCOAT",
       "PACK_SIZE": "01LTR CBY",
-      "BILLING_PRICE": 350.49,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 209,
@@ -2294,10 +2294,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 SMARTCOAT",
       "PACK_SIZE": "10LTR CBY",
-      "BILLING_PRICE": 3235.28,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 210,
@@ -2305,10 +2305,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 ELASTOMERIC BASE 1",
       "PACK_SIZE": "20LTR CBY",
-      "BILLING_PRICE": 7915.0,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 211,
@@ -2316,10 +2316,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 ELASTOMERIC BASE 1",
       "PACK_SIZE": "04LTR CBY",
-      "BILLING_PRICE": 1659.54,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 212,
@@ -2327,10 +2327,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 DAMPCOAT",
       "PACK_SIZE": "01LTR CBY",
-      "BILLING_PRICE": 371.7,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 213,
@@ -2338,10 +2338,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 DAMPCOAT",
       "PACK_SIZE": "04LTR CBY",
-      "BILLING_PRICE": 1380.6,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 214,
@@ -2349,10 +2349,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 DAMPCOAT",
       "PACK_SIZE": "10LTR CBY",
-      "BILLING_PRICE": 3274.5,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 215,
@@ -2360,10 +2360,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 DAMPCOAT",
       "PACK_SIZE": "20LTR CBY",
-      "BILLING_PRICE": 6195.0,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 216,
@@ -2371,10 +2371,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 METAPRIME WT",
       "PACK_SIZE": "20LTR CBY",
-      "BILLING_PRICE": 5952.43,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 217,
@@ -2382,10 +2382,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 METAPRIME WT",
       "PACK_SIZE": "04LTR CBY",
-      "BILLING_PRICE": 1280.81,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 218,
@@ -2393,10 +2393,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 METAPRIME WT",
       "PACK_SIZE": "01LTR CBY",
-      "BILLING_PRICE": 340.48,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 219,
@@ -2404,10 +2404,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 JAPOXY EC (RED OXIDE)",
       "PACK_SIZE": "05KG CBY",
-      "BILLING_PRICE": 2118.02,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 220,
@@ -2415,10 +2415,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 JAPOXY EC (SMOKE GREY)",
       "PACK_SIZE": "05KG CBY",
-      "BILLING_PRICE": 2118.02,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 221,
@@ -2426,10 +2426,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 LIGNOPROOF WLC",
       "PACK_SIZE": "20LTR CBY",
-      "BILLING_PRICE": 2191.74,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 222,
@@ -2437,10 +2437,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 LIGNOPROOF WLC",
       "PACK_SIZE": "10LTR CBY",
-      "BILLING_PRICE": 1168.99,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 223,
@@ -2448,10 +2448,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 LIGNOPROOF WLC",
       "PACK_SIZE": "05LTR CBY",
-      "BILLING_PRICE": 621.95,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 224,
@@ -2459,10 +2459,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 LIGNOPROOF WLC",
       "PACK_SIZE": "01LTR CBY",
-      "BILLING_PRICE": 131.45,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 225,
@@ -2470,10 +2470,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 LIGNOPROOF WLC",
       "PACK_SIZE": "200LTR CBY",
-      "BILLING_PRICE": 19795.34,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 226,
@@ -2481,10 +2481,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 CONPROOF PLUS",
       "PACK_SIZE": "200LTR CBY",
-      "BILLING_PRICE": 16404.63,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 227,
@@ -2492,10 +2492,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 CONPROOF PLUS",
       "PACK_SIZE": "20LTR CBY",
-      "BILLING_PRICE": 1763.95,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 228,
@@ -2503,10 +2503,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 CONPROOF PLUS",
       "PACK_SIZE": "10LTR CBY",
-      "BILLING_PRICE": 933.55,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 229,
@@ -2514,10 +2514,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 CONPROOF PLUS",
       "PACK_SIZE": "05LTR CBY",
-      "BILLING_PRICE": 488.75,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 230,
@@ -2525,10 +2525,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 CONPROOF PLUS",
       "PACK_SIZE": "01LTR CBY",
-      "BILLING_PRICE": 108.61,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 231,
@@ -2536,10 +2536,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 CONPROOF PLUS",
       "PACK_SIZE": "200ML PU",
-      "BILLING_PRICE": 33.91,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 232,
@@ -2547,10 +2547,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 CONFIBRE 6MM",
       "PACK_SIZE": "125GM PU",
-      "BILLING_PRICE": 57.74,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 233,
@@ -2558,10 +2558,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 CONFIBRE 6MM",
       "PACK_SIZE": "20KG BAG",
-      "BILLING_PRICE": 8779.2,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 234,
@@ -2569,10 +2569,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 CONFIBRE 12MM",
       "PACK_SIZE": "125GM PU",
-      "BILLING_PRICE": 57.74,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 235,
@@ -2580,10 +2580,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 BOND SBR",
       "PACK_SIZE": "200LTR CBY",
-      "BILLING_PRICE": 50862.79,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 236,
@@ -2591,10 +2591,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 BOND SBR",
       "PACK_SIZE": "50LTR CBY",
-      "BILLING_PRICE": 13204.81,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 237,
@@ -2602,10 +2602,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 BOND SBR",
       "PACK_SIZE": "20LTR CBY",
-      "BILLING_PRICE": 5589.33,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 238,
@@ -2613,10 +2613,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 BOND SBR",
       "PACK_SIZE": "10LTR CBY",
-      "BILLING_PRICE": 3010.76,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 239,
@@ -2624,10 +2624,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 BOND SBR",
       "PACK_SIZE": "05LTR CBY",
-      "BILLING_PRICE": 1553.59,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 240,
@@ -2635,10 +2635,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 BOND SBR",
       "PACK_SIZE": "01LTR CBY",
-      "BILLING_PRICE": 315.51,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 241,
@@ -2646,10 +2646,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 BOND SBR",
       "PACK_SIZE": "500ML PU",
-      "BILLING_PRICE": 174.65,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 242,
@@ -2657,10 +2657,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 BOND SBR",
       "PACK_SIZE": "200ML PU",
-      "BILLING_PRICE": 74.04,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 243,
@@ -2668,10 +2668,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 BOND SBR 50",
       "PACK_SIZE": "20LTR CBY",
-      "BILLING_PRICE": 6972.85,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 244,
@@ -2679,10 +2679,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 BRUSHGARD",
       "PACK_SIZE": "03KG CBY",
-      "BILLING_PRICE": 425.95,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 245,
@@ -2690,10 +2690,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 BRUSHGARD",
       "PACK_SIZE": "15KG CBY",
-      "BILLING_PRICE": 1916.78,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 246,
@@ -2701,10 +2701,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 BRUSHGARD WHITE",
       "PACK_SIZE": "03KG CBY",
-      "BILLING_PRICE": 462.08,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 247,
@@ -2712,10 +2712,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 BRUSHGARD WHITE",
       "PACK_SIZE": "15KG CBY",
-      "BILLING_PRICE": 2106.3,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 248,
@@ -2723,10 +2723,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 PRIMECRETE",
       "PACK_SIZE": "200LTR CBY",
-      "BILLING_PRICE": 39115.51,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 249,
@@ -2734,10 +2734,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 PRIMECRETE",
       "PACK_SIZE": "50LTR CBY",
-      "BILLING_PRICE": 9932.46,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 250,
@@ -2745,10 +2745,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 PRIMECRETE",
       "PACK_SIZE": "20LTR CBY",
-      "BILLING_PRICE": 4095.85,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 251,
@@ -2756,10 +2756,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 BITUCOAT",
       "PACK_SIZE": "04LTR CBY",
-      "BILLING_PRICE": 1048.53,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 252,
@@ -2767,10 +2767,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 BITUCOAT",
       "PACK_SIZE": "20LTR CBY",
-      "BILLING_PRICE": 4946.07,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 253,
@@ -2778,10 +2778,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 BITUCOAT",
       "PACK_SIZE": "500ML PU",
-      "BILLING_PRICE": 157.09,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 254,
@@ -2789,10 +2789,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 BITUCOAT",
       "PACK_SIZE": "01LTR CBY",
-      "BILLING_PRICE": 283.04,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 255,
@@ -2800,10 +2800,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 FLEXIGARD",
       "PACK_SIZE": "18KG CBY",
-      "BILLING_PRICE": 3342.11,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 256,
@@ -2811,10 +2811,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 HYDROSEAL",
       "PACK_SIZE": "04LTR CBY",
-      "BILLING_PRICE": 1775.66,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 257,
@@ -2822,10 +2822,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 HYDROSEAL",
       "PACK_SIZE": "01LTR CBY",
-      "BILLING_PRICE": 467.28,
+      "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10.0
+      "AVAILABLE_STOCK": 0
     }
   ],
   "invoices": [
@@ -4322,5 +4322,6 @@
       "total": 5383.396
     }
   ],
-  "lastSync": "2026-05-17T14:01:36.777Z"
+  "customers": [],
+  "lastSync": "2026-05-24T09:18:37.519Z"
 }
