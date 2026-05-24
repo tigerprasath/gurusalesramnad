@@ -1087,8 +1087,8 @@
                                 <td>${p.PRODUCT_CODE || ''}</td>
                                 <td title="${(p.PRODUCT_NAME || '').replace(/"/g, '&quot;')}" style="white-space:normal; max-width:320px;">${p.PRODUCT_NAME || ''}</td>
                                 <td>${p.PACK_SIZE || ''}</td>
-                                <td>${formatCurrency(0)}</td>
-                                <td><strong>0</strong></td>
+                                <td>${formatCurrency(p.BILLING_PRICE || 0)}</td>
+                                <td><strong>${p.AVAILABLE_STOCK || 0}</strong></td>
                                 <td><button class="secondary" onclick="prefillStock(${p.id})">Select</button></td>
                             </tr>
                         `).join('')}
@@ -1104,6 +1104,7 @@
                                 <option value="">Select product</option>
                                 ${[...new Set(app.products.map(p => p.PRODUCT_NAME))].sort().map(n => `<option value="${n}">${n}</option>`).join('')}
                             </select>
+                            <input type="hidden" id="invSelectedId" value="">
                         </div>
                         <div class="form-group">
                             <label>Pack Size</label>
@@ -1121,6 +1122,7 @@
                     <div class="button-group">
                         <button onclick="addInventoryStock()">➕ Add To Stock</button>
                         <button class="secondary" onclick="updateInventoryPrice()">💲 Update Price</button>
+                        <button class="danger" onclick="clearAllPricesAndQty()">🧹 Clear Prices & Qty</button>
                     </div>
                 </div>
             `;
@@ -1148,6 +1150,8 @@
                         [...new Set(packs)].forEach(pk => {
                             const o = document.createElement('option'); o.value = pk; o.textContent = pk; invPack.appendChild(o);
                         });
+                        // Clear any previously selected product id (user switched selection)
+                        const selId = document.getElementById('invSelectedId'); if (selId) selId.value = '';
                         // Reset price and quantity to 0 as requested
                         const invPriceEl = document.getElementById('invPrice');
                         const invQtyEl = document.getElementById('invQty');
@@ -2088,6 +2092,18 @@
             render();
         };
 
+        // Clear BILLING_PRICE and AVAILABLE_STOCK for all products (persisted)
+        const clearAllPricesAndQty = () => {
+            if (!confirm('This will set PRICE and QUANTITY (stock) to 0 for ALL products. Continue?')) return;
+            app.products.forEach(p => {
+                p.BILLING_PRICE = 0;
+                p.AVAILABLE_STOCK = 0;
+            });
+            saveData();
+            showAlert('All product prices and stock set to 0', 'success');
+            render();
+        };
+
         // ========= ADDITIONAL FUNCTIONALITY =========
         const addInventoryStock = () => {
             const prodName = document.getElementById('invProduct').value;
@@ -2097,7 +2113,15 @@
                 showAlert('Select product, pack and quantity', 'error');
                 return;
             }
-            const product = app.products.find(p => p.PRODUCT_NAME === prodName && p.PACK_SIZE === pack);
+            // prefer exact selected id if present
+            const selIdVal = document.getElementById('invSelectedId') ? document.getElementById('invSelectedId').value : '';
+            let product = null;
+            if (selIdVal) {
+                product = app.products.find(p => String(p.id) === String(selIdVal));
+            }
+            if (!product) {
+                product = app.products.find(p => p.PRODUCT_NAME === prodName && p.PACK_SIZE === pack);
+            }
             if (!product) {
                 showAlert('Product not found', 'error');
                 return;
@@ -2146,9 +2170,11 @@
                 const o = document.createElement('option'); o.value = pk; o.textContent = pk; invPack.appendChild(o);
             });
             invPack.value = product.PACK_SIZE;
-            // Per request set defaults to 0 for now
-            if (invPrice) invPrice.value = 0;
-            if (invQty) invQty.value = 0;
+            // mark selected product id so updates/adds target the exact product record
+            const selId = document.getElementById('invSelectedId'); if (selId) selId.value = product.id;
+            // populate price and quantity with product defaults so changes are visible
+            if (invPrice) invPrice.value = (typeof product.BILLING_PRICE !== 'undefined' && product.BILLING_PRICE !== null) ? product.BILLING_PRICE : 0;
+            if (invQty) invQty.value = 1;
             invQty && invQty.focus();
         };
 
@@ -2162,14 +2188,21 @@
             const price = parseFloat(priceEl.value);
             if (isNaN(price) || price <= 0) { showAlert('Enter a valid positive price', 'error'); return; }
 
-            // If pack is selected, update only that pack; otherwise update all packs for the product
+            // If a specific product id is selected, update only that product
+            const selIdVal = document.getElementById('invSelectedId') ? document.getElementById('invSelectedId').value : '';
             let updated = 0;
-            app.products.forEach(p => {
-                if (p.PRODUCT_NAME === prodName && (!pack || p.PACK_SIZE === pack)) {
-                    p.BILLING_PRICE = price;
-                    updated++;
-                }
-            });
+            if (selIdVal) {
+                const prod = app.products.find(p => String(p.id) === String(selIdVal));
+                if (prod) { prod.BILLING_PRICE = price; updated = 1; }
+            } else {
+                // If pack is selected, update only that pack; otherwise update all packs for the product
+                app.products.forEach(p => {
+                    if (p.PRODUCT_NAME === prodName && (!pack || p.PACK_SIZE === pack)) {
+                        p.BILLING_PRICE = price;
+                        updated++;
+                    }
+                });
+            }
 
             if (updated === 0) {
                 showAlert('No matching product found to update', 'error');
