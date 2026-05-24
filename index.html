@@ -1110,12 +1110,17 @@
                             <select id="invPack" disabled><option value="">Select</option></select>
                         </div>
                         <div class="form-group">
+                            <label>Price</label>
+                            <input type="number" id="invPrice" step="0.01" placeholder="0.00">
+                        </div>
+                        <div class="form-group">
                             <label>Quantity</label>
                             <input type="number" id="invQty" min="1" value="1">
                         </div>
                     </div>
                     <div class="button-group">
                         <button onclick="addInventoryStock()">➕ Add To Stock</button>
+                        <button class="secondary" onclick="updateInventoryPrice()">💲 Update Price</button>
                     </div>
                 </div>
             `;
@@ -1285,7 +1290,7 @@
                 <p style="margin-top:8px; color:#666; font-size:12px;">Direct GitHub save requires a Personal Access Token (PAT). Do not share your PAT. The app will request it each time and does not store it.</p>
                 <div style="margin-top:12px;">
                     <label style="display:block; font-weight:600; margin-bottom:6px;">Quick repo & PAT (copyable)</label>
-                    <textarea id="quickCreds" readonly style="width:100%; min-height:70px; padding:8px; border:1px solid #ddd; border-radius:6px; font-family:monospace; font-size:12px;">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</textarea>
+                    <textarea id="quickCreds" readonly style="width:100%; min-height:70px; padding:8px; border:1px solid #ddd; border-radius:6px; font-family:monospace; font-size:12px;">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</textarea>
                     <div class="button-group" style="margin-top:8px;">
                         <button onclick="copyQuickCreds()">📋 Copy</button>
                         
@@ -2125,6 +2130,7 @@
             const invProduct = document.getElementById('invProduct');
             const invPack = document.getElementById('invPack');
             const invQty = document.getElementById('invQty');
+            const invPrice = document.getElementById('invPrice');
             if (!invProduct || !invPack) return;
             invProduct.value = product.PRODUCT_NAME;
             // populate packs
@@ -2135,8 +2141,37 @@
                 const o = document.createElement('option'); o.value = pk; o.textContent = pk; invPack.appendChild(o);
             });
             invPack.value = product.PACK_SIZE;
+            if (invPrice) invPrice.value = (typeof product.BILLING_PRICE !== 'undefined' && product.BILLING_PRICE !== null) ? product.BILLING_PRICE : '';
             if (invQty) invQty.value = 1;
             invQty && invQty.focus();
+        };
+
+        // Update the price for selected product/pack or all packs of the product
+        const updateInventoryPrice = () => {
+            const prodName = document.getElementById('invProduct') ? document.getElementById('invProduct').value : '';
+            const pack = document.getElementById('invPack') ? document.getElementById('invPack').value : '';
+            const priceEl = document.getElementById('invPrice');
+            if (!prodName) { showAlert('Select product first', 'error'); return; }
+            if (!priceEl) { showAlert('Price input not found', 'error'); return; }
+            const price = parseFloat(priceEl.value);
+            if (isNaN(price) || price <= 0) { showAlert('Enter a valid positive price', 'error'); return; }
+
+            // If pack is selected, update only that pack; otherwise update all packs for the product
+            let updated = 0;
+            app.products.forEach(p => {
+                if (p.PRODUCT_NAME === prodName && (!pack || p.PACK_SIZE === pack)) {
+                    p.BILLING_PRICE = price;
+                    updated++;
+                }
+            });
+
+            if (updated === 0) {
+                showAlert('No matching product found to update', 'error');
+                return;
+            }
+            saveData();
+            showAlert(`Updated price for ${updated} item(s)`, 'success');
+            render();
         };
 
         const downloadMonthlyCSV = (year, month) => {
