@@ -9,7 +9,7 @@
       "BILLING_PRICE": 5598.93,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 2,
@@ -20,7 +20,7 @@
       "BILLING_PRICE": 5718.66,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 3,
@@ -31,7 +31,7 @@
       "BILLING_PRICE": 4266.97,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 4,
@@ -42,7 +42,7 @@
       "BILLING_PRICE": 5494.02,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 5,
@@ -53,7 +53,7 @@
       "BILLING_PRICE": 21093.59,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 6,
@@ -64,7 +64,7 @@
       "BILLING_PRICE": 2982.44,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 7,
@@ -75,7 +75,7 @@
       "BILLING_PRICE": 18191.64,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 8,
@@ -86,7 +86,7 @@
       "BILLING_PRICE": 2676.92,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 9,
@@ -97,7 +97,7 @@
       "BILLING_PRICE": 1382.62,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 10,
@@ -108,7 +108,7 @@
       "BILLING_PRICE": 10371.12,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 11,
@@ -119,7 +119,7 @@
       "BILLING_PRICE": 2626.82,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 12,
@@ -130,7 +130,7 @@
       "BILLING_PRICE": 20448.97,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 13,
@@ -141,7 +141,7 @@
       "BILLING_PRICE": 39809.35,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 14,
@@ -152,7 +152,7 @@
       "BILLING_PRICE": 10202.48,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 15,
@@ -163,7 +163,7 @@
       "BILLING_PRICE": 12966.1,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 16,
@@ -174,7 +174,7 @@
       "BILLING_PRICE": 12759.7,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 17,
@@ -182,10 +182,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 BLOCK CURE",
       "PACK_SIZE": "30KG CBY",
-      "BILLING_PRICE": 1669,
+      "BILLING_PRICE": 1669.0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 18,
@@ -196,7 +196,7 @@
       "BILLING_PRICE": 41193.75,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 19,
@@ -207,7 +207,7 @@
       "BILLING_PRICE": 5803.19,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 20,
@@ -218,7 +218,7 @@
       "BILLING_PRICE": 1192.9,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 21,
@@ -229,7 +229,7 @@
       "BILLING_PRICE": 257.66,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 22,
@@ -240,7 +240,7 @@
       "BILLING_PRICE": 12210.58,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 23,
@@ -251,7 +251,7 @@
       "BILLING_PRICE": 1648.41,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 24,
@@ -262,7 +262,7 @@
       "BILLING_PRICE": 19266.53,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 25,
@@ -273,7 +273,7 @@
       "BILLING_PRICE": 2518.91,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 26,
@@ -284,7 +284,7 @@
       "BILLING_PRICE": 5312.41,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 27,
@@ -295,7 +295,7 @@
       "BILLING_PRICE": 37081.2,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 28,
@@ -306,7 +306,7 @@
       "BILLING_PRICE": 13079.44,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 29,
@@ -317,7 +317,7 @@
       "BILLING_PRICE": 11697.05,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 30,
@@ -328,7 +328,7 @@
       "BILLING_PRICE": 17703.09,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 31,
@@ -339,7 +339,7 @@
       "BILLING_PRICE": 1091.81,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 32,
@@ -350,7 +350,7 @@
       "BILLING_PRICE": 54.05,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 33,
@@ -361,7 +361,7 @@
       "BILLING_PRICE": 30.88,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 11
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 34,
@@ -372,7 +372,7 @@
       "BILLING_PRICE": 1246.52,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 35,
@@ -383,7 +383,7 @@
       "BILLING_PRICE": 273.97,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 36,
@@ -394,7 +394,7 @@
       "BILLING_PRICE": 158.86,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 37,
@@ -405,7 +405,7 @@
       "BILLING_PRICE": 774.1,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 38,
@@ -416,7 +416,7 @@
       "BILLING_PRICE": 555.07,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 39,
@@ -427,7 +427,7 @@
       "BILLING_PRICE": 1022.92,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 40,
@@ -438,7 +438,7 @@
       "BILLING_PRICE": 39.96,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 41,
@@ -449,7 +449,7 @@
       "BILLING_PRICE": 174.59,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 9
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 42,
@@ -460,7 +460,7 @@
       "BILLING_PRICE": 494.76,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 43,
@@ -471,7 +471,7 @@
       "BILLING_PRICE": 529.71,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 44,
@@ -482,7 +482,7 @@
       "BILLING_PRICE": 521.47,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 45,
@@ -493,7 +493,7 @@
       "BILLING_PRICE": 523.35,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 46,
@@ -504,7 +504,7 @@
       "BILLING_PRICE": 428.2,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 47,
@@ -515,7 +515,7 @@
       "BILLING_PRICE": 380.62,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 48,
@@ -526,7 +526,7 @@
       "BILLING_PRICE": 134.8,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 49,
@@ -537,7 +537,7 @@
       "BILLING_PRICE": 470.41,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 50,
@@ -548,7 +548,7 @@
       "BILLING_PRICE": 104.54,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 51,
@@ -559,7 +559,7 @@
       "BILLING_PRICE": 1940.03,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 52,
@@ -570,7 +570,7 @@
       "BILLING_PRICE": 516.56,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 53,
@@ -581,7 +581,7 @@
       "BILLING_PRICE": 351.39,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 54,
@@ -592,7 +592,7 @@
       "BILLING_PRICE": 1194.74,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 55,
@@ -603,7 +603,7 @@
       "BILLING_PRICE": 596.28,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 56,
@@ -614,7 +614,7 @@
       "BILLING_PRICE": 1598.31,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 57,
@@ -625,7 +625,7 @@
       "BILLING_PRICE": 1598.31,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 58,
@@ -636,7 +636,7 @@
       "BILLING_PRICE": 483.08,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 59,
@@ -647,7 +647,7 @@
       "BILLING_PRICE": 363.73,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 60,
@@ -658,7 +658,7 @@
       "BILLING_PRICE": 780.75,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 61,
@@ -669,7 +669,7 @@
       "BILLING_PRICE": 532.87,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 62,
@@ -680,7 +680,7 @@
       "BILLING_PRICE": 1062.68,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 63,
@@ -691,7 +691,7 @@
       "BILLING_PRICE": 1302.54,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 64,
@@ -702,7 +702,7 @@
       "BILLING_PRICE": 5770.2,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 65,
@@ -713,7 +713,7 @@
       "BILLING_PRICE": 2677.09,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 66,
@@ -724,7 +724,7 @@
       "BILLING_PRICE": 1528.78,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 67,
@@ -735,7 +735,7 @@
       "BILLING_PRICE": 332.35,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 68,
@@ -746,7 +746,7 @@
       "BILLING_PRICE": 85.46,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 69,
@@ -757,7 +757,7 @@
       "BILLING_PRICE": 738.08,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 70,
@@ -768,7 +768,7 @@
       "BILLING_PRICE": 802.25,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 71,
@@ -779,7 +779,7 @@
       "BILLING_PRICE": 738.08,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 72,
@@ -790,7 +790,7 @@
       "BILLING_PRICE": 802.25,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 73,
@@ -801,7 +801,7 @@
       "BILLING_PRICE": 532.67,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 74,
@@ -812,7 +812,7 @@
       "BILLING_PRICE": 646.7,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 75,
@@ -823,7 +823,7 @@
       "BILLING_PRICE": 742.04,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 76,
@@ -834,7 +834,7 @@
       "BILLING_PRICE": 675.15,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 77,
@@ -845,7 +845,7 @@
       "BILLING_PRICE": 335.99,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 78,
@@ -856,7 +856,7 @@
       "BILLING_PRICE": 623.04,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 79,
@@ -867,7 +867,7 @@
       "BILLING_PRICE": 66.64,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 80,
@@ -878,7 +878,7 @@
       "BILLING_PRICE": 110.31,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 81,
@@ -889,7 +889,7 @@
       "BILLING_PRICE": 515.58,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 82,
@@ -900,7 +900,7 @@
       "BILLING_PRICE": 165.88,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 83,
@@ -911,7 +911,7 @@
       "BILLING_PRICE": 98.62,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 84,
@@ -922,7 +922,7 @@
       "BILLING_PRICE": 326.83,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 85,
@@ -933,7 +933,7 @@
       "BILLING_PRICE": 162.13,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 86,
@@ -944,7 +944,7 @@
       "BILLING_PRICE": 1145.43,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 87,
@@ -955,7 +955,7 @@
       "BILLING_PRICE": 645.43,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 88,
@@ -966,7 +966,7 @@
       "BILLING_PRICE": 29.23,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 89,
@@ -977,7 +977,7 @@
       "BILLING_PRICE": 51.75,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 90,
@@ -988,7 +988,7 @@
       "BILLING_PRICE": 29.23,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 91,
@@ -999,7 +999,7 @@
       "BILLING_PRICE": 51.75,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 92,
@@ -1010,7 +1010,7 @@
       "BILLING_PRICE": 29.23,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 93,
@@ -1021,7 +1021,7 @@
       "BILLING_PRICE": 51.75,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 94,
@@ -1032,7 +1032,7 @@
       "BILLING_PRICE": 29.23,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 95,
@@ -1043,7 +1043,7 @@
       "BILLING_PRICE": 51.75,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 96,
@@ -1054,7 +1054,7 @@
       "BILLING_PRICE": 29.23,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 97,
@@ -1065,7 +1065,7 @@
       "BILLING_PRICE": 51.75,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 98,
@@ -1076,7 +1076,7 @@
       "BILLING_PRICE": 29.23,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 99,
@@ -1087,7 +1087,7 @@
       "BILLING_PRICE": 51.75,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 100,
@@ -1098,7 +1098,7 @@
       "BILLING_PRICE": 29.23,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 101,
@@ -1109,7 +1109,7 @@
       "BILLING_PRICE": 51.75,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 102,
@@ -1120,7 +1120,7 @@
       "BILLING_PRICE": 29.23,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 103,
@@ -1131,7 +1131,7 @@
       "BILLING_PRICE": 51.75,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 104,
@@ -1142,7 +1142,7 @@
       "BILLING_PRICE": 29.23,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 105,
@@ -1153,7 +1153,7 @@
       "BILLING_PRICE": 51.75,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 106,
@@ -1164,7 +1164,7 @@
       "BILLING_PRICE": 29.23,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 107,
@@ -1175,7 +1175,7 @@
       "BILLING_PRICE": 51.75,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 108,
@@ -1186,7 +1186,7 @@
       "BILLING_PRICE": 29.23,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 109,
@@ -1197,7 +1197,7 @@
       "BILLING_PRICE": 51.75,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 110,
@@ -1208,7 +1208,7 @@
       "BILLING_PRICE": 29.23,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 111,
@@ -1219,7 +1219,7 @@
       "BILLING_PRICE": 51.75,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 112,
@@ -1230,7 +1230,7 @@
       "BILLING_PRICE": 29.23,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 113,
@@ -1241,7 +1241,7 @@
       "BILLING_PRICE": 51.75,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 114,
@@ -1252,7 +1252,7 @@
       "BILLING_PRICE": 29.23,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 115,
@@ -1263,7 +1263,7 @@
       "BILLING_PRICE": 51.75,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 116,
@@ -1274,7 +1274,7 @@
       "BILLING_PRICE": 29.23,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 117,
@@ -1285,7 +1285,7 @@
       "BILLING_PRICE": 51.75,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 118,
@@ -1296,7 +1296,7 @@
       "BILLING_PRICE": 29.23,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 119,
@@ -1307,7 +1307,7 @@
       "BILLING_PRICE": 51.75,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 120,
@@ -1318,7 +1318,7 @@
       "BILLING_PRICE": 29.23,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 121,
@@ -1329,7 +1329,7 @@
       "BILLING_PRICE": 51.75,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 122,
@@ -1340,7 +1340,7 @@
       "BILLING_PRICE": 29.23,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 123,
@@ -1351,7 +1351,7 @@
       "BILLING_PRICE": 51.75,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 124,
@@ -1362,7 +1362,7 @@
       "BILLING_PRICE": 29.23,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 125,
@@ -1373,7 +1373,7 @@
       "BILLING_PRICE": 51.75,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 126,
@@ -1384,7 +1384,7 @@
       "BILLING_PRICE": 29.23,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 127,
@@ -1395,7 +1395,7 @@
       "BILLING_PRICE": 51.75,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 128,
@@ -1406,7 +1406,7 @@
       "BILLING_PRICE": 9488.28,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 129,
@@ -1417,7 +1417,7 @@
       "BILLING_PRICE": 2686.8,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 130,
@@ -1428,7 +1428,7 @@
       "BILLING_PRICE": 628.25,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 131,
@@ -1439,7 +1439,7 @@
       "BILLING_PRICE": 107.29,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 132,
@@ -1450,7 +1450,7 @@
       "BILLING_PRICE": 107.29,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 133,
@@ -1461,7 +1461,7 @@
       "BILLING_PRICE": 107.29,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 134,
@@ -1472,7 +1472,7 @@
       "BILLING_PRICE": 107.29,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 135,
@@ -1483,7 +1483,7 @@
       "BILLING_PRICE": 107.29,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 136,
@@ -1494,7 +1494,7 @@
       "BILLING_PRICE": 107.29,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 137,
@@ -1505,7 +1505,7 @@
       "BILLING_PRICE": 107.29,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 138,
@@ -1516,7 +1516,7 @@
       "BILLING_PRICE": 107.29,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 139,
@@ -1527,7 +1527,7 @@
       "BILLING_PRICE": 107.29,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 140,
@@ -1538,7 +1538,7 @@
       "BILLING_PRICE": 107.29,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 141,
@@ -1549,7 +1549,7 @@
       "BILLING_PRICE": 107.29,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 142,
@@ -1560,7 +1560,7 @@
       "BILLING_PRICE": 107.29,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 143,
@@ -1571,7 +1571,7 @@
       "BILLING_PRICE": 107.29,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 144,
@@ -1582,7 +1582,7 @@
       "BILLING_PRICE": 107.29,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 145,
@@ -1593,7 +1593,7 @@
       "BILLING_PRICE": 107.29,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 146,
@@ -1604,7 +1604,7 @@
       "BILLING_PRICE": 107.29,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 147,
@@ -1615,7 +1615,7 @@
       "BILLING_PRICE": 107.29,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 148,
@@ -1626,7 +1626,7 @@
       "BILLING_PRICE": 107.29,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 149,
@@ -1637,7 +1637,7 @@
       "BILLING_PRICE": 107.29,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 150,
@@ -1648,7 +1648,7 @@
       "BILLING_PRICE": 107.29,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 151,
@@ -1659,7 +1659,7 @@
       "BILLING_PRICE": 107.29,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 152,
@@ -1670,7 +1670,7 @@
       "BILLING_PRICE": 2282.54,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 153,
@@ -1681,7 +1681,7 @@
       "BILLING_PRICE": 107.29,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 154,
@@ -1692,7 +1692,7 @@
       "BILLING_PRICE": 107.29,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 155,
@@ -1703,7 +1703,7 @@
       "BILLING_PRICE": 529.58,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 156,
@@ -1714,7 +1714,7 @@
       "BILLING_PRICE": 575.65,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 157,
@@ -1725,7 +1725,7 @@
       "BILLING_PRICE": 529.58,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 158,
@@ -1736,7 +1736,7 @@
       "BILLING_PRICE": 660.83,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 159,
@@ -1747,7 +1747,7 @@
       "BILLING_PRICE": 2351.83,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 160,
@@ -1758,7 +1758,7 @@
       "BILLING_PRICE": 660.83,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 161,
@@ -1769,7 +1769,7 @@
       "BILLING_PRICE": 2351.83,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 162,
@@ -1780,7 +1780,7 @@
       "BILLING_PRICE": 660.83,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 163,
@@ -1791,7 +1791,7 @@
       "BILLING_PRICE": 2351.83,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 164,
@@ -1802,7 +1802,7 @@
       "BILLING_PRICE": 660.83,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 165,
@@ -1813,7 +1813,7 @@
       "BILLING_PRICE": 2351.83,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 166,
@@ -1824,7 +1824,7 @@
       "BILLING_PRICE": 660.83,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 167,
@@ -1835,7 +1835,7 @@
       "BILLING_PRICE": 2351.83,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 168,
@@ -1846,7 +1846,7 @@
       "BILLING_PRICE": 660.83,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 169,
@@ -1857,7 +1857,7 @@
       "BILLING_PRICE": 2351.83,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 170,
@@ -1868,7 +1868,7 @@
       "BILLING_PRICE": 898.52,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 171,
@@ -1879,7 +1879,7 @@
       "BILLING_PRICE": 53.5,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 172,
@@ -1890,7 +1890,7 @@
       "BILLING_PRICE": 53.5,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 173,
@@ -1901,7 +1901,7 @@
       "BILLING_PRICE": 76.41,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 174,
@@ -1912,7 +1912,7 @@
       "BILLING_PRICE": 76.41,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 175,
@@ -1923,7 +1923,7 @@
       "BILLING_PRICE": 215.64,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 176,
@@ -1934,7 +1934,7 @@
       "BILLING_PRICE": 162.97,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 177,
@@ -1945,7 +1945,7 @@
       "BILLING_PRICE": 213.94,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 178,
@@ -1956,7 +1956,7 @@
       "BILLING_PRICE": 164.69,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 179,
@@ -1967,7 +1967,7 @@
       "BILLING_PRICE": 169.69,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 180,
@@ -1978,7 +1978,7 @@
       "BILLING_PRICE": 248.2,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 181,
@@ -1989,7 +1989,7 @@
       "BILLING_PRICE": 248.2,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 182,
@@ -2000,7 +2000,7 @@
       "BILLING_PRICE": 254.68,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 183,
@@ -2011,7 +2011,7 @@
       "BILLING_PRICE": 164.33,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 184,
@@ -2022,7 +2022,7 @@
       "BILLING_PRICE": 1377.48,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 185,
@@ -2033,7 +2033,7 @@
       "BILLING_PRICE": 285.35,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 186,
@@ -2044,7 +2044,7 @@
       "BILLING_PRICE": 5110.81,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 187,
@@ -2055,7 +2055,7 @@
       "BILLING_PRICE": 49282.75,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 188,
@@ -2066,7 +2066,7 @@
       "BILLING_PRICE": 6338.17,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 189,
@@ -2077,7 +2077,7 @@
       "BILLING_PRICE": 1652.93,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 190,
@@ -2088,7 +2088,7 @@
       "BILLING_PRICE": 344.53,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 191,
@@ -2099,7 +2099,7 @@
       "BILLING_PRICE": 6510.77,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 192,
@@ -2110,7 +2110,7 @@
       "BILLING_PRICE": 7291.03,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 193,
@@ -2121,7 +2121,7 @@
       "BILLING_PRICE": 1507.36,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 194,
@@ -2132,7 +2132,7 @@
       "BILLING_PRICE": 390.48,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 195,
@@ -2143,7 +2143,7 @@
       "BILLING_PRICE": 6028.12,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 196,
@@ -2154,7 +2154,7 @@
       "BILLING_PRICE": 1627.99,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 197,
@@ -2165,7 +2165,7 @@
       "BILLING_PRICE": 341.85,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 198,
@@ -2176,7 +2176,7 @@
       "BILLING_PRICE": 6575.41,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 199,
@@ -2187,7 +2187,7 @@
       "BILLING_PRICE": 1393.95,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 200,
@@ -2198,7 +2198,7 @@
       "BILLING_PRICE": 365.92,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 201,
@@ -2209,7 +2209,7 @@
       "BILLING_PRICE": 3419.64,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 202,
@@ -2220,7 +2220,7 @@
       "BILLING_PRICE": 4456.93,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 203,
@@ -2231,7 +2231,7 @@
       "BILLING_PRICE": 990.86,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 204,
@@ -2242,7 +2242,7 @@
       "BILLING_PRICE": 262.99,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 205,
@@ -2250,10 +2250,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 UNIPRIME",
       "PACK_SIZE": "10LTR CBY",
-      "BILLING_PRICE": 2655,
+      "BILLING_PRICE": 2655.0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 206,
@@ -2264,7 +2264,7 @@
       "BILLING_PRICE": 6122.98,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 207,
@@ -2275,7 +2275,7 @@
       "BILLING_PRICE": 1322.54,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 208,
@@ -2286,7 +2286,7 @@
       "BILLING_PRICE": 350.49,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 209,
@@ -2297,7 +2297,7 @@
       "BILLING_PRICE": 3235.28,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 210,
@@ -2305,10 +2305,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 ELASTOMERIC BASE 1",
       "PACK_SIZE": "20LTR CBY",
-      "BILLING_PRICE": 7915,
+      "BILLING_PRICE": 7915.0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 211,
@@ -2319,7 +2319,7 @@
       "BILLING_PRICE": 1659.54,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 212,
@@ -2330,7 +2330,7 @@
       "BILLING_PRICE": 371.7,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 213,
@@ -2341,7 +2341,7 @@
       "BILLING_PRICE": 1380.6,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 214,
@@ -2352,7 +2352,7 @@
       "BILLING_PRICE": 3274.5,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 215,
@@ -2360,10 +2360,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 DAMPCOAT",
       "PACK_SIZE": "20LTR CBY",
-      "BILLING_PRICE": 6195,
+      "BILLING_PRICE": 6195.0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 216,
@@ -2374,7 +2374,7 @@
       "BILLING_PRICE": 5952.43,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 217,
@@ -2385,7 +2385,7 @@
       "BILLING_PRICE": 1280.81,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 218,
@@ -2396,7 +2396,7 @@
       "BILLING_PRICE": 340.48,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 219,
@@ -2407,7 +2407,7 @@
       "BILLING_PRICE": 2118.02,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 220,
@@ -2418,7 +2418,7 @@
       "BILLING_PRICE": 2118.02,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 221,
@@ -2429,7 +2429,7 @@
       "BILLING_PRICE": 2191.74,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 222,
@@ -2440,7 +2440,7 @@
       "BILLING_PRICE": 1168.99,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 223,
@@ -2451,7 +2451,7 @@
       "BILLING_PRICE": 621.95,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 224,
@@ -2462,7 +2462,7 @@
       "BILLING_PRICE": 131.45,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 225,
@@ -2473,7 +2473,7 @@
       "BILLING_PRICE": 19795.34,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 226,
@@ -2484,7 +2484,7 @@
       "BILLING_PRICE": 16404.63,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 227,
@@ -2495,7 +2495,7 @@
       "BILLING_PRICE": 1763.95,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 228,
@@ -2506,7 +2506,7 @@
       "BILLING_PRICE": 933.55,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 229,
@@ -2517,7 +2517,7 @@
       "BILLING_PRICE": 488.75,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 230,
@@ -2528,7 +2528,7 @@
       "BILLING_PRICE": 108.61,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 231,
@@ -2539,7 +2539,7 @@
       "BILLING_PRICE": 33.91,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 232,
@@ -2550,7 +2550,7 @@
       "BILLING_PRICE": 57.74,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 233,
@@ -2561,7 +2561,7 @@
       "BILLING_PRICE": 8779.2,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 234,
@@ -2572,7 +2572,7 @@
       "BILLING_PRICE": 57.74,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 235,
@@ -2583,7 +2583,7 @@
       "BILLING_PRICE": 50862.79,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 236,
@@ -2594,7 +2594,7 @@
       "BILLING_PRICE": 13204.81,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 237,
@@ -2605,7 +2605,7 @@
       "BILLING_PRICE": 5589.33,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 238,
@@ -2616,7 +2616,7 @@
       "BILLING_PRICE": 3010.76,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 239,
@@ -2627,7 +2627,7 @@
       "BILLING_PRICE": 1553.59,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 240,
@@ -2638,7 +2638,7 @@
       "BILLING_PRICE": 315.51,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 241,
@@ -2649,7 +2649,7 @@
       "BILLING_PRICE": 174.65,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 242,
@@ -2660,7 +2660,7 @@
       "BILLING_PRICE": 74.04,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 243,
@@ -2671,7 +2671,7 @@
       "BILLING_PRICE": 6972.85,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 244,
@@ -2682,7 +2682,7 @@
       "BILLING_PRICE": 425.95,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 245,
@@ -2693,7 +2693,7 @@
       "BILLING_PRICE": 1916.78,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 246,
@@ -2704,7 +2704,7 @@
       "BILLING_PRICE": 462.08,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 247,
@@ -2715,7 +2715,7 @@
       "BILLING_PRICE": 2106.3,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 248,
@@ -2726,7 +2726,7 @@
       "BILLING_PRICE": 39115.51,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 249,
@@ -2737,7 +2737,7 @@
       "BILLING_PRICE": 9932.46,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 250,
@@ -2748,7 +2748,7 @@
       "BILLING_PRICE": 4095.85,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 251,
@@ -2759,7 +2759,7 @@
       "BILLING_PRICE": 1048.53,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 252,
@@ -2770,7 +2770,7 @@
       "BILLING_PRICE": 4946.07,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 253,
@@ -2781,7 +2781,7 @@
       "BILLING_PRICE": 157.09,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 254,
@@ -2792,7 +2792,7 @@
       "BILLING_PRICE": 283.04,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 255,
@@ -2803,7 +2803,7 @@
       "BILLING_PRICE": 3342.11,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 256,
@@ -2814,7 +2814,7 @@
       "BILLING_PRICE": 1775.66,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     },
     {
       "id": 257,
@@ -2825,7 +2825,7 @@
       "BILLING_PRICE": 467.28,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 10.0
     }
   ],
   "invoices": [
@@ -3394,20 +3394,6 @@
       "grand_total": 5383.396,
       "grand_total_rounded": 5383,
       "cancelled": false
-    },
-    {
-      "id": 45,
-      "invoice_no": "GURU/26-27/31",
-      "invoice_date": "2026-05-21T14:54:33.878Z",
-      "buyer_name": "test",
-      "buyer_phone": "test",
-      "buyer_address": "test",
-      "total_billing": 174.59,
-      "total_gst": 31.426199999999998,
-      "grand_total": 206.0162,
-      "grand_total_rounded": 206,
-      "cancelled": true,
-      "cancelled_date": "2026-05-21T15:39:34.523Z"
     }
   ],
   "invoiceItems": [
@@ -4334,19 +4320,7 @@
       "unit_price": 1140.55,
       "gst": 821.1959999999999,
       "total": 5383.396
-    },
-    {
-      "id": "s77933dsa",
-      "invoice_id": 45,
-      "product_code": "",
-      "product_name": "K2  RESIGROUT",
-      "pack_size": "500GM PU",
-      "quantity": 1,
-      "unit_price": 174.59,
-      "gst": 31.426199999999998,
-      "total": 206.0162
     }
   ],
-  "customers": [],
-  "lastSync": "2026-05-21T15:52:59.529Z"
+  "lastSync": "2026-05-17T14:01:36.777Z"
 }
