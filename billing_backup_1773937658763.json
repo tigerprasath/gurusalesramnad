@@ -4331,5 +4331,8 @@
     }
   ],
   "customers": [],
-  "lastSync": "2026-05-24T09:58:12.532Z"
+  "customerPayments": [],
+  "suppliers": [],
+  "supplierPayments": [],
+  "lastSync": "2026-05-24T10:53:33.701Z"
 }
