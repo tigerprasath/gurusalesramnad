@@ -6,10 +6,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 IROX RED 20",
       "PACK_SIZE": "25KG BAG",
-      "BILLING_PRICE": 0,
+      "BILLING_PRICE": 776868768,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 0
+      "AVAILABLE_STOCK": 175765765
     },
     {
       "id": 2,
@@ -4323,5 +4323,5 @@
     }
   ],
   "customers": [],
-  "lastSync": "2026-05-24T09:38:55.685Z"
+  "lastSync": "2026-05-24T09:40:19.859Z"
 }
