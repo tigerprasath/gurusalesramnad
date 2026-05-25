@@ -2033,7 +2033,7 @@
       "BILLING_PRICE": 244.85,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 96
+      "AVAILABLE_STOCK": 64
     },
     {
       "id": 186,
@@ -2704,7 +2704,7 @@
       "BILLING_PRICE": 345.144,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 24
+      "AVAILABLE_STOCK": 18
     },
     {
       "id": 247,
@@ -3401,6 +3401,19 @@
       "total_gst": 821.1959999999999,
       "grand_total": 5383.396,
       "grand_total_rounded": 5383,
+      "cancelled": false
+    },
+    {
+      "id": 45,
+      "invoice_no": "GURU/26-27/31",
+      "invoice_date": "2026-05-25T04:56:31.185Z",
+      "buyer_name": "Shree alagarmalaiyan paints",
+      "buyer_phone": "",
+      "buyer_address": "Paramakudi",
+      "total_billing": 9906.064,
+      "total_gst": 1783.09152,
+      "grand_total": 11689.15552,
+      "grand_total_rounded": 11689,
       "cancelled": false
     }
   ],
@@ -4328,6 +4341,28 @@
       "unit_price": 1140.55,
       "gst": 821.1959999999999,
       "total": 5383.396
+    },
+    {
+      "id": "vh01bwffq",
+      "invoice_id": 45,
+      "product_code": "",
+      "product_name": "K2 POLYCRETE",
+      "pack_size": "01LTR CBY",
+      "quantity": 32,
+      "unit_price": 244.85,
+      "gst": 1410.336,
+      "total": 9245.536
+    },
+    {
+      "id": "hog0wv7q6",
+      "invoice_id": 45,
+      "product_code": "",
+      "product_name": "K2 BRUSHGARD WHITE",
+      "pack_size": "03KG CBY",
+      "quantity": 6,
+      "unit_price": 345.144,
+      "gst": 372.75552,
+      "total": 2443.6195199999997
     }
   ],
   "customers": [],
@@ -4365,5 +4400,5 @@
       "note": "paid"
     }
   ],
-  "lastSync": "2026-05-24T12:18:26.402Z"
+  "lastSync": "2026-05-25T04:57:45.186Z"
 }
