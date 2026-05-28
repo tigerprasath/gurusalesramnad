@@ -4389,7 +4389,13 @@
       "total": 2443.6195199999997
     }
   ],
-  "customers": [],
+  "customers": [
+    {
+      "name": "Abirami Hardware",
+      "phone": "09436 60507",
+      "address": "Vandikara street, Ramanathapuram \nGST.NO 33A0OPK6050L1ZO"
+    }
+  ],
   "customerPayments": [
     {
       "id": "9ny3f59pq",
@@ -4424,5 +4430,5 @@
       "note": "paid"
     }
   ],
-  "lastSync": "2026-05-27T12:19:25.861Z"
+  "lastSync": "2026-05-28T11:24:45.090Z"
 }
