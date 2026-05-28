@@ -347,10 +347,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 KRACK SEAL",
       "PACK_SIZE": "01KG PU",
-      "BILLING_PRICE": 43.116,
+      "BILLING_PRICE": 43.24,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 125
+      "AVAILABLE_STOCK": 160
     },
     {
       "id": 33,
@@ -413,10 +413,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 BITUSEAL (50MM X 10METER)",
       "PACK_SIZE": "PACK",
-      "BILLING_PRICE": 0,
+      "BILLING_PRICE": 444.1,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 0
+      "AVAILABLE_STOCK": 20
     },
     {
       "id": 39,
@@ -446,10 +446,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2  RESIGROUT",
       "PACK_SIZE": "500GM PU",
-      "BILLING_PRICE": 0,
+      "BILLING_PRICE": 146.33,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 0
+      "AVAILABLE_STOCK": 42
     },
     {
       "id": 42,
@@ -545,10 +545,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 INSTA PLUG LD",
       "PACK_SIZE": "01LTR CBY",
-      "BILLING_PRICE": 0,
+      "BILLING_PRICE": 89.21,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 0
+      "AVAILABLE_STOCK": 16
     },
     {
       "id": 51,
@@ -864,10 +864,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 MULTI CLEAN",
       "PACK_SIZE": "500ML PU",
-      "BILLING_PRICE": 0,
+      "BILLING_PRICE": 54.4,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 0
+      "AVAILABLE_STOCK": 135
     },
     {
       "id": 80,
@@ -875,10 +875,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 MULTI CLEAN",
       "PACK_SIZE": "01LTR CBY",
-      "BILLING_PRICE": 0,
+      "BILLING_PRICE": 94.13,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 0
+      "AVAILABLE_STOCK": 42
     },
     {
       "id": 81,
@@ -930,10 +930,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 CHROMECLEAN",
       "PACK_SIZE": "200ML PU",
-      "BILLING_PRICE": 0,
+      "BILLING_PRICE": 138.36,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 0
+      "AVAILABLE_STOCK": 30
     },
     {
       "id": 86,
@@ -996,10 +996,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 COLORFIL TJF (IVORY)",
       "PACK_SIZE": "01KG PU",
-      "BILLING_PRICE": 0,
+      "BILLING_PRICE": 40.75,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 0
+      "AVAILABLE_STOCK": 20
     },
     {
       "id": 92,
@@ -1128,10 +1128,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 COLORFIL TJF (BLACK)",
       "PACK_SIZE": "01KG PU",
-      "BILLING_PRICE": 0,
+      "BILLING_PRICE": 40.75,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 0
+      "AVAILABLE_STOCK": 60
     },
     {
       "id": 104,
@@ -1425,10 +1425,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 EPOXYFIL TJF KIT (PART A & PART",
       "PACK_SIZE": "0.275KG",
-      "BILLING_PRICE": 0,
+      "BILLING_PRICE": 441.78,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 0
+      "AVAILABLE_STOCK": 4
     },
     {
       "id": 131,
@@ -2132,7 +2132,7 @@
       "BILLING_PRICE": 327.3,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 0
+      "AVAILABLE_STOCK": 16
     },
     {
       "id": 195,
@@ -2165,7 +2165,7 @@
       "BILLING_PRICE": 280.06,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 0
+      "AVAILABLE_STOCK": 9
     },
     {
       "id": 198,
@@ -2525,10 +2525,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 CONPROOF PLUS",
       "PACK_SIZE": "01LTR CBY",
-      "BILLING_PRICE": 0,
+      "BILLING_PRICE": 85.27,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 0
+      "AVAILABLE_STOCK": 26
     },
     {
       "id": 231,
@@ -2547,10 +2547,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 CONFIBRE 6MM",
       "PACK_SIZE": "125GM PU",
-      "BILLING_PRICE": 0,
+      "BILLING_PRICE": 45.34,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 0
+      "AVAILABLE_STOCK": 28
     },
     {
       "id": 233,
@@ -2569,10 +2569,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 CONFIBRE 12MM",
       "PACK_SIZE": "125GM PU",
-      "BILLING_PRICE": 0,
+      "BILLING_PRICE": 45.34,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 0
+      "AVAILABLE_STOCK": 37
     },
     {
       "id": 235,
@@ -2635,10 +2635,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 BOND SBR",
       "PACK_SIZE": "01LTR CBY",
-      "BILLING_PRICE": 0,
+      "BILLING_PRICE": 247.71,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 0
+      "AVAILABLE_STOCK": 10
     },
     {
       "id": 241,
@@ -2778,10 +2778,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 BITUCOAT",
       "PACK_SIZE": "500ML PU",
-      "BILLING_PRICE": 0,
+      "BILLING_PRICE": 134.06,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 0
+      "AVAILABLE_STOCK": 12
     },
     {
       "id": 254,
@@ -2789,10 +2789,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 BITUCOAT",
       "PACK_SIZE": "01LTR CBY",
-      "BILLING_PRICE": 0,
+      "BILLING_PRICE": 241.55,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 0
+      "AVAILABLE_STOCK": 12
     },
     {
       "id": 255,
@@ -4500,5 +4500,5 @@
       "note": "paid"
     }
   ],
-  "lastSync": "2026-05-28T13:51:49.100Z"
+  "lastSync": "2026-05-28T16:39:35.467Z"
 }
