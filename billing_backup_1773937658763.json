@@ -2132,7 +2132,7 @@
       "BILLING_PRICE": 327.3,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 2
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 195,
@@ -2165,7 +2165,7 @@
       "BILLING_PRICE": 280.06,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 1
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 198,
@@ -2704,7 +2704,7 @@
       "BILLING_PRICE": 345.144,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 18
+      "AVAILABLE_STOCK": 12
     },
     {
       "id": 247,
@@ -3414,6 +3414,19 @@
       "total_gst": 1783.09152,
       "grand_total": 11689.15552,
       "grand_total_rounded": 11689,
+      "cancelled": false
+    },
+    {
+      "id": 46,
+      "invoice_no": "GURU/26-27/32",
+      "invoice_date": "2026-05-28T11:30:33.285Z",
+      "buyer_name": "Abirami Hardwares",
+      "buyer_phone": "9843660507",
+      "buyer_address": "Vandikara Street, Ramanathapuram\nGST.NO: 33AOOPK6050L1ZO",
+      "total_billing": 3005.524,
+      "total_gst": 540.99432,
+      "grand_total": 3546.51832,
+      "grand_total_rounded": 3547,
       "cancelled": false
     }
   ],
@@ -4363,9 +4376,48 @@
       "unit_price": 345.144,
       "gst": 372.75552,
       "total": 2443.6195199999997
+    },
+    {
+      "id": "39nzia7hk",
+      "invoice_id": 46,
+      "product_code": "",
+      "product_name": "K2 BRUSHGARD WHITE",
+      "pack_size": "03KG CBY",
+      "quantity": 6,
+      "unit_price": 345.144,
+      "gst": 372.75552,
+      "total": 2443.6195199999997
+    },
+    {
+      "id": "e3i485cp7",
+      "invoice_id": 46,
+      "product_code": "",
+      "product_name": "K2 SEAL COAT",
+      "pack_size": "01LTR CBY",
+      "quantity": 1,
+      "unit_price": 280.06,
+      "gst": 50.4108,
+      "total": 330.4708
+    },
+    {
+      "id": "n7mylufug",
+      "invoice_id": 46,
+      "product_code": "",
+      "product_name": "K2 HEAT GUARD",
+      "pack_size": "01LTR CBY",
+      "quantity": 2,
+      "unit_price": 327.3,
+      "gst": 117.828,
+      "total": 772.428
     }
   ],
-  "customers": [],
+  "customers": [
+    {
+      "name": "Abirami Hardwares",
+      "phone": "9843660507",
+      "address": "Vandikara Street, Ramanathapuram\nGST.NO: 33AOOPK6050L1ZO"
+    }
+  ],
   "customerPayments": [
     {
       "id": "9ny3f59pq",
@@ -4400,5 +4452,5 @@
       "note": "paid"
     }
   ],
-  "lastSync": "2026-05-28T11:25:35.460Z"
+  "lastSync": "2026-05-28T11:31:08.080Z"
 }
