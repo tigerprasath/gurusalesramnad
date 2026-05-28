@@ -2129,10 +2129,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 HEAT GUARD",
       "PACK_SIZE": "01LTR CBY",
-      "BILLING_PRICE": 0,
+      "BILLING_PRICE": 327.3,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 0
+      "AVAILABLE_STOCK": 2
     },
     {
       "id": 195,
@@ -2162,10 +2162,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 SEAL COAT",
       "PACK_SIZE": "01LTR CBY",
-      "BILLING_PRICE": 0,
+      "BILLING_PRICE": 280.06,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 0
+      "AVAILABLE_STOCK": 1
     },
     {
       "id": 198,
@@ -2704,7 +2704,7 @@
       "BILLING_PRICE": 345.144,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 12
+      "AVAILABLE_STOCK": 18
     },
     {
       "id": 247,
@@ -3414,19 +3414,6 @@
       "total_gst": 1783.09152,
       "grand_total": 11689.15552,
       "grand_total_rounded": 11689,
-      "cancelled": false
-    },
-    {
-      "id": 46,
-      "invoice_no": "GURU/26-27/32",
-      "invoice_date": "2026-05-27T12:17:00.688Z",
-      "buyer_name": "MEGA HARDWARES",
-      "buyer_phone": "",
-      "buyer_address": "12/2829/2, 12/2829/3, 12/2829/4, NORTH 5TH STREET, Pattinamkaathan, Ramanathapuram 623503. GST.NO; 33ABXFM2732P1ZK",
-      "total_billing": 2070.864,
-      "total_gst": 372.75552,
-      "grand_total": 2443.61952,
-      "grand_total_rounded": 2444,
       "cancelled": false
     }
   ],
@@ -4376,26 +4363,9 @@
       "unit_price": 345.144,
       "gst": 372.75552,
       "total": 2443.6195199999997
-    },
-    {
-      "id": "zcnmgxhkn",
-      "invoice_id": 46,
-      "product_code": "",
-      "product_name": "K2 BRUSHGARD WHITE",
-      "pack_size": "03KG CBY",
-      "quantity": 6,
-      "unit_price": 345.144,
-      "gst": 372.75552,
-      "total": 2443.6195199999997
     }
   ],
-  "customers": [
-    {
-      "name": "Abirami Hardware",
-      "phone": "09436 60507",
-      "address": "Vandikara street, Ramanathapuram \nGST.NO 33A0OPK6050L1ZO"
-    }
-  ],
+  "customers": [],
   "customerPayments": [
     {
       "id": "9ny3f59pq",
@@ -4430,5 +4400,5 @@
       "note": "paid"
     }
   ],
-  "lastSync": "2026-05-28T11:24:45.090Z"
+  "lastSync": "2026-05-28T11:25:35.460Z"
 }
