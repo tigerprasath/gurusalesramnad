@@ -746,7 +746,7 @@
       "BILLING_PRICE": 67,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 36
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 69,
@@ -878,7 +878,7 @@
       "BILLING_PRICE": 94.13,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 42
+      "AVAILABLE_STOCK": 26
     },
     {
       "id": 81,
@@ -3454,6 +3454,19 @@
       "grand_total": 6054.2496,
       "grand_total_rounded": 6054,
       "cancelled": false
+    },
+    {
+      "id": 49,
+      "invoice_no": "GURU/26-27/35",
+      "invoice_date": "2026-06-01T11:47:56.924Z",
+      "buyer_name": "Basheer Tiles House",
+      "buyer_phone": "04567355818",
+      "buyer_address": "69 A2, Railway Feeder Road, Ramanathapuram 623501 GSTIN: 33CAFPS9890B1ZF",
+      "total_billing": 3918.08,
+      "total_gst": 705.2543999999999,
+      "grand_total": 4623.3344,
+      "grand_total_rounded": 4623,
+      "cancelled": false
     }
   ],
   "invoiceItems": [
@@ -4457,6 +4470,28 @@
       "unit_price": 213.78,
       "gst": 923.5296,
       "total": 6054.2496
+    },
+    {
+      "id": "b7t3kbh0o",
+      "invoice_id": 49,
+      "product_code": "",
+      "product_name": "K2 MULTI CLEAN",
+      "pack_size": "01LTR CBY",
+      "quantity": 16,
+      "unit_price": 94.13,
+      "gst": 271.09439999999995,
+      "total": 1777.1743999999999
+    },
+    {
+      "id": "f49b6c32q",
+      "invoice_id": 49,
+      "product_code": "",
+      "product_name": "K2 TILEOADD",
+      "pack_size": "200ML PU",
+      "quantity": 36,
+      "unit_price": 67,
+      "gst": 434.15999999999997,
+      "total": 2846.16
     }
   ],
   "customers": [
@@ -4500,5 +4535,5 @@
       "note": "paid"
     }
   ],
-  "lastSync": "2026-05-28T16:39:35.467Z"
+  "lastSync": "2026-06-01T11:49:57.282Z"
 }
