@@ -350,7 +350,7 @@
       "BILLING_PRICE": 43.24,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 160
+      "AVAILABLE_STOCK": 110
     },
     {
       "id": 33,
@@ -383,7 +383,7 @@
       "BILLING_PRICE": 213.78,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 48
+      "AVAILABLE_STOCK": 36
     },
     {
       "id": 36,
@@ -3467,6 +3467,45 @@
       "grand_total": 4623.3344,
       "grand_total_rounded": 4623,
       "cancelled": false
+    },
+    {
+      "id": 50,
+      "invoice_no": "GURU/26-27/36",
+      "invoice_date": "2026-06-02T07:48:42.660Z",
+      "buyer_name": "KUPERA PAINTS",
+      "buyer_phone": "",
+      "buyer_address": "36, Devipattinam Road, Kenikarai, Ramnad. GST.NO 33AUYPK6494Q1ZC",
+      "total_billing": 1081,
+      "total_gst": 194.57999999999998,
+      "grand_total": 1275.58,
+      "grand_total_rounded": 1276,
+      "cancelled": false
+    },
+    {
+      "id": 51,
+      "invoice_no": "GURU/26-27/37",
+      "invoice_date": "2026-06-02T07:50:14.857Z",
+      "buyer_name": "DEEN HARDWARES",
+      "buyer_phone": "",
+      "buyer_address": "GH ROAD , RAMANATHAPURAM.",
+      "total_billing": 1081,
+      "total_gst": 194.57999999999998,
+      "grand_total": 1275.58,
+      "grand_total_rounded": 1276,
+      "cancelled": false
+    },
+    {
+      "id": 52,
+      "invoice_no": "GURU/26-27/38",
+      "invoice_date": "2026-06-02T07:51:06.658Z",
+      "buyer_name": "Shree alagarmalaiyan paints",
+      "buyer_phone": "",
+      "buyer_address": "Paramakudi",
+      "total_billing": 2565.36,
+      "total_gst": 461.7648,
+      "grand_total": 3027.1248,
+      "grand_total_rounded": 3027,
+      "cancelled": false
     }
   ],
   "invoiceItems": [
@@ -4492,6 +4531,39 @@
       "unit_price": 67,
       "gst": 434.15999999999997,
       "total": 2846.16
+    },
+    {
+      "id": "5lq3a2otx",
+      "invoice_id": 50,
+      "product_code": "",
+      "product_name": "K2 KRACK SEAL",
+      "pack_size": "01KG PU",
+      "quantity": 25,
+      "unit_price": 43.24,
+      "gst": 194.57999999999998,
+      "total": 1275.58
+    },
+    {
+      "id": "fm6g1ot87",
+      "invoice_id": 51,
+      "product_code": "",
+      "product_name": "K2 KRACK SEAL",
+      "pack_size": "01KG PU",
+      "quantity": 25,
+      "unit_price": 43.24,
+      "gst": 194.57999999999998,
+      "total": 1275.58
+    },
+    {
+      "id": "vosi4ev4t",
+      "invoice_id": 52,
+      "product_code": "",
+      "product_name": "K2 KRACKSEAL PASTE",
+      "pack_size": "01KG PU",
+      "quantity": 12,
+      "unit_price": 213.78,
+      "gst": 461.7648,
+      "total": 3027.1248
     }
   ],
   "customers": [
@@ -4535,5 +4607,5 @@
       "note": "paid"
     }
   ],
-  "lastSync": "2026-06-01T11:49:57.282Z"
+  "lastSync": "2026-06-02T07:52:51.785Z"
 }
