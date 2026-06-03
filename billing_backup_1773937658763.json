@@ -2033,7 +2033,7 @@
       "BILLING_PRICE": 244.85,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 64
+      "AVAILABLE_STOCK": 48
     },
     {
       "id": 186,
@@ -3506,6 +3506,19 @@
       "grand_total": 3027.1248,
       "grand_total_rounded": 3027,
       "cancelled": false
+    },
+    {
+      "id": 53,
+      "invoice_no": "GURU/26-27/39",
+      "invoice_date": "2026-06-03T15:55:57.543Z",
+      "buyer_name": "MEGA HARDWARES",
+      "buyer_phone": "",
+      "buyer_address": "12/2829/2, 12/2829/3, 12/2829/4, NORTH 5TH STREET, Pattinamkaathan, Ramanathapuram 623503. GST.NO; 33ABXFM2732P1ZK",
+      "total_billing": 3917.6,
+      "total_gst": 705.168,
+      "grand_total": 4622.768,
+      "grand_total_rounded": 4623,
+      "cancelled": false
     }
   ],
   "invoiceItems": [
@@ -4564,6 +4577,17 @@
       "unit_price": 213.78,
       "gst": 461.7648,
       "total": 3027.1248
+    },
+    {
+      "id": "hdt3o2x9w",
+      "invoice_id": 53,
+      "product_code": "",
+      "product_name": "K2 POLYCRETE",
+      "pack_size": "01LTR CBY",
+      "quantity": 16,
+      "unit_price": 244.85,
+      "gst": 705.168,
+      "total": 4622.768
     }
   ],
   "customers": [
@@ -4607,5 +4631,5 @@
       "note": "paid"
     }
   ],
-  "lastSync": "2026-06-02T07:52:51.785Z"
+  "lastSync": "2026-06-03T15:56:53.283Z"
 }
