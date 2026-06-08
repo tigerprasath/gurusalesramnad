@@ -350,7 +350,7 @@
       "BILLING_PRICE": 43.24,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 110
+      "AVAILABLE_STOCK": 85
     },
     {
       "id": 33,
@@ -3519,6 +3519,19 @@
       "grand_total": 4622.768,
       "grand_total_rounded": 4623,
       "cancelled": false
+    },
+    {
+      "id": 54,
+      "invoice_no": "GURU/26-27/40",
+      "invoice_date": "2026-06-08T06:30:56.948Z",
+      "buyer_name": "KUPERA PAINTS",
+      "buyer_phone": "",
+      "buyer_address": "36, Devipattinam Road, Kenikarai, Ramnad. GST.NO 33AUYPK6494Q1ZC",
+      "total_billing": 1081,
+      "total_gst": 194.57999999999998,
+      "grand_total": 1275.58,
+      "grand_total_rounded": 1276,
+      "cancelled": false
     }
   ],
   "invoiceItems": [
@@ -4588,6 +4601,17 @@
       "unit_price": 244.85,
       "gst": 705.168,
       "total": 4622.768
+    },
+    {
+      "id": "l053uh7ka",
+      "invoice_id": 54,
+      "product_code": "",
+      "product_name": "K2 KRACK SEAL",
+      "pack_size": "01KG PU",
+      "quantity": 25,
+      "unit_price": 43.24,
+      "gst": 194.57999999999998,
+      "total": 1275.58
     }
   ],
   "customers": [
@@ -4631,5 +4655,5 @@
       "note": "paid"
     }
   ],
-  "lastSync": "2026-06-03T15:56:53.283Z"
+  "lastSync": "2026-06-08T06:31:37.508Z"
 }
