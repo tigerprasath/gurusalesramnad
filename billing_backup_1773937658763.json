@@ -1131,7 +1131,7 @@
       "BILLING_PRICE": 40.75,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 60
+      "AVAILABLE_STOCK": 40
     },
     {
       "id": 104,
@@ -3532,6 +3532,19 @@
       "grand_total": 1275.58,
       "grand_total_rounded": 1276,
       "cancelled": false
+    },
+    {
+      "id": 55,
+      "invoice_no": "GURU/26-27/41",
+      "invoice_date": "2026-06-10T05:59:53.982Z",
+      "buyer_name": "KUPERA PAINTS",
+      "buyer_phone": "",
+      "buyer_address": "36, Devipattinam Road, Kenikarai, Ramnad. GST.NO 33AUYPK6494Q1ZC",
+      "total_billing": 815,
+      "total_gst": 146.7,
+      "grand_total": 961.7,
+      "grand_total_rounded": 962,
+      "cancelled": false
     }
   ],
   "invoiceItems": [
@@ -4612,6 +4625,17 @@
       "unit_price": 43.24,
       "gst": 194.57999999999998,
       "total": 1275.58
+    },
+    {
+      "id": "xho5y0vcl",
+      "invoice_id": 55,
+      "product_code": "",
+      "product_name": "K2 COLORFIL TJF (BLACK)",
+      "pack_size": "01KG PU",
+      "quantity": 20,
+      "unit_price": 40.75,
+      "gst": 146.7,
+      "total": 961.6999999999999
     }
   ],
   "customers": [
@@ -4655,5 +4679,5 @@
       "note": "paid"
     }
   ],
-  "lastSync": "2026-06-08T06:31:37.508Z"
+  "lastSync": "2026-06-10T06:00:49.675Z"
 }
