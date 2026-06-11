@@ -2033,7 +2033,7 @@
       "BILLING_PRICE": 244.85,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 48
+      "AVAILABLE_STOCK": 32
     },
     {
       "id": 186,
@@ -2825,7 +2825,7 @@
       "BILLING_PRICE": 334.85,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 36
+      "AVAILABLE_STOCK": 30
     },
     {
       "id": 258,
@@ -3544,6 +3544,19 @@
       "total_gst": 146.7,
       "grand_total": 961.7,
       "grand_total_rounded": 962,
+      "cancelled": false
+    },
+    {
+      "id": 56,
+      "invoice_no": "GURU/26-27/42",
+      "invoice_date": "2026-06-11T09:51:18.558Z",
+      "buyer_name": "MEGA HARDWARES",
+      "buyer_phone": "",
+      "buyer_address": "12/2829/2, 12/2829/3, 12/2829/4, NORTH 5TH STREET, Pattinamkaathan, Ramanathapuram 623503. GST.NO; 33ABXFM2732P1ZK",
+      "total_billing": 5926.7,
+      "total_gst": 1066.806,
+      "grand_total": 6993.505999999999,
+      "grand_total_rounded": 6994,
       "cancelled": false
     }
   ],
@@ -4636,6 +4649,28 @@
       "unit_price": 40.75,
       "gst": 146.7,
       "total": 961.6999999999999
+    },
+    {
+      "id": "xof334q3j",
+      "invoice_id": 56,
+      "product_code": "",
+      "product_name": "K2 POLYCRETE",
+      "pack_size": "01LTR CBY",
+      "quantity": 16,
+      "unit_price": 244.85,
+      "gst": 705.168,
+      "total": 4622.768
+    },
+    {
+      "id": "lohf7xva2",
+      "invoice_id": 56,
+      "product_code": "",
+      "product_name": "K2 HYDROSEAL",
+      "pack_size": "01LTR CBY",
+      "quantity": 6,
+      "unit_price": 334.85,
+      "gst": 361.63800000000003,
+      "total": 2370.738
     }
   ],
   "customers": [
@@ -4679,5 +4714,5 @@
       "note": "paid"
     }
   ],
-  "lastSync": "2026-06-10T06:00:49.675Z"
+  "lastSync": "2026-06-11T10:59:19.623Z"
 }
