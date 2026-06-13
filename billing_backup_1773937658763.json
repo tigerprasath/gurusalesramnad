@@ -350,7 +350,7 @@
       "BILLING_PRICE": 43.24,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 85
+      "AVAILABLE_STOCK": 60
     },
     {
       "id": 33,
@@ -2550,7 +2550,7 @@
       "BILLING_PRICE": 45.34,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 28
+      "AVAILABLE_STOCK": 13
     },
     {
       "id": 233,
@@ -3557,6 +3557,19 @@
       "total_gst": 1066.806,
       "grand_total": 6993.505999999999,
       "grand_total_rounded": 6994,
+      "cancelled": false
+    },
+    {
+      "id": 57,
+      "invoice_no": "GURU/26-27/43",
+      "invoice_date": "2026-06-13T12:06:15.238Z",
+      "buyer_name": "KTRR PANDIAN PAINTS ELECTRICALS",
+      "buyer_phone": "9843260505",
+      "buyer_address": "19/44 V S SALAI KILAKARAI, RAMANATHAPURAM-623517 GSTIN: 33AJYPP5770B2ZU",
+      "total_billing": 1761.1,
+      "total_gst": 316.998,
+      "grand_total": 2078.098,
+      "grand_total_rounded": 2078,
       "cancelled": false
     }
   ],
@@ -4671,6 +4684,28 @@
       "unit_price": 334.85,
       "gst": 361.63800000000003,
       "total": 2370.738
+    },
+    {
+      "id": "9csmxupjq",
+      "invoice_id": 57,
+      "product_code": "",
+      "product_name": "K2 KRACK SEAL",
+      "pack_size": "01KG PU",
+      "quantity": 25,
+      "unit_price": 43.24,
+      "gst": 194.57999999999998,
+      "total": 1275.58
+    },
+    {
+      "id": "uynh1knwm",
+      "invoice_id": 57,
+      "product_code": "",
+      "product_name": "K2 CONFIBRE 6MM",
+      "pack_size": "125GM PU",
+      "quantity": 15,
+      "unit_price": 45.34,
+      "gst": 122.418,
+      "total": 802.518
     }
   ],
   "customers": [
@@ -4714,5 +4749,5 @@
       "note": "paid"
     }
   ],
-  "lastSync": "2026-06-11T10:59:19.623Z"
+  "lastSync": "2026-06-13T12:07:11.471Z"
 }
