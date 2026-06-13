@@ -383,7 +383,7 @@
       "BILLING_PRICE": 213.78,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 36
+      "AVAILABLE_STOCK": 6
     },
     {
       "id": 36,
@@ -416,7 +416,7 @@
       "BILLING_PRICE": 444.1,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 20
+      "AVAILABLE_STOCK": 17
     },
     {
       "id": 39,
@@ -449,7 +449,7 @@
       "BILLING_PRICE": 146.33,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 42
+      "AVAILABLE_STOCK": 24
     },
     {
       "id": 42,
@@ -867,7 +867,7 @@
       "BILLING_PRICE": 54.4,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 135
+      "AVAILABLE_STOCK": 123
     },
     {
       "id": 80,
@@ -878,7 +878,7 @@
       "BILLING_PRICE": 94.13,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 26
+      "AVAILABLE_STOCK": 20
     },
     {
       "id": 81,
@@ -2704,7 +2704,7 @@
       "BILLING_PRICE": 345.144,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 18
+      "AVAILABLE_STOCK": 12
     },
     {
       "id": 247,
@@ -2825,7 +2825,7 @@
       "BILLING_PRICE": 334.85,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 30
+      "AVAILABLE_STOCK": 24
     },
     {
       "id": 258,
@@ -3570,6 +3570,58 @@
       "total_gst": 316.998,
       "grand_total": 2078.098,
       "grand_total_rounded": 2078,
+      "cancelled": false
+    },
+    {
+      "id": 58,
+      "invoice_no": "GURU/26-27/44",
+      "invoice_date": "2026-06-13T14:40:54.755Z",
+      "buyer_name": "Shree alagarmalaiyan paints",
+      "buyer_phone": "",
+      "buyer_address": "Paramakudi",
+      "total_billing": 6645.3240000000005,
+      "total_gst": 1196.15832,
+      "grand_total": 7841.482320000001,
+      "grand_total_rounded": 7841,
+      "cancelled": false
+    },
+    {
+      "id": 59,
+      "invoice_no": "GURU/26-27/45",
+      "invoice_date": "2026-06-13T14:43:43.553Z",
+      "buyer_name": "SMD Traders",
+      "buyer_phone": "9944131370",
+      "buyer_address": "2/26, Nainar Kovil Road, Pandiyur. 623705 GST No: 33GROPS1364A1ZS",
+      "total_billing": 5214.63,
+      "total_gst": 938.6333999999999,
+      "grand_total": 6153.2634,
+      "grand_total_rounded": 6153,
+      "cancelled": false
+    },
+    {
+      "id": 60,
+      "invoice_no": "GURU/26-27/46",
+      "invoice_date": "2026-06-13T14:45:26.848Z",
+      "buyer_name": "Abirami Hardwares",
+      "buyer_phone": "9843660507",
+      "buyer_address": "Vandikara Street, Ramanathapuram GST.NO: 33AOOPK6050L1ZO",
+      "total_billing": 1282.68,
+      "total_gst": 230.8824,
+      "grand_total": 1513.5624,
+      "grand_total_rounded": 1514,
+      "cancelled": false
+    },
+    {
+      "id": 61,
+      "invoice_no": "GURU/26-27/47",
+      "invoice_date": "2026-06-13T14:49:50.315Z",
+      "buyer_name": "N.C.S.Sundaram Stores",
+      "buyer_phone": "9443150670",
+      "buyer_address": "64, Swami Vivekananda Salai, Ramanathapuram 623501\nGSTIN: 33ABTPR6372E1Z9",
+      "total_billing": 2534.55,
+      "total_gst": 456.219,
+      "grand_total": 2990.7690000000002,
+      "grand_total_rounded": 2991,
       "cancelled": false
     }
   ],
@@ -4706,6 +4758,116 @@
       "unit_price": 45.34,
       "gst": 122.418,
       "total": 802.518
+    },
+    {
+      "id": "ewia0ql2e",
+      "invoice_id": 58,
+      "product_code": "",
+      "product_name": "K2 BRUSHGARD WHITE",
+      "pack_size": "03KG CBY",
+      "quantity": 6,
+      "unit_price": 345.144,
+      "gst": 372.75552,
+      "total": 2443.6195199999997
+    },
+    {
+      "id": "mbquqeslg",
+      "invoice_id": 58,
+      "product_code": "",
+      "product_name": "K2 KRACKSEAL PASTE",
+      "pack_size": "01KG PU",
+      "quantity": 12,
+      "unit_price": 213.78,
+      "gst": 461.7648,
+      "total": 3027.1248
+    },
+    {
+      "id": "iiwm9ut7r",
+      "invoice_id": 58,
+      "product_code": "",
+      "product_name": "K2 HYDROSEAL",
+      "pack_size": "01LTR CBY",
+      "quantity": 6,
+      "unit_price": 334.85,
+      "gst": 361.63800000000003,
+      "total": 2370.738
+    },
+    {
+      "id": "yh2fv7byo",
+      "invoice_id": 59,
+      "product_code": "",
+      "product_name": "K2 KRACKSEAL PASTE",
+      "pack_size": "01KG PU",
+      "quantity": 12,
+      "unit_price": 213.78,
+      "gst": 461.7648,
+      "total": 3027.1248
+    },
+    {
+      "id": "4hcx4o0xd",
+      "invoice_id": 59,
+      "product_code": "",
+      "product_name": "K2  RESIGROUT",
+      "pack_size": "500GM PU",
+      "quantity": 9,
+      "unit_price": 146.33,
+      "gst": 237.0546,
+      "total": 1554.0246
+    },
+    {
+      "id": "p0ip7iy9g",
+      "invoice_id": 59,
+      "product_code": "",
+      "product_name": "K2 BITUSEAL (50MM X 10METER)",
+      "pack_size": "PACK",
+      "quantity": 3,
+      "unit_price": 444.1,
+      "gst": 239.81400000000002,
+      "total": 1572.114
+    },
+    {
+      "id": "rfkh6vgcd",
+      "invoice_id": 60,
+      "product_code": "",
+      "product_name": "K2 KRACKSEAL PASTE",
+      "pack_size": "01KG PU",
+      "quantity": 6,
+      "unit_price": 213.78,
+      "gst": 230.8824,
+      "total": 1513.5624
+    },
+    {
+      "id": "7eoui38x6",
+      "invoice_id": 61,
+      "product_code": "",
+      "product_name": "K2 MULTI CLEAN",
+      "pack_size": "01LTR CBY",
+      "quantity": 6,
+      "unit_price": 94.13,
+      "gst": 101.6604,
+      "total": 666.4404
+    },
+    {
+      "id": "oa3lygsij",
+      "invoice_id": 61,
+      "product_code": "",
+      "product_name": "K2 MULTI CLEAN",
+      "pack_size": "500ML PU",
+      "quantity": 12,
+      "unit_price": 54.4,
+      "gst": 117.50399999999999,
+      "total": 770.3039999999999
+    },
+    {
+      "id": "u3v8ch77o",
+      "invoice_id": 61,
+      "product_code": "",
+      "product_name": "K2  RESIGROUT",
+      "pack_size": "500GM PU",
+      "quantity": 9,
+      "unit_price": 146.33,
+      "gst": 237.0546,
+      "total": 1554.0246
     }
   ],
   "customers": [
@@ -4713,6 +4875,11 @@
       "name": "Abirami Hardwares",
       "phone": "9843660507",
       "address": "Vandikara Street, Ramanathapuram\nGST.NO: 33AOOPK6050L1ZO"
+    },
+    {
+      "name": "N.C.S.Sundaram Stores",
+      "phone": "9443150670",
+      "address": "64, Swami Vivekananda Salai, Ramanathapuram 623501\nGSTIN: 33ABTPR6372E1Z9"
     }
   ],
   "customerPayments": [
@@ -4749,5 +4916,5 @@
       "note": "paid"
     }
   ],
-  "lastSync": "2026-06-13T12:07:11.471Z"
+  "lastSync": "2026-06-13T14:50:39.638Z"
 }
