@@ -350,7 +350,7 @@
       "BILLING_PRICE": 43.24,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 60
+      "AVAILABLE_STOCK": 72
     },
     {
       "id": 33,
@@ -361,7 +361,7 @@
       "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 0
+      "AVAILABLE_STOCK": 9
     },
     {
       "id": 34,
@@ -383,7 +383,7 @@
       "BILLING_PRICE": 213.78,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 6
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 36,
@@ -413,7 +413,7 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 BITUSEAL (50MM X 10METER)",
       "PACK_SIZE": "PACK",
-      "BILLING_PRICE": 444.1,
+      "BILLING_PRICE": 219,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
       "AVAILABLE_STOCK": 17
@@ -449,7 +449,7 @@
       "BILLING_PRICE": 146.33,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 24
+      "AVAILABLE_STOCK": 15
     },
     {
       "id": 42,
@@ -3596,7 +3596,8 @@
       "total_gst": 938.6333999999999,
       "grand_total": 6153.2634,
       "grand_total_rounded": 6153,
-      "cancelled": false
+      "cancelled": true,
+      "cancelled_date": "2026-06-15T07:29:12.556Z"
     },
     {
       "id": 60,
@@ -3622,6 +3623,32 @@
       "total_gst": 456.219,
       "grand_total": 2990.7690000000002,
       "grand_total_rounded": 2991,
+      "cancelled": false
+    },
+    {
+      "id": 62,
+      "invoice_no": "GURU/26-27/48",
+      "invoice_date": "2026-06-15T11:42:38.994Z",
+      "buyer_name": "SMD Traders",
+      "buyer_phone": "9944131370",
+      "buyer_address": "2/26, Nainar Kovil Road, Pandiyur. 623705 GST No: 33GROPS1364A1ZS",
+      "total_billing": 4539.33,
+      "total_gst": 817.0794,
+      "grand_total": 5356.4094,
+      "grand_total_rounded": 5356,
+      "cancelled": false
+    },
+    {
+      "id": 63,
+      "invoice_no": "GURU/26-27/49",
+      "invoice_date": "2026-06-15T11:43:24.653Z",
+      "buyer_name": "KUPERA PAINTS",
+      "buyer_phone": "",
+      "buyer_address": "36, Devipattinam Road, Kenikarai, Ramnad. GST.NO 33AUYPK6494Q1ZC",
+      "total_billing": 5130.72,
+      "total_gst": 923.5296,
+      "grand_total": 6054.2496,
+      "grand_total_rounded": 6054,
       "cancelled": false
     }
   ],
@@ -4868,6 +4895,50 @@
       "unit_price": 146.33,
       "gst": 237.0546,
       "total": 1554.0246
+    },
+    {
+      "id": "7nmidatol",
+      "invoice_id": 62,
+      "product_code": "",
+      "product_name": "K2 KRACKSEAL PASTE",
+      "pack_size": "01KG PU",
+      "quantity": 12,
+      "unit_price": 213.78,
+      "gst": 461.7648,
+      "total": 3027.1248
+    },
+    {
+      "id": "pm5macwjl",
+      "invoice_id": 62,
+      "product_code": "",
+      "product_name": "K2  RESIGROUT",
+      "pack_size": "500GM PU",
+      "quantity": 9,
+      "unit_price": 146.33,
+      "gst": 237.0546,
+      "total": 1554.0246
+    },
+    {
+      "id": "es0o1owxd",
+      "invoice_id": 62,
+      "product_code": "",
+      "product_name": "K2 BITUSEAL (50MM X 10METER)",
+      "pack_size": "PACK",
+      "quantity": 3,
+      "unit_price": 219,
+      "gst": 118.25999999999999,
+      "total": 775.26
+    },
+    {
+      "id": "qf84fr89e",
+      "invoice_id": 63,
+      "product_code": "",
+      "product_name": "K2 KRACKSEAL PASTE",
+      "pack_size": "01KG PU",
+      "quantity": 24,
+      "unit_price": 213.78,
+      "gst": 923.5296,
+      "total": 6054.2496
     }
   ],
   "customers": [
@@ -4916,5 +4987,5 @@
       "note": "paid"
     }
   ],
-  "lastSync": "2026-06-14T05:48:38.799Z"
+  "lastSync": "2026-06-15T11:44:00.395Z"
 }
