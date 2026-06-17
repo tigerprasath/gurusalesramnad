@@ -977,7 +977,7 @@
       "BILLING_PRICE": 40.75,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 180
+      "AVAILABLE_STOCK": 140
     },
     {
       "id": 90,
@@ -3663,6 +3663,19 @@
       "grand_total": 1923.4,
       "grand_total_rounded": 1923,
       "cancelled": false
+    },
+    {
+      "id": 65,
+      "invoice_no": "GURU/26-27/51",
+      "invoice_date": "2026-06-17T14:06:01.934Z",
+      "buyer_name": "Basheer Tiles House",
+      "buyer_phone": "04567355818",
+      "buyer_address": "69 A2, Railway Feeder Road, Ramanathapuram 623501 GSTIN: 33CAFPS9890B1ZF",
+      "total_billing": 1630,
+      "total_gst": 293.4,
+      "grand_total": 1923.4,
+      "grand_total_rounded": 1923,
+      "cancelled": false
     }
   ],
   "invoiceItems": [
@@ -4974,6 +4987,17 @@
       "unit_price": 40.75,
       "gst": 146.7,
       "total": 961.6999999999999
+    },
+    {
+      "id": "ttfugodfl",
+      "invoice_id": 65,
+      "product_code": "",
+      "product_name": "K2 COLORFIL TJF (WHITE)",
+      "pack_size": "01KG PU",
+      "quantity": 40,
+      "unit_price": 40.75,
+      "gst": 293.4,
+      "total": 1923.3999999999999
     }
   ],
   "customers": [
@@ -5022,5 +5046,5 @@
       "note": "paid"
     }
   ],
-  "lastSync": "2026-06-17T14:04:05.954Z"
+  "lastSync": "2026-06-17T14:07:04.096Z"
 }
