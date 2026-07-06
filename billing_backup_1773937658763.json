@@ -2572,7 +2572,7 @@
       "BILLING_PRICE": 45.34,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 37
+      "AVAILABLE_STOCK": 12
     },
     {
       "id": 235,
@@ -3753,6 +3753,19 @@
       "total_gst": 293.4,
       "grand_total": 1923.4,
       "grand_total_rounded": 1923,
+      "cancelled": false
+    },
+    {
+      "id": 72,
+      "invoice_no": "GURU/26-27/58",
+      "invoice_date": "2026-07-06T05:07:58.938Z",
+      "buyer_name": "MR TRADERS",
+      "buyer_phone": "",
+      "buyer_address": "61C1 R.F Road Ramanathapuram 623504 GSTIN: 33AAMFM4186H1Z2",
+      "total_billing": 1133.5,
+      "total_gst": 204.03,
+      "grand_total": 1337.53,
+      "grand_total_rounded": 1338,
       "cancelled": false
     }
   ],
@@ -5153,6 +5166,17 @@
       "unit_price": 40.75,
       "gst": 293.4,
       "total": 1923.3999999999999
+    },
+    {
+      "id": "7syxilgen",
+      "invoice_id": 72,
+      "product_code": "",
+      "product_name": "K2 CONFIBRE 12MM",
+      "pack_size": "125GM PU",
+      "quantity": 25,
+      "unit_price": 45.34,
+      "gst": 204.03,
+      "total": 1337.53
     }
   ],
   "customers": [
@@ -5201,5 +5225,5 @@
       "note": "paid"
     }
   ],
-  "lastSync": "2026-07-06T04:56:46.992Z"
+  "lastSync": "2026-07-06T05:08:48.654Z"
 }
