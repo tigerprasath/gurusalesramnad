@@ -350,7 +350,7 @@
       "BILLING_PRICE": 43.24,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 32
+      "AVAILABLE_STOCK": 7
     },
     {
       "id": 33,
@@ -3767,6 +3767,19 @@
       "grand_total": 1337.53,
       "grand_total_rounded": 1338,
       "cancelled": false
+    },
+    {
+      "id": 73,
+      "invoice_no": "GURU/26-27/59",
+      "invoice_date": "2026-07-07T07:50:18.740Z",
+      "buyer_name": "Abirami Hardwares",
+      "buyer_phone": "9843660507",
+      "buyer_address": "Vandikara Street, Ramanathapuram GST.NO: 33AOOPK6050L1ZO",
+      "total_billing": 1081,
+      "total_gst": 194.57999999999998,
+      "grand_total": 1275.58,
+      "grand_total_rounded": 1276,
+      "cancelled": false
     }
   ],
   "invoiceItems": [
@@ -5177,6 +5190,17 @@
       "unit_price": 45.34,
       "gst": 204.03,
       "total": 1337.53
+    },
+    {
+      "id": "e2wdhj9tg",
+      "invoice_id": 73,
+      "product_code": "",
+      "product_name": "K2 KRACK SEAL",
+      "pack_size": "01KG PU",
+      "quantity": 25,
+      "unit_price": 43.24,
+      "gst": 194.57999999999998,
+      "total": 1275.58
     }
   ],
   "customers": [
@@ -5225,5 +5249,5 @@
       "note": "paid"
     }
   ],
-  "lastSync": "2026-07-06T05:08:48.654Z"
+  "lastSync": "2026-07-07T07:51:07.173Z"
 }
