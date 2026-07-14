@@ -867,7 +867,7 @@
       "BILLING_PRICE": 54.4,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 123
+      "AVAILABLE_STOCK": 99
     },
     {
       "id": 80,
@@ -878,7 +878,7 @@
       "BILLING_PRICE": 94.13,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 20
+      "AVAILABLE_STOCK": 4
     },
     {
       "id": 81,
@@ -977,7 +977,7 @@
       "BILLING_PRICE": 40.75,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 80
+      "AVAILABLE_STOCK": 40
     },
     {
       "id": 90,
@@ -1131,7 +1131,7 @@
       "BILLING_PRICE": 40.75,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 40
+      "AVAILABLE_STOCK": 20
     },
     {
       "id": 104,
@@ -3780,6 +3780,45 @@
       "grand_total": 1275.58,
       "grand_total_rounded": 1276,
       "cancelled": false
+    },
+    {
+      "id": 74,
+      "invoice_no": "GURU/26-27/60",
+      "invoice_date": "2026-07-13T06:02:29.912Z",
+      "buyer_name": "KUPERA PAINTS",
+      "buyer_phone": "",
+      "buyer_address": "36, Devipattinam Road, Kenikarai, Ramnad. GST.NO 33AUYPK6494Q1ZC",
+      "total_billing": 815,
+      "total_gst": 146.7,
+      "grand_total": 961.7,
+      "grand_total_rounded": 962,
+      "cancelled": false
+    },
+    {
+      "id": 75,
+      "invoice_no": "GURU/26-27/61",
+      "invoice_date": "2026-07-14T07:31:07.904Z",
+      "buyer_name": "Basheer Tiles House",
+      "buyer_phone": "04567355818",
+      "buyer_address": "69 A2, Railway Feeder Road, Ramanathapuram 623501 GSTIN: 33CAFPS9890B1ZF",
+      "total_billing": 2811.68,
+      "total_gst": 506.10239999999993,
+      "grand_total": 3317.7823999999996,
+      "grand_total_rounded": 3318,
+      "cancelled": false
+    },
+    {
+      "id": 76,
+      "invoice_no": "GURU/26-27/62",
+      "invoice_date": "2026-07-14T07:32:18.099Z",
+      "buyer_name": "KUPERA PAINTS",
+      "buyer_phone": "",
+      "buyer_address": "36, Devipattinam Road, Kenikarai, Ramnad. GST.NO 33AUYPK6494Q1ZC",
+      "total_billing": 1630,
+      "total_gst": 293.4,
+      "grand_total": 1923.4,
+      "grand_total_rounded": 1923,
+      "cancelled": false
     }
   ],
   "invoiceItems": [
@@ -5201,6 +5240,50 @@
       "unit_price": 43.24,
       "gst": 194.57999999999998,
       "total": 1275.58
+    },
+    {
+      "id": "b8qjomfp7",
+      "invoice_id": 74,
+      "product_code": "",
+      "product_name": "K2 COLORFIL TJF (BLACK)",
+      "pack_size": "01KG PU",
+      "quantity": 20,
+      "unit_price": 40.75,
+      "gst": 146.7,
+      "total": 961.6999999999999
+    },
+    {
+      "id": "h7evbdwis",
+      "invoice_id": 75,
+      "product_code": "",
+      "product_name": "K2 MULTI CLEAN",
+      "pack_size": "01LTR CBY",
+      "quantity": 16,
+      "unit_price": 94.13,
+      "gst": 271.09439999999995,
+      "total": 1777.1743999999999
+    },
+    {
+      "id": "qeazt7dw0",
+      "invoice_id": 75,
+      "product_code": "",
+      "product_name": "K2 MULTI CLEAN",
+      "pack_size": "500ML PU",
+      "quantity": 24,
+      "unit_price": 54.4,
+      "gst": 235.00799999999998,
+      "total": 1540.6079999999997
+    },
+    {
+      "id": "rp7jtj6t1",
+      "invoice_id": 76,
+      "product_code": "",
+      "product_name": "K2 COLORFIL TJF (WHITE)",
+      "pack_size": "01KG PU",
+      "quantity": 40,
+      "unit_price": 40.75,
+      "gst": 293.4,
+      "total": 1923.3999999999999
     }
   ],
   "customers": [
@@ -5249,5 +5332,5 @@
       "note": "paid"
     }
   ],
-  "lastSync": "2026-07-07T07:51:07.173Z"
+  "lastSync": "2026-07-14T07:33:36.024Z"
 }
