@@ -2704,7 +2704,7 @@
       "BILLING_PRICE": 345.144,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 6
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 247,
@@ -3818,6 +3818,19 @@
       "total_gst": 293.4,
       "grand_total": 1923.4,
       "grand_total_rounded": 1923,
+      "cancelled": false
+    },
+    {
+      "id": 77,
+      "invoice_no": "GURU/26-27/63",
+      "invoice_date": "2026-07-16T05:44:07.045Z",
+      "buyer_name": "Abirami Hardwares",
+      "buyer_phone": "9843660507",
+      "buyer_address": "Vandikara Street, Ramanathapuram GST.NO: 33AOOPK6050L1ZO",
+      "total_billing": 2070.864,
+      "total_gst": 372.75552,
+      "grand_total": 2443.61952,
+      "grand_total_rounded": 2444,
       "cancelled": false
     }
   ],
@@ -5284,6 +5297,17 @@
       "unit_price": 40.75,
       "gst": 293.4,
       "total": 1923.3999999999999
+    },
+    {
+      "id": "oh4lfusag",
+      "invoice_id": 77,
+      "product_code": "",
+      "product_name": "K2 BRUSHGARD WHITE",
+      "pack_size": "03KG CBY",
+      "quantity": 6,
+      "unit_price": 345.144,
+      "gst": 372.75552,
+      "total": 2443.6195199999997
     }
   ],
   "customers": [
@@ -5332,5 +5356,5 @@
       "note": "paid"
     }
   ],
-  "lastSync": "2026-07-14T07:33:36.024Z"
+  "lastSync": "2026-07-16T05:46:15.552Z"
 }
