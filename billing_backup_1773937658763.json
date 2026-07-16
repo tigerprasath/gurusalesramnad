@@ -2525,10 +2525,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 CONPROOF PLUS",
       "PACK_SIZE": "01LTR CBY",
-      "BILLING_PRICE": 85.27,
+      "BILLING_PRICE": 85.28,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 26
+      "AVAILABLE_STOCK": 10
     },
     {
       "id": 231,
@@ -3831,6 +3831,19 @@
       "total_gst": 372.75552,
       "grand_total": 2443.61952,
       "grand_total_rounded": 2444,
+      "cancelled": false
+    },
+    {
+      "id": 78,
+      "invoice_no": "GURU/26-27/64",
+      "invoice_date": "2026-07-16T12:36:31.187Z",
+      "buyer_name": "GOLDEN MARKETING - THENI",
+      "buyer_phone": "",
+      "buyer_address": "HALL NO: 3, W1/287/2, NGO COLONY,\nANNANJI THENI \nGSTIN/UIN :33AKUPG3874G1ZV\nSTATE NAME: TAMILNADU, CODE:33",
+      "total_billing": 1056,
+      "total_gst": 190.07999999999998,
+      "grand_total": 1246.08,
+      "grand_total_rounded": 1246,
       "cancelled": false
     }
   ],
@@ -5308,6 +5321,17 @@
       "unit_price": 345.144,
       "gst": 372.75552,
       "total": 2443.6195199999997
+    },
+    {
+      "id": "t3akxc6p1",
+      "invoice_id": 78,
+      "product_code": "",
+      "product_name": "K2 CONPROOF PLUS",
+      "pack_size": "01LTR CBY",
+      "quantity": 16,
+      "unit_price": 66,
+      "gst": 190.07999999999998,
+      "total": 1246.08
     }
   ],
   "customers": [
@@ -5320,6 +5344,11 @@
       "name": "N.C.S.Sundaram Stores",
       "phone": "9443150670",
       "address": "64, Swami Vivekananda Salai, Ramanathapuram 623501\nGSTIN: 33ABTPR6372E1Z9"
+    },
+    {
+      "name": "GOLDEN MARKETING - THENI",
+      "phone": "",
+      "address": "HALL NO: 3, W1/287/2, NGO COLONY,\nANNANJI THENI \nGSTIN/UIN :33AKUPG3874G1ZV\nSTATE NAME: TAMILNADU, CODE:33"
     }
   ],
   "customerPayments": [
@@ -5356,5 +5385,5 @@
       "note": "paid"
     }
   ],
-  "lastSync": "2026-07-16T05:46:15.552Z"
+  "lastSync": "2026-07-16T12:43:55.703Z"
 }
