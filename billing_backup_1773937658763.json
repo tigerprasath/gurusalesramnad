@@ -416,7 +416,7 @@
       "BILLING_PRICE": 219,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 14
+      "AVAILABLE_STOCK": 11
     },
     {
       "id": 39,
@@ -867,7 +867,7 @@
       "BILLING_PRICE": 54.4,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 99
+      "AVAILABLE_STOCK": 93
     },
     {
       "id": 80,
@@ -878,7 +878,7 @@
       "BILLING_PRICE": 94.13,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 4
+      "AVAILABLE_STOCK": 1
     },
     {
       "id": 81,
@@ -2525,10 +2525,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 CONPROOF PLUS",
       "PACK_SIZE": "01LTR CBY",
-      "BILLING_PRICE": 85.28,
+      "BILLING_PRICE": 85.27,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 10
+      "AVAILABLE_STOCK": 26
     },
     {
       "id": 231,
@@ -3836,14 +3836,14 @@
     {
       "id": 78,
       "invoice_no": "GURU/26-27/64",
-      "invoice_date": "2026-07-16T12:36:31.187Z",
-      "buyer_name": "GOLDEN MARKETING - THENI",
-      "buyer_phone": "",
-      "buyer_address": "HALL NO: 3, W1/287/2, NGO COLONY,\nANNANJI THENI \nGSTIN/UIN :33AKUPG3874G1ZV\nSTATE NAME: TAMILNADU, CODE:33",
-      "total_billing": 1056,
-      "total_gst": 190.07999999999998,
-      "grand_total": 1246.08,
-      "grand_total_rounded": 1246,
+      "invoice_date": "2026-07-20T10:49:59.354Z",
+      "buyer_name": "KTRR PANDIAN PAINTS ELECTRICALS",
+      "buyer_phone": "9843260505",
+      "buyer_address": "19/44 V S SALAI KILAKARAI, RAMANATHAPURAM-623517 GSTIN: 33AJYPP5770B2ZU",
+      "total_billing": 2334.69,
+      "total_gst": 420.2442,
+      "grand_total": 2754.9342,
+      "grand_total_rounded": 2755,
       "cancelled": false
     }
   ],
@@ -5323,15 +5323,48 @@
       "total": 2443.6195199999997
     },
     {
-      "id": "t3akxc6p1",
+      "id": "p18acc87l",
       "invoice_id": 78,
       "product_code": "",
-      "product_name": "K2 CONPROOF PLUS",
+      "product_name": "K2 BITUSEAL (50MM X 10METER)",
+      "pack_size": "PACK",
+      "quantity": 3,
+      "unit_price": 219,
+      "gst": 118.25999999999999,
+      "total": 775.26
+    },
+    {
+      "id": "4875u6p3l",
+      "invoice_id": 78,
+      "product_code": "",
+      "product_name": "K2 MULTI CLEAN",
       "pack_size": "01LTR CBY",
-      "quantity": 16,
-      "unit_price": 66,
-      "gst": 190.07999999999998,
-      "total": 1246.08
+      "quantity": 3,
+      "unit_price": 94.13,
+      "gst": 50.8302,
+      "total": 333.2202
+    },
+    {
+      "id": "hpwvzvqkm",
+      "invoice_id": 78,
+      "product_code": "",
+      "product_name": "K2 MULTI CLEAN",
+      "pack_size": "500ML PU",
+      "quantity": 6,
+      "unit_price": 54.4,
+      "gst": 58.751999999999995,
+      "total": 385.15199999999993
+    },
+    {
+      "id": "kx0oz2i5b",
+      "invoice_id": 78,
+      "product_code": "",
+      "product_name": "K2 KRACKSEAL PASTE",
+      "pack_size": "01KG PU",
+      "quantity": 5,
+      "unit_price": 213.78,
+      "gst": 192.40200000000002,
+      "total": 1261.3020000000001
     }
   ],
   "customers": [
@@ -5344,11 +5377,6 @@
       "name": "N.C.S.Sundaram Stores",
       "phone": "9443150670",
       "address": "64, Swami Vivekananda Salai, Ramanathapuram 623501\nGSTIN: 33ABTPR6372E1Z9"
-    },
-    {
-      "name": "GOLDEN MARKETING - THENI",
-      "phone": "",
-      "address": "HALL NO: 3, W1/287/2, NGO COLONY,\nANNANJI THENI \nGSTIN/UIN :33AKUPG3874G1ZV\nSTATE NAME: TAMILNADU, CODE:33"
     }
   ],
   "customerPayments": [
@@ -5385,5 +5413,5 @@
       "note": "paid"
     }
   ],
-  "lastSync": "2026-07-16T12:43:55.703Z"
+  "lastSync": "2026-07-20T10:50:55.228Z"
 }
