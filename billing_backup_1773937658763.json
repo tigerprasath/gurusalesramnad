@@ -2834,6 +2834,14 @@
       "PACK_SIZE": "03KG",
       "BILLING_PRICE": 0,
       "AVAILABLE_STOCK": 0
+    },
+    {
+      "id": 259,
+      "PRODUCT_CODE": "",
+      "PRODUCT_NAME": "DRYPROOF WPC",
+      "PACK_SIZE": "1KG",
+      "BILLING_PRICE": 21.5,
+      "AVAILABLE_STOCK": 0
     }
   ],
   "invoices": [
@@ -3844,6 +3852,32 @@
       "total_gst": 420.2442,
       "grand_total": 2754.9342,
       "grand_total_rounded": 2755,
+      "cancelled": false
+    },
+    {
+      "id": 79,
+      "invoice_no": "GURU/26-27/65",
+      "invoice_date": "2026-07-22T06:26:32.688Z",
+      "buyer_name": "AYYANS & CO",
+      "buyer_phone": "9842419226",
+      "buyer_address": "431, Thangachimadam mani road, Ramnad GST NO: 33AFBPV4931K1Z9",
+      "total_billing": 537.5,
+      "total_gst": 96.75,
+      "grand_total": 634.25,
+      "grand_total_rounded": 634,
+      "cancelled": false
+    },
+    {
+      "id": 80,
+      "invoice_no": "GURU/26-27/66",
+      "invoice_date": "2026-07-22T06:27:26.192Z",
+      "buyer_name": "K.B.Baskaran traders",
+      "buyer_phone": "9442986163",
+      "buyer_address": "Uchipilli. 623534 GST NO: 33BEFPB2543M1ZQ",
+      "total_billing": 537.5,
+      "total_gst": 96.75,
+      "grand_total": 634.25,
+      "grand_total_rounded": 634,
       "cancelled": false
     }
   ],
@@ -5365,6 +5399,28 @@
       "unit_price": 213.78,
       "gst": 192.40200000000002,
       "total": 1261.3020000000001
+    },
+    {
+      "id": "txcb18hyp",
+      "invoice_id": 79,
+      "product_code": "",
+      "product_name": "DRYPROOF WPC",
+      "pack_size": "1KG",
+      "quantity": 25,
+      "unit_price": 21.5,
+      "gst": 96.75,
+      "total": 634.25
+    },
+    {
+      "id": "6hy20i4oe",
+      "invoice_id": 80,
+      "product_code": "",
+      "product_name": "DRYPROOF WPC",
+      "pack_size": "1KG",
+      "quantity": 25,
+      "unit_price": 21.5,
+      "gst": 96.75,
+      "total": 634.25
     }
   ],
   "customers": [
@@ -5413,5 +5469,5 @@
       "note": "paid"
     }
   ],
-  "lastSync": "2026-07-20T10:50:55.228Z"
+  "lastSync": "2026-07-22T06:27:59.577Z"
 }
