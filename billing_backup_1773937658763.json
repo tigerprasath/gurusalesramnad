@@ -2528,7 +2528,7 @@
       "BILLING_PRICE": 85.27,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 26
+      "AVAILABLE_STOCK": 20
     },
     {
       "id": 231,
@@ -3878,6 +3878,19 @@
       "total_gst": 96.75,
       "grand_total": 634.25,
       "grand_total_rounded": 634,
+      "cancelled": false
+    },
+    {
+      "id": 81,
+      "invoice_no": "GURU/26-27/67",
+      "invoice_date": "2026-07-22T09:27:00.255Z",
+      "buyer_name": "AYYANS & CO",
+      "buyer_phone": "9842419226",
+      "buyer_address": "431, Thangachimadam mani road, Ramnad GST NO: 33AFBPV4931K1Z9",
+      "total_billing": 511.62,
+      "total_gst": 92.0916,
+      "grand_total": 603.7116,
+      "grand_total_rounded": 604,
       "cancelled": false
     }
   ],
@@ -5421,6 +5434,17 @@
       "unit_price": 21.5,
       "gst": 96.75,
       "total": 634.25
+    },
+    {
+      "id": "u4dcug8bf",
+      "invoice_id": 81,
+      "product_code": "",
+      "product_name": "K2 CONPROOF PLUS",
+      "pack_size": "01LTR CBY",
+      "quantity": 6,
+      "unit_price": 85.27,
+      "gst": 92.0916,
+      "total": 603.7116
     }
   ],
   "customers": [
@@ -5469,5 +5493,5 @@
       "note": "paid"
     }
   ],
-  "lastSync": "2026-07-22T06:27:59.577Z"
+  "lastSync": "2026-07-22T09:27:48.634Z"
 }
