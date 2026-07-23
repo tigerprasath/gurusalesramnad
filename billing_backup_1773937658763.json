@@ -3931,6 +3931,19 @@
       "grand_total": 1275.58,
       "grand_total_rounded": 1276,
       "cancelled": false
+    },
+    {
+      "id": 85,
+      "invoice_no": "GURU/26-27/71",
+      "invoice_date": "2026-07-23T11:23:23.640Z",
+      "buyer_name": "KUPERA PAINTS",
+      "buyer_phone": "",
+      "buyer_address": "36, Devipattinam Road, Kenikarai, Ramnad. GST.NO 33AUYPK6494Q1ZC",
+      "total_billing": 5130.72,
+      "total_gst": 923.5296,
+      "grand_total": 6054.2496,
+      "grand_total_rounded": 6054,
+      "cancelled": false
     }
   ],
   "invoiceItems": [
@@ -5539,6 +5552,17 @@
       "unit_price": 43.24,
       "gst": 194.57999999999998,
       "total": 1275.58
+    },
+    {
+      "id": "h5ywfqi9f",
+      "invoice_id": 85,
+      "product_code": "",
+      "product_name": "K2 KRACKSEAL PASTE",
+      "pack_size": "01KG PU",
+      "quantity": 24,
+      "unit_price": 213.78,
+      "gst": 923.5296,
+      "total": 6054.2496
     }
   ],
   "customers": [
@@ -5587,5 +5611,5 @@
       "note": "paid"
     }
   ],
-  "lastSync": "2026-07-23T07:10:00.072Z"
+  "lastSync": "2026-07-23T11:24:24.411Z"
 }
