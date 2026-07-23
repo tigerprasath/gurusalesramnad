@@ -977,7 +977,7 @@
       "BILLING_PRICE": 40.75,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 40
+      "AVAILABLE_STOCK": 20
     },
     {
       "id": 90,
@@ -2682,7 +2682,7 @@
       "BILLING_PRICE": 303.756,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 12
+      "AVAILABLE_STOCK": 6
     },
     {
       "id": 245,
@@ -3897,6 +3897,32 @@
       "id": 82,
       "invoice_no": "GURU/26-27/68",
       "invoice_date": "2026-07-22T13:34:56.074Z",
+      "buyer_name": "KUPERA PAINTS",
+      "buyer_phone": "",
+      "buyer_address": "36, Devipattinam Road, Kenikarai, Ramnad. GST.NO 33AUYPK6494Q1ZC",
+      "total_billing": 1081,
+      "total_gst": 194.57999999999998,
+      "grand_total": 1275.58,
+      "grand_total_rounded": 1276,
+      "cancelled": false
+    },
+    {
+      "id": 83,
+      "invoice_no": "GURU/26-27/69",
+      "invoice_date": "2026-07-23T05:51:08.912Z",
+      "buyer_name": "Shree alagarmalaiyan paints",
+      "buyer_phone": "",
+      "buyer_address": "Paramakudi",
+      "total_billing": 5202.896,
+      "total_gst": 936.5212799999999,
+      "grand_total": 6139.41728,
+      "grand_total_rounded": 6139,
+      "cancelled": false
+    },
+    {
+      "id": 84,
+      "invoice_no": "GURU/26-27/70",
+      "invoice_date": "2026-07-23T05:53:00.755Z",
       "buyer_name": "KUPERA PAINTS",
       "buyer_phone": "",
       "buyer_address": "36, Devipattinam Road, Kenikarai, Ramnad. GST.NO 33AUYPK6494Q1ZC",
@@ -5469,6 +5495,50 @@
       "unit_price": 43.24,
       "gst": 194.57999999999998,
       "total": 1275.58
+    },
+    {
+      "id": "jw8vrytiz",
+      "invoice_id": 83,
+      "product_code": "",
+      "product_name": "K2 KRACKSEAL PASTE",
+      "pack_size": "01KG PU",
+      "quantity": 12,
+      "unit_price": 213.78,
+      "gst": 461.7648,
+      "total": 3027.1248
+    },
+    {
+      "id": "jax8votp3",
+      "invoice_id": 83,
+      "product_code": "",
+      "product_name": "K2 COLORFIL TJF (WHITE)",
+      "pack_size": "01KG PU",
+      "quantity": 20,
+      "unit_price": 40.75,
+      "gst": 146.7,
+      "total": 961.6999999999999
+    },
+    {
+      "id": "0j8bjh9ou",
+      "invoice_id": 83,
+      "product_code": "",
+      "product_name": "K2 BRUSHGARD",
+      "pack_size": "03KG CBY",
+      "quantity": 6,
+      "unit_price": 303.756,
+      "gst": 328.05647999999997,
+      "total": 2150.59248
+    },
+    {
+      "id": "xjzorornw",
+      "invoice_id": 84,
+      "product_code": "",
+      "product_name": "K2 KRACK SEAL",
+      "pack_size": "01KG PU",
+      "quantity": 25,
+      "unit_price": 43.24,
+      "gst": 194.57999999999998,
+      "total": 1275.58
     }
   ],
   "customers": [
@@ -5517,5 +5587,5 @@
       "note": "paid"
     }
   ],
-  "lastSync": "2026-07-22T13:35:49.835Z"
+  "lastSync": "2026-07-23T05:53:40.962Z"
 }
