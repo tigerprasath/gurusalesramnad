@@ -2165,7 +2165,7 @@
       "BILLING_PRICE": 280.06,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 9
+      "AVAILABLE_STOCK": 7
     },
     {
       "id": 198,
@@ -3944,6 +3944,45 @@
       "grand_total": 6054.2496,
       "grand_total_rounded": 6054,
       "cancelled": false
+    },
+    {
+      "id": 86,
+      "invoice_no": "GURU/26-27/72",
+      "invoice_date": "2026-07-27T06:06:34.774Z",
+      "buyer_name": "Abirami Hardwares",
+      "buyer_phone": "9843660507",
+      "buyer_address": "Vandikara Street, Ramanathapuram GST.NO: 33AOOPK6050L1ZO",
+      "total_billing": 560.12,
+      "total_gst": 100.8216,
+      "grand_total": 660.9416,
+      "grand_total_rounded": 661,
+      "cancelled": false
+    },
+    {
+      "id": 87,
+      "invoice_no": "GURU/26-27/73",
+      "invoice_date": "2026-07-30T14:15:04.560Z",
+      "buyer_name": "QUALITY COLORS",
+      "buyer_phone": "7418831122",
+      "buyer_address": "Ramanathapuram GST NO: 33EMXPS2411G1ZT",
+      "total_billing": 2565.36,
+      "total_gst": 461.7648,
+      "grand_total": 3027.1248,
+      "grand_total_rounded": 3027,
+      "cancelled": false
+    },
+    {
+      "id": 88,
+      "invoice_no": "GURU/26-27/74",
+      "invoice_date": "2026-07-30T14:15:50.670Z",
+      "buyer_name": "QUALITY COLORS",
+      "buyer_phone": "7418831122",
+      "buyer_address": "Ramanathapuram GST NO: 33EMXPS2411G1ZT",
+      "total_billing": 2565.36,
+      "total_gst": 461.7648,
+      "grand_total": 3027.1248,
+      "grand_total_rounded": 3027,
+      "cancelled": false
     }
   ],
   "invoiceItems": [
@@ -5563,6 +5602,39 @@
       "unit_price": 213.78,
       "gst": 923.5296,
       "total": 6054.2496
+    },
+    {
+      "id": "25wcb0y9e",
+      "invoice_id": 86,
+      "product_code": "",
+      "product_name": "K2 SEAL COAT",
+      "pack_size": "01LTR CBY",
+      "quantity": 2,
+      "unit_price": 280.06,
+      "gst": 100.8216,
+      "total": 660.9416
+    },
+    {
+      "id": "if163z0oy",
+      "invoice_id": 87,
+      "product_code": "",
+      "product_name": "K2 KRACKSEAL PASTE",
+      "pack_size": "01KG PU",
+      "quantity": 12,
+      "unit_price": 213.78,
+      "gst": 461.7648,
+      "total": 3027.1248
+    },
+    {
+      "id": "8gnsvl0n3",
+      "invoice_id": 88,
+      "product_code": "",
+      "product_name": "K2 KRACKSEAL PASTE",
+      "pack_size": "01KG PU",
+      "quantity": 12,
+      "unit_price": 213.78,
+      "gst": 461.7648,
+      "total": 3027.1248
     }
   ],
   "customers": [
@@ -5611,5 +5683,5 @@
       "note": "paid"
     }
   ],
-  "lastSync": "2026-07-23T11:24:24.411Z"
+  "lastSync": "2026-07-30T14:17:21.338Z"
 }
