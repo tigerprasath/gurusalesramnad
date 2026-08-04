@@ -2842,6 +2842,14 @@
       "PACK_SIZE": "1KG",
       "BILLING_PRICE": 21.5,
       "AVAILABLE_STOCK": 0
+    },
+    {
+      "id": 260,
+      "PRODUCT_CODE": "",
+      "PRODUCT_NAME": "Waterproof Tape",
+      "PACK_SIZE": "4 inch",
+      "BILLING_PRICE": 200,
+      "AVAILABLE_STOCK": 6
     }
   ],
   "invoices": [
@@ -5731,5 +5739,5 @@
       "note": "paid"
     }
   ],
-  "lastSync": "2026-08-04T14:55:45.607Z"
+  "lastSync": "2026-08-04T15:03:51.684Z"
 }
