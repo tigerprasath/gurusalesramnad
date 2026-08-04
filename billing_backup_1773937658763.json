@@ -2682,7 +2682,7 @@
       "BILLING_PRICE": 303.756,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 6
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 245,
@@ -3982,6 +3982,19 @@
       "total_gst": 461.7648,
       "grand_total": 3027.1248,
       "grand_total_rounded": 3027,
+      "cancelled": false
+    },
+    {
+      "id": 89,
+      "invoice_no": "GURU/26-27/75",
+      "invoice_date": "2026-08-04T04:27:54.390Z",
+      "buyer_name": "Sethupathy & Sons Paints",
+      "buyer_phone": "9003926421",
+      "buyer_address": "Paramakudi",
+      "total_billing": 1822.5359999999998,
+      "total_gst": 328.05647999999997,
+      "grand_total": 2150.59248,
+      "grand_total_rounded": 2151,
       "cancelled": false
     }
   ],
@@ -5635,6 +5648,17 @@
       "unit_price": 213.78,
       "gst": 461.7648,
       "total": 3027.1248
+    },
+    {
+      "id": "ghi62lc28",
+      "invoice_id": 89,
+      "product_code": "",
+      "product_name": "K2 BRUSHGARD",
+      "pack_size": "03KG CBY",
+      "quantity": 6,
+      "unit_price": 303.756,
+      "gst": 328.05647999999997,
+      "total": 2150.59248
     }
   ],
   "customers": [
@@ -5683,5 +5707,5 @@
       "note": "paid"
     }
   ],
-  "lastSync": "2026-07-30T14:17:21.338Z"
+  "lastSync": "2026-08-04T04:29:12.722Z"
 }
