@@ -2849,7 +2849,7 @@
       "PRODUCT_NAME": "Waterproof Tape",
       "PACK_SIZE": "4 inch",
       "BILLING_PRICE": 200,
-      "AVAILABLE_STOCK": 6
+      "AVAILABLE_STOCK": 0
     }
   ],
   "invoices": [
@@ -4016,6 +4016,19 @@
       "total_gst": 372.75552,
       "grand_total": 2443.61952,
       "grand_total_rounded": 2444,
+      "cancelled": false
+    },
+    {
+      "id": 91,
+      "invoice_no": "GURU/26-27/77",
+      "invoice_date": "2026-08-05T15:22:10.517Z",
+      "buyer_name": "KTRR PANDIAN PAINTS ELECTRICALS",
+      "buyer_phone": "9843260505",
+      "buyer_address": "19/44 V S SALAI KILAKARAI, RAMANATHAPURAM-623517 GSTIN: 33AJYPP5770B2ZU",
+      "total_billing": 1764.78,
+      "total_gst": 317.6604,
+      "grand_total": 2082.4404,
+      "grand_total_rounded": 2082,
       "cancelled": false
     }
   ],
@@ -5691,6 +5704,28 @@
       "unit_price": 345.144,
       "gst": 372.75552,
       "total": 2443.6195199999997
+    },
+    {
+      "id": "lzpkunlhq",
+      "invoice_id": 91,
+      "product_code": "",
+      "product_name": "K2 MULTI CLEAN",
+      "pack_size": "01LTR CBY",
+      "quantity": 6,
+      "unit_price": 94.13,
+      "gst": 101.6604,
+      "total": 666.4404
+    },
+    {
+      "id": "72r12ieh6",
+      "invoice_id": 91,
+      "product_code": "",
+      "product_name": "Waterproof Tape",
+      "pack_size": "4 inch",
+      "quantity": 6,
+      "unit_price": 200,
+      "gst": 216,
+      "total": 1416
     }
   ],
   "customers": [
@@ -5739,5 +5774,5 @@
       "note": "paid"
     }
   ],
-  "lastSync": "2026-08-04T15:03:51.684Z"
+  "lastSync": "2026-08-05T15:23:34.985Z"
 }
