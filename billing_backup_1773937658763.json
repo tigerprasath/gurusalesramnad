@@ -416,7 +416,7 @@
       "BILLING_PRICE": 219,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 11
+      "AVAILABLE_STOCK": 8
     },
     {
       "id": 39,
@@ -4069,6 +4069,19 @@
       "grand_total": 2885.1,
       "grand_total_rounded": 2885,
       "cancelled": false
+    },
+    {
+      "id": 95,
+      "invoice_no": "GURU/26-27/81",
+      "invoice_date": "2026-08-10T07:42:22.617Z",
+      "buyer_name": "SMD Traders",
+      "buyer_phone": "9944131370",
+      "buyer_address": "2/26, Nainar Kovil Road, Pandiyur. 623705 GST No: 33GROPS1364A1ZS",
+      "total_billing": 657,
+      "total_gst": 118.25999999999999,
+      "grand_total": 775.26,
+      "grand_total_rounded": 775,
+      "cancelled": false
     }
   ],
   "invoiceItems": [
@@ -5798,6 +5811,17 @@
       "unit_price": 40.75,
       "gst": 440.09999999999997,
       "total": 2885.1
+    },
+    {
+      "id": "ooddnlhe7",
+      "invoice_id": 95,
+      "product_code": "",
+      "product_name": "K2 BITUSEAL (50MM X 10METER)",
+      "pack_size": "PACK",
+      "quantity": 3,
+      "unit_price": 219,
+      "gst": 118.25999999999999,
+      "total": 775.26
     }
   ],
   "customers": [
@@ -5846,5 +5870,5 @@
       "note": "paid"
     }
   ],
-  "lastSync": "2026-08-07T06:47:23.528Z"
+  "lastSync": "2026-08-10T08:41:12.924Z"
 }
