@@ -977,7 +977,7 @@
       "BILLING_PRICE": 40.75,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 20
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 90,
@@ -2682,7 +2682,7 @@
       "BILLING_PRICE": 303.756,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 6
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 245,
@@ -4081,6 +4081,32 @@
       "total_gst": 118.25999999999999,
       "grand_total": 775.26,
       "grand_total_rounded": 775,
+      "cancelled": false
+    },
+    {
+      "id": 96,
+      "invoice_no": "GURU/26-27/82",
+      "invoice_date": "2026-08-13T05:03:30.460Z",
+      "buyer_name": "Shree alagarmalaiyan paints",
+      "buyer_phone": "",
+      "buyer_address": "Paramakudi",
+      "total_billing": 1822.5359999999998,
+      "total_gst": 328.05647999999997,
+      "grand_total": 2150.59248,
+      "grand_total_rounded": 2151,
+      "cancelled": false
+    },
+    {
+      "id": 97,
+      "invoice_no": "GURU/26-27/83",
+      "invoice_date": "2026-08-13T05:04:18.801Z",
+      "buyer_name": "KUPERA PAINTS",
+      "buyer_phone": "",
+      "buyer_address": "36, Devipattinam Road, Kenikarai, Ramnad. GST.NO 33AUYPK6494Q1ZC",
+      "total_billing": 815,
+      "total_gst": 146.7,
+      "grand_total": 961.7,
+      "grand_total_rounded": 962,
       "cancelled": false
     }
   ],
@@ -5822,6 +5848,28 @@
       "unit_price": 219,
       "gst": 118.25999999999999,
       "total": 775.26
+    },
+    {
+      "id": "67zpdkhwe",
+      "invoice_id": 96,
+      "product_code": "",
+      "product_name": "K2 BRUSHGARD",
+      "pack_size": "03KG CBY",
+      "quantity": 6,
+      "unit_price": 303.756,
+      "gst": 328.05647999999997,
+      "total": 2150.59248
+    },
+    {
+      "id": "s9h12trbp",
+      "invoice_id": 97,
+      "product_code": "",
+      "product_name": "K2 COLORFIL TJF (WHITE)",
+      "pack_size": "01KG PU",
+      "quantity": 20,
+      "unit_price": 40.75,
+      "gst": 146.7,
+      "total": 961.6999999999999
     }
   ],
   "customers": [
@@ -5870,5 +5918,5 @@
       "note": "paid"
     }
   ],
-  "lastSync": "2026-08-10T08:41:12.924Z"
+  "lastSync": "2026-08-13T05:05:05.630Z"
 }
