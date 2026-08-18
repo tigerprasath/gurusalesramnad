@@ -2704,7 +2704,7 @@
       "BILLING_PRICE": 345.144,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 4
+      "AVAILABLE_STOCK": 6
     },
     {
       "id": 247,
@@ -4120,6 +4120,32 @@
       "total_gst": 461.7648,
       "grand_total": 3027.1248,
       "grand_total_rounded": 3027,
+      "cancelled": false
+    },
+    {
+      "id": 99,
+      "invoice_no": "GURU/26-27/85",
+      "invoice_date": "2026-08-18T05:38:12.455Z",
+      "buyer_name": "Basheer Tiles House",
+      "buyer_phone": "04567355818",
+      "buyer_address": "69 A2, Railway Feeder Road, Ramanathapuram 623501 GSTIN: 33CAFPS9890B1ZF",
+      "total_billing": 815,
+      "total_gst": 146.7,
+      "grand_total": 961.7,
+      "grand_total_rounded": 962,
+      "cancelled": false
+    },
+    {
+      "id": 100,
+      "invoice_no": "GURU/26-27/86",
+      "invoice_date": "2026-08-18T05:39:42.690Z",
+      "buyer_name": "KUPERA PAINTS",
+      "buyer_phone": "",
+      "buyer_address": "36, Devipattinam Road, Kenikarai, Ramnad. GST.NO 33AUYPK6494Q1ZC",
+      "total_billing": 1081,
+      "total_gst": 194.57999999999998,
+      "grand_total": 1275.58,
+      "grand_total_rounded": 1276,
       "cancelled": false
     }
   ],
@@ -5894,6 +5920,28 @@
       "unit_price": 213.78,
       "gst": 461.7648,
       "total": 3027.1248
+    },
+    {
+      "id": "vvo0aox7r",
+      "invoice_id": 99,
+      "product_code": "",
+      "product_name": "K2 COLORFIL TJF (WHITE)",
+      "pack_size": "01KG PU",
+      "quantity": 20,
+      "unit_price": 40.75,
+      "gst": 146.7,
+      "total": 961.6999999999999
+    },
+    {
+      "id": "w11xr4exz",
+      "invoice_id": 100,
+      "product_code": "",
+      "product_name": "K2 KRACK SEAL",
+      "pack_size": "01KG PU",
+      "quantity": 25,
+      "unit_price": 43.24,
+      "gst": 194.57999999999998,
+      "total": 1275.58
     }
   ],
   "customers": [
@@ -5942,5 +5990,5 @@
       "note": "paid"
     }
   ],
-  "lastSync": "2026-08-13T13:21:06.770Z"
+  "lastSync": "2026-08-18T05:40:24.586Z"
 }
