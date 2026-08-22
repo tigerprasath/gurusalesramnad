@@ -2033,7 +2033,7 @@
       "BILLING_PRICE": 244.85,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 16
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 186,
@@ -4212,6 +4212,19 @@
       "grand_total": 1793.5882,
       "grand_total_rounded": 1794,
       "cancelled": false
+    },
+    {
+      "id": 106,
+      "invoice_no": "GURU/26-27/92",
+      "invoice_date": "2026-08-22T07:31:38.989Z",
+      "buyer_name": "Shree alagarmalaiyan paints",
+      "buyer_phone": "",
+      "buyer_address": "Paramakudi",
+      "total_billing": 3917.6,
+      "total_gst": 705.168,
+      "grand_total": 4622.768,
+      "grand_total_rounded": 4623,
+      "cancelled": false
     }
   ],
   "invoiceItems": [
@@ -6095,6 +6108,17 @@
       "unit_price": 146.33,
       "gst": 79.0182,
       "total": 518.0082
+    },
+    {
+      "id": "n1vudz5v1",
+      "invoice_id": 106,
+      "product_code": "",
+      "product_name": "K2 POLYCRETE",
+      "pack_size": "01LTR CBY",
+      "quantity": 16,
+      "unit_price": 244.85,
+      "gst": 705.168,
+      "total": 4622.768
     }
   ],
   "customers": [
@@ -6153,5 +6177,5 @@
       "note": "paid"
     }
   ],
-  "lastSync": "2026-08-22T07:30:05.266Z"
+  "lastSync": "2026-08-22T07:32:25.433Z"
 }
