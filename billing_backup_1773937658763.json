@@ -449,7 +449,7 @@
       "BILLING_PRICE": 146.33,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 15
+      "AVAILABLE_STOCK": 12
     },
     {
       "id": 42,
@@ -4199,6 +4199,19 @@
       "grand_total": 3027.1248,
       "grand_total_rounded": 3027,
       "cancelled": false
+    },
+    {
+      "id": 105,
+      "invoice_no": "GURU/26-27/91",
+      "invoice_date": "2026-08-22T07:29:18.747Z",
+      "buyer_name": "Kani Mozhi Stores",
+      "buyer_phone": "9443123183",
+      "buyer_address": "9/270, Keelapallivasal Street,\nPARAMAKUDI - 623707.\nGST: 33ABRPK0864GIZL",
+      "total_billing": 1519.99,
+      "total_gst": 273.59819999999996,
+      "grand_total": 1793.5882,
+      "grand_total_rounded": 1794,
+      "cancelled": false
     }
   ],
   "invoiceItems": [
@@ -6060,6 +6073,28 @@
       "unit_price": 213.78,
       "gst": 461.7648,
       "total": 3027.1248
+    },
+    {
+      "id": "281s96bwp",
+      "invoice_id": 105,
+      "product_code": "",
+      "product_name": "K2 KRACK SEAL",
+      "pack_size": "01KG PU",
+      "quantity": 25,
+      "unit_price": 43.24,
+      "gst": 194.57999999999998,
+      "total": 1275.58
+    },
+    {
+      "id": "lyylusryq",
+      "invoice_id": 105,
+      "product_code": "",
+      "product_name": "K2  RESIGROUT",
+      "pack_size": "500GM PU",
+      "quantity": 3,
+      "unit_price": 146.33,
+      "gst": 79.0182,
+      "total": 518.0082
     }
   ],
   "customers": [
@@ -6077,6 +6112,11 @@
       "name": "Al Madina Hardware's",
       "phone": "9942876393",
       "address": "140/15, GH Road, Ramanathapuram. \nGST: 33CFLPS3739G1Z5"
+    },
+    {
+      "name": "Kani Mozhi Stores",
+      "phone": "9443123183",
+      "address": "9/270, Keelapallivasal Street,\nPARAMAKUDI - 623707.\nGST: 33ABRPK0864GIZL"
     }
   ],
   "customerPayments": [
@@ -6113,5 +6153,5 @@
       "note": "paid"
     }
   ],
-  "lastSync": "2026-08-19T14:09:52.740Z"
+  "lastSync": "2026-08-22T07:30:05.266Z"
 }
