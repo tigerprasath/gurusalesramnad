@@ -2682,7 +2682,7 @@
       "BILLING_PRICE": 303.756,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 36
+      "AVAILABLE_STOCK": 30
     },
     {
       "id": 245,
@@ -4250,6 +4250,19 @@
       "total_gst": 1379.2129199999997,
       "grand_total": 9041.50692,
       "grand_total_rounded": 9042,
+      "cancelled": false
+    },
+    {
+      "id": 109,
+      "invoice_no": "GURU/26-27/95",
+      "invoice_date": "2026-08-29T13:34:04.015Z",
+      "buyer_name": "QUALITY COLORS",
+      "buyer_phone": "7418831122",
+      "buyer_address": "Ramanathapuram GST NO: 33EMXPS2411G1ZT",
+      "total_billing": 1822.5359999999998,
+      "total_gst": 328.05647999999997,
+      "grand_total": 2150.59248,
+      "grand_total_rounded": 2151,
       "cancelled": false
     }
   ],
@@ -6211,6 +6224,17 @@
       "unit_price": 146.33,
       "gst": 79.0182,
       "total": 518.0082
+    },
+    {
+      "id": "i8lxeg56u",
+      "invoice_id": 109,
+      "product_code": "",
+      "product_name": "K2 BRUSHGARD",
+      "pack_size": "03KG CBY",
+      "quantity": 6,
+      "unit_price": 303.756,
+      "gst": 328.05647999999997,
+      "total": 2150.59248
     }
   ],
   "customers": [
@@ -6274,5 +6298,5 @@
       "note": "paid"
     }
   ],
-  "lastSync": "2026-08-29T09:25:13.392Z"
+  "lastSync": "2026-08-29T16:18:47.603Z"
 }
