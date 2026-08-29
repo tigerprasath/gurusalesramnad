@@ -383,7 +383,7 @@
       "BILLING_PRICE": 213.78,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 0
+      "AVAILABLE_STOCK": 84
     },
     {
       "id": 36,
@@ -449,7 +449,7 @@
       "BILLING_PRICE": 146.33,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 12
+      "AVAILABLE_STOCK": 9
     },
     {
       "id": 42,
@@ -878,7 +878,7 @@
       "BILLING_PRICE": 94.13,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 1
+      "AVAILABLE_STOCK": 49
     },
     {
       "id": 81,
@@ -977,7 +977,7 @@
       "BILLING_PRICE": 40.75,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 0
+      "AVAILABLE_STOCK": 220
     },
     {
       "id": 90,
@@ -2033,7 +2033,7 @@
       "BILLING_PRICE": 244.85,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 0
+      "AVAILABLE_STOCK": 16
     },
     {
       "id": 186,
@@ -2682,7 +2682,7 @@
       "BILLING_PRICE": 303.756,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 0
+      "AVAILABLE_STOCK": 36
     },
     {
       "id": 245,
@@ -2704,7 +2704,7 @@
       "BILLING_PRICE": 345.144,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 6
+      "AVAILABLE_STOCK": 24
     },
     {
       "id": 247,
@@ -4224,6 +4224,32 @@
       "total_gst": 705.168,
       "grand_total": 4622.768,
       "grand_total_rounded": 4623,
+      "cancelled": false
+    },
+    {
+      "id": 107,
+      "invoice_no": "GURU/26-27/93",
+      "invoice_date": "2026-08-24T10:26:56.258Z",
+      "buyer_name": "Basheer Tiles House",
+      "buyer_phone": "04567355818",
+      "buyer_address": "69 A2, Railway Feeder Road, Ramanathapuram 623501 GSTIN: 33CAFPS9890B1ZF",
+      "total_billing": 2445,
+      "total_gst": 440.09999999999997,
+      "grand_total": 2885.1,
+      "grand_total_rounded": 2885,
+      "cancelled": false
+    },
+    {
+      "id": 108,
+      "invoice_no": "GURU/26-27/94",
+      "invoice_date": "2026-08-24T11:08:52.403Z",
+      "buyer_name": "DEEN HARDWARES",
+      "buyer_phone": "9487770270",
+      "buyer_address": "GH ROAD , RAMANATHAPURAM.\nGST: 33AHUPN4573C1Z5",
+      "total_billing": 7662.294,
+      "total_gst": 1379.2129199999997,
+      "grand_total": 9041.50692,
+      "grand_total_rounded": 9042,
       "cancelled": false
     }
   ],
@@ -6119,6 +6145,72 @@
       "unit_price": 244.85,
       "gst": 705.168,
       "total": 4622.768
+    },
+    {
+      "id": "xddvzp2x6",
+      "invoice_id": 107,
+      "product_code": "",
+      "product_name": "K2 COLORFIL TJF (WHITE)",
+      "pack_size": "01KG PU",
+      "quantity": 60,
+      "unit_price": 40.75,
+      "gst": 440.09999999999997,
+      "total": 2885.1
+    },
+    {
+      "id": "ergxpzmuz",
+      "invoice_id": 108,
+      "product_code": "",
+      "product_name": "K2 MULTI CLEAN",
+      "pack_size": "01LTR CBY",
+      "quantity": 16,
+      "unit_price": 94.13,
+      "gst": 271.09439999999995,
+      "total": 1777.1743999999999
+    },
+    {
+      "id": "shlamgss7",
+      "invoice_id": 108,
+      "product_code": "",
+      "product_name": "K2 BRUSHGARD WHITE",
+      "pack_size": "03KG CBY",
+      "quantity": 6,
+      "unit_price": 345.144,
+      "gst": 372.75552,
+      "total": 2443.6195199999997
+    },
+    {
+      "id": "n46qsxm6f",
+      "invoice_id": 108,
+      "product_code": "",
+      "product_name": "K2 KRACK SEAL",
+      "pack_size": "01KG PU",
+      "quantity": 25,
+      "unit_price": 43.24,
+      "gst": 194.57999999999998,
+      "total": 1275.58
+    },
+    {
+      "id": "beqmbm2ka",
+      "invoice_id": 108,
+      "product_code": "",
+      "product_name": "K2 KRACKSEAL PASTE",
+      "pack_size": "01KG PU",
+      "quantity": 12,
+      "unit_price": 213.78,
+      "gst": 461.7648,
+      "total": 3027.1248
+    },
+    {
+      "id": "fwglgvnkw",
+      "invoice_id": 108,
+      "product_code": "",
+      "product_name": "K2  RESIGROUT",
+      "pack_size": "500GM PU",
+      "quantity": 3,
+      "unit_price": 146.33,
+      "gst": 79.0182,
+      "total": 518.0082
     }
   ],
   "customers": [
@@ -6141,6 +6233,11 @@
       "name": "Kani Mozhi Stores",
       "phone": "9443123183",
       "address": "9/270, Keelapallivasal Street,\nPARAMAKUDI - 623707.\nGST: 33ABRPK0864GIZL"
+    },
+    {
+      "name": "DEEN HARDWARES",
+      "phone": "9487770270",
+      "address": "GH ROAD , RAMANATHAPURAM.\nGST: 33AHUPN4573C1Z5"
     }
   ],
   "customerPayments": [
@@ -6177,5 +6274,5 @@
       "note": "paid"
     }
   ],
-  "lastSync": "2026-08-22T07:32:25.433Z"
+  "lastSync": "2026-08-29T09:25:13.392Z"
 }
