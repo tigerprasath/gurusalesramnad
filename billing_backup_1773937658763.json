@@ -867,7 +867,7 @@
       "BILLING_PRICE": 54.4,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 93
+      "AVAILABLE_STOCK": 69
     },
     {
       "id": 80,
@@ -4264,6 +4264,19 @@
       "grand_total": 2150.59248,
       "grand_total_rounded": 2151,
       "cancelled": false
+    },
+    {
+      "id": 110,
+      "invoice_no": "GURU/26-27/96",
+      "invoice_date": "2026-08-31T07:55:17.598Z",
+      "buyer_name": "Basheer Tiles House",
+      "buyer_phone": "04567355818",
+      "buyer_address": "69 A2, Railway Feeder Road, Ramanathapuram 623501 GSTIN: 33CAFPS9890B1ZF",
+      "total_billing": 1305.6,
+      "total_gst": 235.00799999999998,
+      "grand_total": 1540.608,
+      "grand_total_rounded": 1541,
+      "cancelled": false
     }
   ],
   "invoiceItems": [
@@ -6235,6 +6248,17 @@
       "unit_price": 303.756,
       "gst": 328.05647999999997,
       "total": 2150.59248
+    },
+    {
+      "id": "cu0saz1zh",
+      "invoice_id": 110,
+      "product_code": "",
+      "product_name": "K2 MULTI CLEAN",
+      "pack_size": "500ML PU",
+      "quantity": 24,
+      "unit_price": 54.4,
+      "gst": 235.00799999999998,
+      "total": 1540.6079999999997
     }
   ],
   "customers": [
@@ -6298,5 +6322,5 @@
       "note": "paid"
     }
   ],
-  "lastSync": "2026-08-29T16:18:47.603Z"
+  "lastSync": "2026-08-31T07:56:01.397Z"
 }
