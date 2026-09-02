@@ -350,7 +350,7 @@
       "BILLING_PRICE": 43.24,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 7
+      "AVAILABLE_STOCK": 182
     },
     {
       "id": 33,
@@ -977,7 +977,7 @@
       "BILLING_PRICE": 40.75,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 220
+      "AVAILABLE_STOCK": 180
     },
     {
       "id": 90,
@@ -4277,6 +4277,19 @@
       "grand_total": 1540.608,
       "grand_total_rounded": 1541,
       "cancelled": false
+    },
+    {
+      "id": 111,
+      "invoice_no": "GURU/26-27/97",
+      "invoice_date": "2026-09-02T05:25:25.892Z",
+      "buyer_name": "SMD Traders",
+      "buyer_phone": "9944131370",
+      "buyer_address": "2/26, Nainar Kovil Road, Pandiyur. 623705 GST No: 33GROPS1364A1ZS",
+      "total_billing": 2711,
+      "total_gst": 487.97999999999996,
+      "grand_total": 3198.98,
+      "grand_total_rounded": 3199,
+      "cancelled": false
     }
   ],
   "invoiceItems": [
@@ -6259,6 +6272,28 @@
       "unit_price": 54.4,
       "gst": 235.00799999999998,
       "total": 1540.6079999999997
+    },
+    {
+      "id": "qm7ht4oy0",
+      "invoice_id": 111,
+      "product_code": "",
+      "product_name": "K2 COLORFIL TJF (WHITE)",
+      "pack_size": "01KG PU",
+      "quantity": 40,
+      "unit_price": 40.75,
+      "gst": 293.4,
+      "total": 1923.3999999999999
+    },
+    {
+      "id": "lsqt8usfb",
+      "invoice_id": 111,
+      "product_code": "",
+      "product_name": "K2 KRACK SEAL",
+      "pack_size": "01KG PU",
+      "quantity": 25,
+      "unit_price": 43.24,
+      "gst": 194.57999999999998,
+      "total": 1275.58
     }
   ],
   "customers": [
@@ -6322,5 +6357,5 @@
       "note": "paid"
     }
   ],
-  "lastSync": "2026-08-31T07:56:01.397Z"
+  "lastSync": "2026-09-02T05:26:08.421Z"
 }
