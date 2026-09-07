@@ -383,7 +383,7 @@
       "BILLING_PRICE": 213.78,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 84
+      "AVAILABLE_STOCK": 72
     },
     {
       "id": 36,
@@ -4316,6 +4316,19 @@
       "grand_total": 2443.61952,
       "grand_total_rounded": 2444,
       "cancelled": false
+    },
+    {
+      "id": 114,
+      "invoice_no": "GURU/26-27/100",
+      "invoice_date": "2026-09-07T06:16:11.259Z",
+      "buyer_name": "QUALITY COLORS",
+      "buyer_phone": "7418831122",
+      "buyer_address": "Ramanathapuram GST NO: 33EMXPS2411G1ZT",
+      "total_billing": 2565.36,
+      "total_gst": 461.7648,
+      "grand_total": 3027.1248,
+      "grand_total_rounded": 3027,
+      "cancelled": false
     }
   ],
   "invoiceItems": [
@@ -6353,6 +6366,17 @@
       "unit_price": 345.144,
       "gst": 372.75552,
       "total": 2443.6195199999997
+    },
+    {
+      "id": "diow75boc",
+      "invoice_id": 114,
+      "product_code": "",
+      "product_name": "K2 KRACKSEAL PASTE",
+      "pack_size": "01KG PU",
+      "quantity": 12,
+      "unit_price": 213.78,
+      "gst": 461.7648,
+      "total": 3027.1248
     }
   ],
   "customers": [
@@ -6416,5 +6440,5 @@
       "note": "paid"
     }
   ],
-  "lastSync": "2026-09-02T12:40:42.594Z"
+  "lastSync": "2026-09-07T06:17:02.987Z"
 }
