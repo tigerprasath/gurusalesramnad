@@ -2704,7 +2704,7 @@
       "BILLING_PRICE": 345.144,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 18
+      "AVAILABLE_STOCK": 12
     },
     {
       "id": 247,
@@ -4328,6 +4328,19 @@
       "total_gst": 461.7648,
       "grand_total": 3027.1248,
       "grand_total_rounded": 3027,
+      "cancelled": false
+    },
+    {
+      "id": 115,
+      "invoice_no": "GURU/26-27/101",
+      "invoice_date": "2026-09-08T08:58:59.319Z",
+      "buyer_name": "MEGA HARDWARES",
+      "buyer_phone": "",
+      "buyer_address": "12/2829/2, 12/2829/3, 12/2829/4, NORTH 5TH STREET, Pattinamkaathan, Ramanathapuram 623503. GST.NO; 33ABXFM2732P1ZK",
+      "total_billing": 2070.864,
+      "total_gst": 372.75552,
+      "grand_total": 2443.61952,
+      "grand_total_rounded": 2444,
       "cancelled": false
     }
   ],
@@ -6377,6 +6390,17 @@
       "unit_price": 213.78,
       "gst": 461.7648,
       "total": 3027.1248
+    },
+    {
+      "id": "pnr3hdz23",
+      "invoice_id": 115,
+      "product_code": "",
+      "product_name": "K2 BRUSHGARD WHITE",
+      "pack_size": "03KG CBY",
+      "quantity": 6,
+      "unit_price": 345.144,
+      "gst": 372.75552,
+      "total": 2443.6195199999997
     }
   ],
   "customers": [
@@ -6440,5 +6464,5 @@
       "note": "paid"
     }
   ],
-  "lastSync": "2026-09-07T06:17:02.987Z"
+  "lastSync": "2026-09-08T09:00:59.895Z"
 }
