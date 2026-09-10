@@ -383,7 +383,7 @@
       "BILLING_PRICE": 213.78,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 60
+      "AVAILABLE_STOCK": 12
     },
     {
       "id": 36,
@@ -867,7 +867,7 @@
       "BILLING_PRICE": 54.4,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 63
+      "AVAILABLE_STOCK": 57
     },
     {
       "id": 80,
@@ -878,7 +878,7 @@
       "BILLING_PRICE": 94.13,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 49
+      "AVAILABLE_STOCK": 43
     },
     {
       "id": 81,
@@ -908,10 +908,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 SOFT CLEAN",
       "PACK_SIZE": "500ML PU",
-      "BILLING_PRICE": 0,
+      "BILLING_PRICE": 77.65,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 0
+      "AVAILABLE_STOCK": 1
     },
     {
       "id": 84,
@@ -2033,7 +2033,7 @@
       "BILLING_PRICE": 244.85,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 16
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 186,
@@ -4355,6 +4355,45 @@
       "grand_total": 3988.8248000000003,
       "grand_total_rounded": 3989,
       "cancelled": false
+    },
+    {
+      "id": 117,
+      "invoice_no": "GURU/26-27/103",
+      "invoice_date": "2026-09-10T12:58:01.842Z",
+      "buyer_name": "QUALITY COLORS",
+      "buyer_phone": "7418831122",
+      "buyer_address": "Ramanathapuram GST NO: 33EMXPS2411G1ZT",
+      "total_billing": 7696.08,
+      "total_gst": 1385.2944,
+      "grand_total": 9081.3744,
+      "grand_total_rounded": 9081,
+      "cancelled": false
+    },
+    {
+      "id": 118,
+      "invoice_no": "GURU/26-27/104",
+      "invoice_date": "2026-09-10T12:59:28.934Z",
+      "buyer_name": "KUPERA PAINTS",
+      "buyer_phone": "",
+      "buyer_address": "36, Devipattinam Road, Kenikarai, Ramnad. GST.NO 33AUYPK6494Q1ZC",
+      "total_billing": 4808.78,
+      "total_gst": 865.5803999999999,
+      "grand_total": 5674.3604,
+      "grand_total_rounded": 5674,
+      "cancelled": false
+    },
+    {
+      "id": 119,
+      "invoice_no": "GURU/26-27/105",
+      "invoice_date": "2026-09-10T13:03:43.814Z",
+      "buyer_name": "QUALITY COLORS",
+      "buyer_phone": "7418831122",
+      "buyer_address": "Ramanathapuram GST NO: 33EMXPS2411G1ZT",
+      "total_billing": 2953.61,
+      "total_gst": 531.6497999999999,
+      "grand_total": 3485.2598,
+      "grand_total_rounded": 3485,
+      "cancelled": false
     }
   ],
   "invoiceItems": [
@@ -6436,6 +6475,72 @@
       "unit_price": 213.78,
       "gst": 461.7648,
       "total": 3027.1248
+    },
+    {
+      "id": "29rocj0vw",
+      "invoice_id": 117,
+      "product_code": "",
+      "product_name": "K2 KRACKSEAL PASTE",
+      "pack_size": "01KG PU",
+      "quantity": 36,
+      "unit_price": 213.78,
+      "gst": 1385.2944,
+      "total": 9081.374399999999
+    },
+    {
+      "id": "u7qy9wqg8",
+      "invoice_id": 118,
+      "product_code": "",
+      "product_name": "K2 POLYCRETE",
+      "pack_size": "01LTR CBY",
+      "quantity": 16,
+      "unit_price": 244.85,
+      "gst": 705.168,
+      "total": 4622.768
+    },
+    {
+      "id": "5vemxsblc",
+      "invoice_id": 118,
+      "product_code": "",
+      "product_name": "K2 MULTI CLEAN",
+      "pack_size": "01LTR CBY",
+      "quantity": 6,
+      "unit_price": 94.13,
+      "gst": 101.6604,
+      "total": 666.4404
+    },
+    {
+      "id": "qm91n0tjw",
+      "invoice_id": 118,
+      "product_code": "",
+      "product_name": "K2 MULTI CLEAN",
+      "pack_size": "500ML PU",
+      "quantity": 6,
+      "unit_price": 54.4,
+      "gst": 58.751999999999995,
+      "total": 385.15199999999993
+    },
+    {
+      "id": "5p0e2m9vv",
+      "invoice_id": 119,
+      "product_code": "",
+      "product_name": "K2 KRACKSEAL PASTE",
+      "pack_size": "01KG PU",
+      "quantity": 12,
+      "unit_price": 213.78,
+      "gst": 461.7648,
+      "total": 3027.1248
+    },
+    {
+      "id": "znp34ucb9",
+      "invoice_id": 119,
+      "product_code": "",
+      "product_name": "K2 SOFT CLEAN",
+      "pack_size": "500ML PU",
+      "quantity": 5,
+      "unit_price": 77.65,
+      "gst": 69.88499999999999,
+      "total": 458.135
     }
   ],
   "customers": [
@@ -6499,5 +6604,5 @@
       "note": "paid"
     }
   ],
-  "lastSync": "2026-09-10T04:03:00.917Z"
+  "lastSync": "2026-09-10T13:04:29.569Z"
 }
