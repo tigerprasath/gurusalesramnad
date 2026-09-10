@@ -383,7 +383,7 @@
       "BILLING_PRICE": 213.78,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 72
+      "AVAILABLE_STOCK": 60
     },
     {
       "id": 36,
@@ -977,7 +977,7 @@
       "BILLING_PRICE": 40.75,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 180
+      "AVAILABLE_STOCK": 160
     },
     {
       "id": 90,
@@ -4342,6 +4342,19 @@
       "grand_total": 2443.61952,
       "grand_total_rounded": 2444,
       "cancelled": false
+    },
+    {
+      "id": 116,
+      "invoice_no": "GURU/26-27/102",
+      "invoice_date": "2026-09-10T04:02:08.377Z",
+      "buyer_name": "KUPERA PAINTS",
+      "buyer_phone": "",
+      "buyer_address": "36, Devipattinam Road, Kenikarai, Ramnad. GST.NO 33AUYPK6494Q1ZC",
+      "total_billing": 3380.36,
+      "total_gst": 608.4648,
+      "grand_total": 3988.8248000000003,
+      "grand_total_rounded": 3989,
+      "cancelled": false
     }
   ],
   "invoiceItems": [
@@ -6401,6 +6414,28 @@
       "unit_price": 345.144,
       "gst": 372.75552,
       "total": 2443.6195199999997
+    },
+    {
+      "id": "vbpviol7i",
+      "invoice_id": 116,
+      "product_code": "",
+      "product_name": "K2 COLORFIL TJF (WHITE)",
+      "pack_size": "01KG PU",
+      "quantity": 20,
+      "unit_price": 40.75,
+      "gst": 146.7,
+      "total": 961.6999999999999
+    },
+    {
+      "id": "ztp50nqj2",
+      "invoice_id": 116,
+      "product_code": "",
+      "product_name": "K2 KRACKSEAL PASTE",
+      "pack_size": "01KG PU",
+      "quantity": 12,
+      "unit_price": 213.78,
+      "gst": 461.7648,
+      "total": 3027.1248
     }
   ],
   "customers": [
@@ -6464,5 +6499,5 @@
       "note": "paid"
     }
   ],
-  "lastSync": "2026-09-08T09:00:59.895Z"
+  "lastSync": "2026-09-10T04:03:00.917Z"
 }
