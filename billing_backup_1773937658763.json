@@ -383,7 +383,7 @@
       "BILLING_PRICE": 213.78,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 12
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 36,
@@ -2572,7 +2572,7 @@
       "BILLING_PRICE": 45.34,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 12
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 235,
@@ -2704,7 +2704,7 @@
       "BILLING_PRICE": 345.144,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 12
+      "AVAILABLE_STOCK": 9
     },
     {
       "id": 247,
@@ -4393,6 +4393,19 @@
       "total_gst": 531.6497999999999,
       "grand_total": 3485.2598,
       "grand_total_rounded": 3485,
+      "cancelled": false
+    },
+    {
+      "id": 120,
+      "invoice_no": "GURU/26-27/106",
+      "invoice_date": "2026-09-12T10:15:05.480Z",
+      "buyer_name": "KTRR PANDIAN PAINTS ELECTRICALS",
+      "buyer_phone": "9843260505",
+      "buyer_address": "19/44 V S SALAI KILAKARAI, RAMANATHAPURAM-623517 GSTIN: 33AJYPP5770B2ZU",
+      "total_billing": 4235.552000000001,
+      "total_gst": 762.39936,
+      "grand_total": 4997.951360000001,
+      "grand_total_rounded": 4998,
       "cancelled": false
     }
   ],
@@ -6541,6 +6554,39 @@
       "unit_price": 77.65,
       "gst": 69.88499999999999,
       "total": 458.135
+    },
+    {
+      "id": "mfof0m9ch",
+      "invoice_id": 120,
+      "product_code": "",
+      "product_name": "K2 KRACKSEAL PASTE",
+      "pack_size": "01KG PU",
+      "quantity": 12,
+      "unit_price": 213.78,
+      "gst": 461.7648,
+      "total": 3027.1248
+    },
+    {
+      "id": "7xiv0uijm",
+      "invoice_id": 120,
+      "product_code": "",
+      "product_name": "K2 BRUSHGARD WHITE",
+      "pack_size": "03KG CBY",
+      "quantity": 3,
+      "unit_price": 345.144,
+      "gst": 186.37776,
+      "total": 1221.8097599999999
+    },
+    {
+      "id": "o0zew2z7a",
+      "invoice_id": 120,
+      "product_code": "",
+      "product_name": "K2 CONFIBRE 12MM",
+      "pack_size": "125GM PU",
+      "quantity": 14,
+      "unit_price": 45.34,
+      "gst": 114.2568,
+      "total": 749.0168
     }
   ],
   "customers": [
@@ -6604,5 +6650,5 @@
       "note": "paid"
     }
   ],
-  "lastSync": "2026-09-10T13:04:29.569Z"
+  "lastSync": "2026-09-12T10:15:45.822Z"
 }
