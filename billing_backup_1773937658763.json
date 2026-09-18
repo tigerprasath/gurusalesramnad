@@ -449,7 +449,7 @@
       "BILLING_PRICE": 146.33,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 9
+      "AVAILABLE_STOCK": 4
     },
     {
       "id": 42,
@@ -4459,6 +4459,19 @@
       "grand_total": 3027.1248,
       "grand_total_rounded": 3027,
       "cancelled": false
+    },
+    {
+      "id": 125,
+      "invoice_no": "GURU/26-27/111",
+      "invoice_date": "2026-09-18T11:06:02.614Z",
+      "buyer_name": "DEEN HARDWARES",
+      "buyer_phone": "9487770270",
+      "buyer_address": "GH ROAD , RAMANATHAPURAM. GST: 33AHUPN4573C1Z5",
+      "total_billing": 731.6500000000001,
+      "total_gst": 131.697,
+      "grand_total": 863.3470000000001,
+      "grand_total_rounded": 863,
+      "cancelled": false
     }
   ],
   "invoiceItems": [
@@ -6683,6 +6696,17 @@
       "unit_price": 213.78,
       "gst": 461.7648,
       "total": 3027.1248
+    },
+    {
+      "id": "k5sgr27kn",
+      "invoice_id": 125,
+      "product_code": "",
+      "product_name": "K2  RESIGROUT",
+      "pack_size": "500GM PU",
+      "quantity": 5,
+      "unit_price": 146.33,
+      "gst": 131.697,
+      "total": 863.3470000000001
     }
   ],
   "customers": [
@@ -6746,5 +6770,5 @@
       "note": "paid"
     }
   ],
-  "lastSync": "2026-09-17T07:58:53.843Z"
+  "lastSync": "2026-09-18T11:07:08.606Z"
 }
