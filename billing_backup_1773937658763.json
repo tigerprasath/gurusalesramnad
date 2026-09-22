@@ -383,7 +383,7 @@
       "BILLING_PRICE": 213.78,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 0
+      "AVAILABLE_STOCK": 148
     },
     {
       "id": 36,
@@ -2033,7 +2033,7 @@
       "BILLING_PRICE": 244.85,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 0
+      "AVAILABLE_STOCK": 32
     },
     {
       "id": 186,
@@ -4472,6 +4472,32 @@
       "grand_total": 863.3470000000001,
       "grand_total_rounded": 863,
       "cancelled": false
+    },
+    {
+      "id": 126,
+      "invoice_no": "GURU/26-27/112",
+      "invoice_date": "2026-09-22T07:17:18.010Z",
+      "buyer_name": "QUALITY COLORS",
+      "buyer_phone": "7418831122",
+      "buyer_address": "Ramanathapuram GST NO: 33EMXPS2411G1ZT",
+      "total_billing": 2565.36,
+      "total_gst": 461.7648,
+      "grand_total": 3027.1248,
+      "grand_total_rounded": 3027,
+      "cancelled": false
+    },
+    {
+      "id": 127,
+      "invoice_no": "GURU/26-27/113",
+      "invoice_date": "2026-09-22T07:20:19.892Z",
+      "buyer_name": "Twin Traders",
+      "buyer_phone": "+91-8754076111",
+      "buyer_address": "190A, Nainarkovil main road, Pandiyur. 623705\nGST NO: 331DWPK6998C1ZP",
+      "total_billing": 3917.6,
+      "total_gst": 705.168,
+      "grand_total": 4622.768,
+      "grand_total_rounded": 4623,
+      "cancelled": false
     }
   ],
   "invoiceItems": [
@@ -6707,6 +6733,28 @@
       "unit_price": 146.33,
       "gst": 131.697,
       "total": 863.3470000000001
+    },
+    {
+      "id": "soemrfsea",
+      "invoice_id": 126,
+      "product_code": "",
+      "product_name": "K2 KRACKSEAL PASTE",
+      "pack_size": "01KG PU",
+      "quantity": 12,
+      "unit_price": 213.78,
+      "gst": 461.7648,
+      "total": 3027.1248
+    },
+    {
+      "id": "zd0bundi8",
+      "invoice_id": 127,
+      "product_code": "",
+      "product_name": "K2 POLYCRETE",
+      "pack_size": "01LTR CBY",
+      "quantity": 16,
+      "unit_price": 244.85,
+      "gst": 705.168,
+      "total": 4622.768
     }
   ],
   "customers": [
@@ -6734,6 +6782,11 @@
       "name": "DEEN HARDWARES",
       "phone": "9487770270",
       "address": "GH ROAD , RAMANATHAPURAM.\nGST: 33AHUPN4573C1Z5"
+    },
+    {
+      "name": "Twin Traders",
+      "phone": "+91-8754076111",
+      "address": "190A, Nainarkovil main road, Pandiyur. 623705\nGST NO: 331DWPK6998C1ZP"
     }
   ],
   "customerPayments": [
@@ -6770,5 +6823,5 @@
       "note": "paid"
     }
   ],
-  "lastSync": "2026-09-18T11:08:12.015Z"
+  "lastSync": "2026-09-22T07:22:05.526Z"
 }
