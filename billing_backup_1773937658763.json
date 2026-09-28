@@ -383,7 +383,7 @@
       "BILLING_PRICE": 213.78,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 148
+      "AVAILABLE_STOCK": 136
     },
     {
       "id": 36,
@@ -977,7 +977,7 @@
       "BILLING_PRICE": 40.75,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 60
+      "AVAILABLE_STOCK": 40
     },
     {
       "id": 90,
@@ -1131,7 +1131,7 @@
       "BILLING_PRICE": 40.75,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 20
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 104,
@@ -4498,6 +4498,32 @@
       "grand_total": 4622.768,
       "grand_total_rounded": 4623,
       "cancelled": false
+    },
+    {
+      "id": 128,
+      "invoice_no": "GURU/26-27/114",
+      "invoice_date": "2026-09-28T08:21:31.616Z",
+      "buyer_name": "AYYANS & CO",
+      "buyer_phone": "9842419226",
+      "buyer_address": "431, Thangachimadam mani road, Ramnad GST NO: 33AFBPV4931K1Z9",
+      "total_billing": 2565.36,
+      "total_gst": 461.7648,
+      "grand_total": 3027.1248,
+      "grand_total_rounded": 3027,
+      "cancelled": false
+    },
+    {
+      "id": 129,
+      "invoice_no": "GURU/26-27/115",
+      "invoice_date": "2026-09-28T08:23:33.532Z",
+      "buyer_name": "KUPERA PAINTS",
+      "buyer_phone": "",
+      "buyer_address": "36, Devipattinam Road, Kenikarai, Ramnad. GST.NO 33AUYPK6494Q1ZC",
+      "total_billing": 1630,
+      "total_gst": 293.4,
+      "grand_total": 1923.4,
+      "grand_total_rounded": 1923,
+      "cancelled": false
     }
   ],
   "invoiceItems": [
@@ -6755,6 +6781,39 @@
       "unit_price": 244.85,
       "gst": 705.168,
       "total": 4622.768
+    },
+    {
+      "id": "a0jdyhl9i",
+      "invoice_id": 128,
+      "product_code": "",
+      "product_name": "K2 KRACKSEAL PASTE",
+      "pack_size": "01KG PU",
+      "quantity": 12,
+      "unit_price": 213.78,
+      "gst": 461.7648,
+      "total": 3027.1248
+    },
+    {
+      "id": "49gtjbehs",
+      "invoice_id": 129,
+      "product_code": "",
+      "product_name": "K2 COLORFIL TJF (BLACK)",
+      "pack_size": "01KG PU",
+      "quantity": 20,
+      "unit_price": 40.75,
+      "gst": 146.7,
+      "total": 961.6999999999999
+    },
+    {
+      "id": "kzomuo5bu",
+      "invoice_id": 129,
+      "product_code": "",
+      "product_name": "K2 COLORFIL TJF (WHITE)",
+      "pack_size": "01KG PU",
+      "quantity": 20,
+      "unit_price": 40.75,
+      "gst": 146.7,
+      "total": 961.6999999999999
     }
   ],
   "customers": [
@@ -6823,5 +6882,5 @@
       "note": "paid"
     }
   ],
-  "lastSync": "2026-09-22T07:22:05.526Z"
+  "lastSync": "2026-09-28T08:24:12.440Z"
 }
