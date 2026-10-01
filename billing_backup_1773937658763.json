@@ -350,7 +350,7 @@
       "BILLING_PRICE": 43.24,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 182
+      "AVAILABLE_STOCK": 172
     },
     {
       "id": 33,
@@ -4550,6 +4550,19 @@
       "grand_total": 3027.1248,
       "grand_total_rounded": 3027,
       "cancelled": false
+    },
+    {
+      "id": 132,
+      "invoice_no": "GURU/26-27/118",
+      "invoice_date": "2026-10-01T08:11:32.408Z",
+      "buyer_name": "Sri Kamatchi Tiles & Electrical",
+      "buyer_phone": "9443404982",
+      "buyer_address": "N.H.Road, Uchippuli. 623534\nGSTIN: 33BTGPK7489B1ZL",
+      "total_billing": 432.40000000000003,
+      "total_gst": 77.83200000000001,
+      "grand_total": 510.232,
+      "grand_total_rounded": 510,
+      "cancelled": false
     }
   ],
   "invoiceItems": [
@@ -6862,6 +6875,17 @@
       "unit_price": 213.78,
       "gst": 461.7648,
       "total": 3027.1248
+    },
+    {
+      "id": "pmu91r3ie",
+      "invoice_id": 132,
+      "product_code": "",
+      "product_name": "K2 KRACK SEAL",
+      "pack_size": "01KG PU",
+      "quantity": 10,
+      "unit_price": 43.24,
+      "gst": 77.83200000000001,
+      "total": 510.232
     }
   ],
   "customers": [
@@ -6894,6 +6918,11 @@
       "name": "Twin Traders",
       "phone": "+91-8754076111",
       "address": "190A, Nainarkovil main road, Pandiyur. 623705\nGST NO: 331DWPK6998C1ZP"
+    },
+    {
+      "name": "Sri Kamatchi Tiles & Electrical",
+      "phone": "9443404982",
+      "address": "N.H.Road, Uchippuli. 623534\nGSTIN: 33BTGPK7489B1ZL"
     }
   ],
   "customerPayments": [
@@ -6930,5 +6959,5 @@
       "note": "paid"
     }
   ],
-  "lastSync": "2026-10-01T07:41:23.743Z"
+  "lastSync": "2026-10-01T08:12:27.505Z"
 }
