@@ -383,7 +383,7 @@
       "BILLING_PRICE": 213.78,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 100
+      "AVAILABLE_STOCK": 88
     },
     {
       "id": 36,
@@ -4563,6 +4563,19 @@
       "grand_total": 510.232,
       "grand_total_rounded": 510,
       "cancelled": false
+    },
+    {
+      "id": 133,
+      "invoice_no": "GURU/26-27/119",
+      "invoice_date": "2026-10-02T04:42:14.360Z",
+      "buyer_name": "Shree alagarmalaiyan paints",
+      "buyer_phone": "",
+      "buyer_address": "Paramakudi",
+      "total_billing": 2565.36,
+      "total_gst": 461.7648,
+      "grand_total": 3027.1248,
+      "grand_total_rounded": 3027,
+      "cancelled": false
     }
   ],
   "invoiceItems": [
@@ -6886,6 +6899,17 @@
       "unit_price": 43.24,
       "gst": 77.83200000000001,
       "total": 510.232
+    },
+    {
+      "id": "yfw80i56y",
+      "invoice_id": 133,
+      "product_code": "",
+      "product_name": "K2 KRACKSEAL PASTE",
+      "pack_size": "01KG PU",
+      "quantity": 12,
+      "unit_price": 213.78,
+      "gst": 461.7648,
+      "total": 3027.1248
     }
   ],
   "customers": [
@@ -6959,5 +6983,5 @@
       "note": "paid"
     }
   ],
-  "lastSync": "2026-10-01T08:12:27.505Z"
+  "lastSync": "2026-10-02T04:43:00.187Z"
 }
