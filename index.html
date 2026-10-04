@@ -1408,7 +1408,7 @@
                         <tr><th>Customer</th><th>Phone</th><th>Total Billed</th><th>Total Paid</th><th>Balance</th><th>Actions</th></tr>
                     </thead>
                     <tbody id="customersTBody">
-                    ${customers.map(c => {
+                    ${customers.map((c, index) => {
                         const t = totals[c.name] || { billed:0, paid:0 };
                         const bal = (t.billed || 0) - (t.paid || 0);
                         return `
@@ -1418,13 +1418,23 @@
                                 <td><strong>${formatCurrency(t.billed || 0)}</strong></td>
                                 <td>${formatCurrency(t.paid || 0)}</td>
                                 <td style="color:${bal>0?'#c00':'#080'}; font-weight:bold;">${formatCurrency(bal)}</td>
-                                <td><button onclick="promptCustomerPayments('${c.name.replace(/'/g,"\\'")}')">View</button></td>
+                                <td>
+                                    <button onclick="promptCustomerPayments('${c.name.replace(/'/g,"\\'")}')">View</button>
+                                    <button class="secondary customer-invoices-download" data-customer-index="${index}">Download Invoices</button>
+                                </td>
                             </tr>
                         `;
                     }).join('')}
                     </tbody>
                 </table>
             `;
+
+            page.querySelectorAll('.customer-invoices-download').forEach(button => {
+                button.addEventListener('click', () => {
+                    const customer = customers[Number(button.dataset.customerIndex)];
+                    if (customer) downloadCustomerInvoices(customer.name);
+                });
+            });
 
             setTimeout(() => {
                 const search = document.getElementById('custSearch');
@@ -2544,6 +2554,7 @@
                 w.document.write('<style>@page{size:A4 portrait; margin:6mm;} body{margin:0;} .sheet{display:grid; grid-template-columns: 1fr 1fr; gap:8mm; page-break-after: always; align-items:start;} .a5{box-sizing:border-box; width:100%;}</style>');
             } else {
                 w.document.write('<style>@page{size:A5 portrait; margin:4mm;} body{margin:0;} .a5{width:100%; box-sizing:border-box;}</style>');
+                w.document.write('<style>.a5 + .a5{page-break-before:always;break-before:page;}</style>');
             }
             w.document.write('</head><body>');
             w.document.write(content);
@@ -2559,6 +2570,20 @@
             const items = app.invoiceItems.filter(i => i.invoice_id === invoiceId);
             const html = `<div class="a5">${generateInvoiceHTML(invoice, items)}</div>`;
             openPrintWindow(html, invoice.invoice_no, 'A5');
+        };
+
+        const downloadCustomerInvoices = (customerName) => {
+            const invoices = app.invoices.filter(inv => inv.buyer_name === customerName);
+            if (invoices.length === 0) {
+                showAlert('No invoices found for this customer', 'info');
+                return;
+            }
+
+            const html = invoices.map(invoice => {
+                const items = app.invoiceItems.filter(item => item.invoice_id === invoice.id);
+                return `<div class="a5">${generateInvoiceHTML(invoice, items)}</div>`;
+            }).join('');
+            openPrintWindow(html, 'Customer_Invoices', 'A5');
         };
 
         // Print one invoice as a pair on A4 landscape: Original + Customer Copy (two A5 blocks)
@@ -2611,7 +2636,7 @@
             render();
         };
 
-        // Download invoices for a date range (from,to in YYYY-MM-DD). Arrange 2 A5 invoices per A4 sheet.
+        // Download one A5 invoice per page for a date range (from,to in YYYY-MM-DD).
         const downloadDateWiseInvoices = (from, to) => {
             // normalize
             const fromDate = new Date(from);
@@ -2625,19 +2650,11 @@
             });
             if (filtered.length === 0) { showAlert('No invoices for selected date range', 'info'); return; }
 
-            // For each invoice, create one A4 landscape page with Original + Customer Copy side-by-side
-            let html = '';
-            filtered.forEach(inv => {
-                const items = app.invoiceItems.filter(x => x.invoice_id === inv.id);
-                const invHtml = generateInvoiceHTML(inv, items);
-                html += '<div class="sheet">';
-                html += `<div class="a5"><div style="text-align:right; font-weight:bold; margin-bottom:6px;">Original</div>${invHtml}</div>`;
-                html += `<div class="a5"><div style="text-align:right; font-weight:bold; margin-bottom:6px;">Customer Copy</div>${invHtml}</div>`;
-                html += '</div>';
-            });
-
-            // open in A4 landscape so two A5 invoices fit side-by-side
-            openPrintWindow(html, `Invoices_${from}_${to}`, 'A4-landscape');
+            const html = filtered.map(inv => {
+                const items = app.invoiceItems.filter(item => item.invoice_id === inv.id);
+                return `<div class="a5">${generateInvoiceHTML(inv, items)}</div>`;
+            }).join('');
+            openPrintWindow(html, `Invoices_${from}_${to}`, 'A5');
         };
 
         // ========== RENDER FUNCTION ==========
