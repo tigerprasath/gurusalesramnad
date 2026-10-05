@@ -383,7 +383,7 @@
       "BILLING_PRICE": 213.78,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 88
+      "AVAILABLE_STOCK": 76
     },
     {
       "id": 36,
@@ -2682,7 +2682,7 @@
       "BILLING_PRICE": 303.756,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 18
+      "AVAILABLE_STOCK": 6
     },
     {
       "id": 245,
@@ -4575,6 +4575,32 @@
       "total_gst": 461.7648,
       "grand_total": 3027.1248,
       "grand_total_rounded": 3027,
+      "cancelled": false
+    },
+    {
+      "id": 134,
+      "invoice_no": "GURU/26-27/120",
+      "invoice_date": "2026-10-05T06:33:42.907Z",
+      "buyer_name": "KUPERA PAINTS",
+      "buyer_phone": "",
+      "buyer_address": "36, Devipattinam Road, Kenikarai, Ramnad. GST.NO 33AUYPK6494Q1ZC",
+      "total_billing": 2565.36,
+      "total_gst": 461.7648,
+      "grand_total": 3027.1248,
+      "grand_total_rounded": 3027,
+      "cancelled": false
+    },
+    {
+      "id": 135,
+      "invoice_no": "GURU/26-27/121",
+      "invoice_date": "2026-10-05T06:34:20.840Z",
+      "buyer_name": "Sethupathy & Sons Paints",
+      "buyer_phone": "9003926421",
+      "buyer_address": "Paramakudi",
+      "total_billing": 3645.0719999999997,
+      "total_gst": 656.1129599999999,
+      "grand_total": 4301.18496,
+      "grand_total_rounded": 4301,
       "cancelled": false
     }
   ],
@@ -6910,6 +6936,28 @@
       "unit_price": 213.78,
       "gst": 461.7648,
       "total": 3027.1248
+    },
+    {
+      "id": "j1nttqofd",
+      "invoice_id": 134,
+      "product_code": "",
+      "product_name": "K2 KRACKSEAL PASTE",
+      "pack_size": "01KG PU",
+      "quantity": 12,
+      "unit_price": 213.78,
+      "gst": 461.7648,
+      "total": 3027.1248
+    },
+    {
+      "id": "h93z4ohib",
+      "invoice_id": 135,
+      "product_code": "",
+      "product_name": "K2 BRUSHGARD",
+      "pack_size": "03KG CBY",
+      "quantity": 12,
+      "unit_price": 303.756,
+      "gst": 656.1129599999999,
+      "total": 4301.18496
     }
   ],
   "customers": [
@@ -6983,5 +7031,5 @@
       "note": "paid"
     }
   ],
-  "lastSync": "2026-10-02T04:43:00.187Z"
+  "lastSync": "2026-10-05T06:35:41.876Z"
 }
