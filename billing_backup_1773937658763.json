@@ -350,7 +350,7 @@
       "BILLING_PRICE": 43.24,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 172
+      "AVAILABLE_STOCK": 141
     },
     {
       "id": 33,
@@ -383,7 +383,7 @@
       "BILLING_PRICE": 213.78,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 76
+      "AVAILABLE_STOCK": 28
     },
     {
       "id": 36,
@@ -416,7 +416,7 @@
       "BILLING_PRICE": 219,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 8
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 39,
@@ -878,7 +878,7 @@
       "BILLING_PRICE": 94.13,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 43
+      "AVAILABLE_STOCK": 27
     },
     {
       "id": 81,
@@ -977,7 +977,7 @@
       "BILLING_PRICE": 40.75,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 40
+      "AVAILABLE_STOCK": 20
     },
     {
       "id": 90,
@@ -2682,7 +2682,7 @@
       "BILLING_PRICE": 303.756,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 6
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 245,
@@ -2704,7 +2704,7 @@
       "BILLING_PRICE": 345.144,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 9
+      "AVAILABLE_STOCK": 3
     },
     {
       "id": 247,
@@ -2792,7 +2792,7 @@
       "BILLING_PRICE": 241.55,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 12
+      "AVAILABLE_STOCK": 6
     },
     {
       "id": 255,
@@ -4601,6 +4601,84 @@
       "total_gst": 656.1129599999999,
       "grand_total": 4301.18496,
       "grand_total_rounded": 4301,
+      "cancelled": false
+    },
+    {
+      "id": 136,
+      "invoice_no": "GURU/26-27/122",
+      "invoice_date": "2026-10-08T06:46:22.965Z",
+      "buyer_name": "QUALITY COLORS",
+      "buyer_phone": "7418831122",
+      "buyer_address": "Ramanathapuram GST NO: 33EMXPS2411G1ZT",
+      "total_billing": 7696.08,
+      "total_gst": 1385.2944,
+      "grand_total": 9081.3744,
+      "grand_total_rounded": 9081,
+      "cancelled": false
+    },
+    {
+      "id": 137,
+      "invoice_no": "GURU/26-27/123",
+      "invoice_date": "2026-10-08T06:48:38.119Z",
+      "buyer_name": "KTRR PANDIAN PAINTS ELECTRICALS",
+      "buyer_phone": "9843260505",
+      "buyer_address": "19/44 V S SALAI KILAKARAI, RAMANATHAPURAM-623517 GSTIN: 33AJYPP5770B2ZU",
+      "total_billing": 4741.360000000001,
+      "total_gst": 853.4448,
+      "grand_total": 5594.804800000001,
+      "grand_total_rounded": 5595,
+      "cancelled": false
+    },
+    {
+      "id": 138,
+      "invoice_no": "GURU/26-27/124",
+      "invoice_date": "2026-10-08T06:51:25.402Z",
+      "buyer_name": "MEGA HARDWARES",
+      "buyer_phone": "",
+      "buyer_address": "12/2829/2, 12/2829/3, 12/2829/4, NORTH 5TH STREET, Pattinamkaathan, Ramanathapuram 623503. GST.NO; 33ABXFM2732P1ZK",
+      "total_billing": 5602.139999999999,
+      "total_gst": 1008.3851999999999,
+      "grand_total": 6610.525199999999,
+      "grand_total_rounded": 6611,
+      "cancelled": false
+    },
+    {
+      "id": 139,
+      "invoice_no": "GURU/26-27/125",
+      "invoice_date": "2026-10-08T06:52:10.853Z",
+      "buyer_name": "DEEN HARDWARES",
+      "buyer_phone": "9487770270",
+      "buyer_address": "GH ROAD , RAMANATHAPURAM. GST: 33AHUPN4573C1Z5",
+      "total_billing": 1506.08,
+      "total_gst": 271.09439999999995,
+      "grand_total": 1777.1743999999999,
+      "grand_total_rounded": 1777,
+      "cancelled": false
+    },
+    {
+      "id": 140,
+      "invoice_no": "GURU/26-27/126",
+      "invoice_date": "2026-10-08T06:54:24.366Z",
+      "buyer_name": "SMD Traders",
+      "buyer_phone": "9944131370",
+      "buyer_address": "2/26, Nainar Kovil Road, Pandiyur. 623705 GST No: 33GROPS1364A1ZS",
+      "total_billing": 876,
+      "total_gst": 157.68,
+      "grand_total": 1033.68,
+      "grand_total_rounded": 1034,
+      "cancelled": false
+    },
+    {
+      "id": 141,
+      "invoice_no": "GURU/26-27/127",
+      "invoice_date": "2026-10-08T06:56:03.871Z",
+      "buyer_name": "Shree alagarmalaiyan paints",
+      "buyer_phone": "",
+      "buyer_address": "Paramakudi",
+      "total_billing": 2637.536,
+      "total_gst": 474.75647999999995,
+      "grand_total": 3112.29248,
+      "grand_total_rounded": 3112,
       "cancelled": false
     }
   ],
@@ -6958,6 +7036,138 @@
       "unit_price": 303.756,
       "gst": 656.1129599999999,
       "total": 4301.18496
+    },
+    {
+      "id": "b77o0zrn3",
+      "invoice_id": 136,
+      "product_code": "",
+      "product_name": "K2 KRACKSEAL PASTE",
+      "pack_size": "01KG PU",
+      "quantity": 36,
+      "unit_price": 213.78,
+      "gst": 1385.2944,
+      "total": 9081.374399999999
+    },
+    {
+      "id": "8z9jo7ynn",
+      "invoice_id": 137,
+      "product_code": "",
+      "product_name": "K2 KRACK SEAL",
+      "pack_size": "01KG PU",
+      "quantity": 25,
+      "unit_price": 43.24,
+      "gst": 194.57999999999998,
+      "total": 1275.58
+    },
+    {
+      "id": "8md3xbny3",
+      "invoice_id": 137,
+      "product_code": "",
+      "product_name": "K2 KRACKSEAL PASTE",
+      "pack_size": "01KG PU",
+      "quantity": 12,
+      "unit_price": 213.78,
+      "gst": 461.7648,
+      "total": 3027.1248
+    },
+    {
+      "id": "r7xvvkrcx",
+      "invoice_id": 137,
+      "product_code": "",
+      "product_name": "K2 BITUSEAL (50MM X 10METER)",
+      "pack_size": "PACK",
+      "quantity": 5,
+      "unit_price": 219,
+      "gst": 197.1,
+      "total": 1292.1
+    },
+    {
+      "id": "6ejxv8101",
+      "invoice_id": 138,
+      "product_code": "",
+      "product_name": "K2 BRUSHGARD WHITE",
+      "pack_size": "03KG CBY",
+      "quantity": 6,
+      "unit_price": 345.144,
+      "gst": 372.75552,
+      "total": 2443.6195199999997
+    },
+    {
+      "id": "t0ueya1mf",
+      "invoice_id": 138,
+      "product_code": "",
+      "product_name": "K2 BRUSHGARD",
+      "pack_size": "03KG CBY",
+      "quantity": 6,
+      "unit_price": 303.756,
+      "gst": 328.05647999999997,
+      "total": 2150.59248
+    },
+    {
+      "id": "xgeafad27",
+      "invoice_id": 138,
+      "product_code": "",
+      "product_name": "K2 BITUCOAT",
+      "pack_size": "01LTR CBY",
+      "quantity": 6,
+      "unit_price": 241.55,
+      "gst": 260.874,
+      "total": 1710.1740000000002
+    },
+    {
+      "id": "zt92gnadw",
+      "invoice_id": 138,
+      "product_code": "",
+      "product_name": "K2 KRACK SEAL",
+      "pack_size": "01KG PU",
+      "quantity": 6,
+      "unit_price": 43.24,
+      "gst": 46.6992,
+      "total": 306.13919999999996
+    },
+    {
+      "id": "fkous9rv3",
+      "invoice_id": 139,
+      "product_code": "",
+      "product_name": "K2 MULTI CLEAN",
+      "pack_size": "01LTR CBY",
+      "quantity": 16,
+      "unit_price": 94.13,
+      "gst": 271.09439999999995,
+      "total": 1777.1743999999999
+    },
+    {
+      "id": "se6fnfgp6",
+      "invoice_id": 140,
+      "product_code": "",
+      "product_name": "K2 BITUSEAL (50MM X 10METER)",
+      "pack_size": "PACK",
+      "quantity": 4,
+      "unit_price": 219,
+      "gst": 157.68,
+      "total": 1033.6799999999998
+    },
+    {
+      "id": "cgvd2dv67",
+      "invoice_id": 141,
+      "product_code": "",
+      "product_name": "K2 BRUSHGARD",
+      "pack_size": "03KG CBY",
+      "quantity": 6,
+      "unit_price": 303.756,
+      "gst": 328.05647999999997,
+      "total": 2150.59248
+    },
+    {
+      "id": "1igaft166",
+      "invoice_id": 141,
+      "product_code": "",
+      "product_name": "K2 COLORFIL TJF (WHITE)",
+      "pack_size": "01KG PU",
+      "quantity": 20,
+      "unit_price": 40.75,
+      "gst": 146.7,
+      "total": 961.6999999999999
     }
   ],
   "customers": [
@@ -7031,5 +7241,5 @@
       "note": "paid"
     }
   ],
-  "lastSync": "2026-10-05T06:35:41.876Z"
+  "lastSync": "2026-10-08T06:57:18.004Z"
 }
