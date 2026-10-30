@@ -350,7 +350,7 @@
       "BILLING_PRICE": 43.24,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 116
+      "AVAILABLE_STOCK": 104
     },
     {
       "id": 33,
@@ -2033,7 +2033,7 @@
       "BILLING_PRICE": 244.85,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 16
+      "AVAILABLE_STOCK": 0
     },
     {
       "id": 186,
@@ -2682,7 +2682,7 @@
       "BILLING_PRICE": 303.756,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 0
+      "AVAILABLE_STOCK": 3
     },
     {
       "id": 245,
@@ -2704,7 +2704,7 @@
       "BILLING_PRICE": 345.144,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 0
+      "AVAILABLE_STOCK": 9
     },
     {
       "id": 247,
@@ -4783,6 +4783,32 @@
       "total_gst": 146.7,
       "grand_total": 961.7,
       "grand_total_rounded": 962,
+      "cancelled": false
+    },
+    {
+      "id": 150,
+      "invoice_no": "GURU/26-27/136",
+      "invoice_date": "2026-10-30T06:15:14.191Z",
+      "buyer_name": "KUPERA PAINTS",
+      "buyer_phone": "",
+      "buyer_address": "36, Devipattinam Road, Kenikarai, Ramnad. GST.NO 33AUYPK6494Q1ZC",
+      "total_billing": 4436.48,
+      "total_gst": 798.5664,
+      "grand_total": 5235.046399999999,
+      "grand_total_rounded": 5235,
+      "cancelled": false
+    },
+    {
+      "id": 151,
+      "invoice_no": "GURU/26-27/137",
+      "invoice_date": "2026-10-30T06:16:09.310Z",
+      "buyer_name": "QUALITY COLORS",
+      "buyer_phone": "7418831122",
+      "buyer_address": "Ramanathapuram GST NO: 33EMXPS2411G1ZT",
+      "total_billing": 1946.6999999999998,
+      "total_gst": 350.40599999999995,
+      "grand_total": 2297.1059999999998,
+      "grand_total_rounded": 2297,
       "cancelled": false
     }
   ],
@@ -7393,6 +7419,50 @@
       "unit_price": 40.75,
       "gst": 146.7,
       "total": 961.6999999999999
+    },
+    {
+      "id": "6kzol6alo",
+      "invoice_id": 150,
+      "product_code": "",
+      "product_name": "K2 POLYCRETE",
+      "pack_size": "01LTR CBY",
+      "quantity": 16,
+      "unit_price": 244.85,
+      "gst": 705.168,
+      "total": 4622.768
+    },
+    {
+      "id": "pe0zr86ub",
+      "invoice_id": 150,
+      "product_code": "",
+      "product_name": "K2 KRACK SEAL",
+      "pack_size": "01KG PU",
+      "quantity": 12,
+      "unit_price": 43.24,
+      "gst": 93.3984,
+      "total": 612.2783999999999
+    },
+    {
+      "id": "d02fl3s59",
+      "invoice_id": 151,
+      "product_code": "",
+      "product_name": "K2 BRUSHGARD",
+      "pack_size": "03KG CBY",
+      "quantity": 3,
+      "unit_price": 303.756,
+      "gst": 164.02823999999998,
+      "total": 1075.29624
+    },
+    {
+      "id": "6m8t0v12q",
+      "invoice_id": 151,
+      "product_code": "",
+      "product_name": "K2 BRUSHGARD WHITE",
+      "pack_size": "03KG CBY",
+      "quantity": 3,
+      "unit_price": 345.144,
+      "gst": 186.37776,
+      "total": 1221.8097599999999
     }
   ],
   "customers": [
@@ -7466,5 +7536,5 @@
       "note": "paid"
     }
   ],
-  "lastSync": "2026-10-28T08:12:23.408Z"
+  "lastSync": "2026-10-30T06:16:48.371Z"
 }
