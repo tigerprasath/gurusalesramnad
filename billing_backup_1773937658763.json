@@ -229,7 +229,7 @@
       "BILLING_PRICE": 0,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 0
+      "AVAILABLE_STOCK": 16
     },
     {
       "id": 22,
@@ -350,7 +350,7 @@
       "BILLING_PRICE": 43.24,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 104
+      "AVAILABLE_STOCK": 116
     },
     {
       "id": 33,
@@ -383,7 +383,7 @@
       "BILLING_PRICE": 213.78,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 16
+      "AVAILABLE_STOCK": 4
     },
     {
       "id": 36,
@@ -449,7 +449,7 @@
       "BILLING_PRICE": 146.33,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 4
+      "AVAILABLE_STOCK": 18
     },
     {
       "id": 42,
@@ -4796,7 +4796,8 @@
       "total_gst": 798.5664,
       "grand_total": 5235.046399999999,
       "grand_total_rounded": 5235,
-      "cancelled": false
+      "cancelled": true,
+      "cancelled_date": "2026-10-31T10:01:47.764Z"
     },
     {
       "id": 151,
@@ -4809,6 +4810,32 @@
       "total_gst": 350.40599999999995,
       "grand_total": 2297.1059999999998,
       "grand_total_rounded": 2297,
+      "cancelled": false
+    },
+    {
+      "id": 152,
+      "invoice_no": "GURU/26-27/138",
+      "invoice_date": "2026-10-31T09:59:36.294Z",
+      "buyer_name": "AWINCO GLOBAL PRIVATE LIMITED",
+      "buyer_phone": "7708692157",
+      "buyer_address": "Door no: 5/387, S.no: 17/6A1A, Ramanathapuram Bypass, Pattinamkattan, Ramanathapuram.623504 GST NO: 33ABACA6161A1ZD",
+      "total_billing": 1316.97,
+      "total_gst": 237.0546,
+      "grand_total": 1554.0246,
+      "grand_total_rounded": 1554,
+      "cancelled": false
+    },
+    {
+      "id": 153,
+      "invoice_no": "GURU/26-27/139",
+      "invoice_date": "2026-10-31T10:03:04.136Z",
+      "buyer_name": "KUPERA PAINTS",
+      "buyer_phone": "",
+      "buyer_address": "36, Devipattinam Road, Kenikarai, Ramnad. GST.NO 33AUYPK6494Q1ZC",
+      "total_billing": 6482.96,
+      "total_gst": 1166.9328,
+      "grand_total": 7649.8928,
+      "grand_total_rounded": 7650,
       "cancelled": false
     }
   ],
@@ -7463,6 +7490,39 @@
       "unit_price": 345.144,
       "gst": 186.37776,
       "total": 1221.8097599999999
+    },
+    {
+      "id": "c5jgjt8f4",
+      "invoice_id": 152,
+      "product_code": "",
+      "product_name": "K2  RESIGROUT",
+      "pack_size": "500GM PU",
+      "quantity": 9,
+      "unit_price": 146.33,
+      "gst": 237.0546,
+      "total": 1554.0246
+    },
+    {
+      "id": "kzajhjzfu",
+      "invoice_id": 153,
+      "product_code": "",
+      "product_name": "K2 KRACKSEAL PASTE",
+      "pack_size": "01KG PU",
+      "quantity": 12,
+      "unit_price": 213.78,
+      "gst": 461.7648,
+      "total": 3027.1248
+    },
+    {
+      "id": "5onv4yim2",
+      "invoice_id": 153,
+      "product_code": "",
+      "product_name": "K2 POLYCRETE",
+      "pack_size": "01LTR CBY",
+      "quantity": 16,
+      "unit_price": 244.85,
+      "gst": 705.168,
+      "total": 4622.768
     }
   ],
   "customers": [
@@ -7536,5 +7596,5 @@
       "note": "paid"
     }
   ],
-  "lastSync": "2026-10-30T06:17:50.639Z"
+  "lastSync": "2026-10-31T10:06:09.746Z"
 }
