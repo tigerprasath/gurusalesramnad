@@ -416,7 +416,7 @@
       "BILLING_PRICE": 219,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 0
+      "AVAILABLE_STOCK": 4
     },
     {
       "id": 39,
@@ -2550,7 +2550,7 @@
       "BILLING_PRICE": 45.34,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 13
+      "AVAILABLE_STOCK": 1
     },
     {
       "id": 233,
@@ -4836,6 +4836,19 @@
       "total_gst": 1166.9328,
       "grand_total": 7649.8928,
       "grand_total_rounded": 7650,
+      "cancelled": false
+    },
+    {
+      "id": 154,
+      "invoice_no": "GURU/26-27/140",
+      "invoice_date": "2026-11-04T06:23:09.934Z",
+      "buyer_name": "KTRR PANDIAN PAINTS ELECTRICALS",
+      "buyer_phone": "9843260505",
+      "buyer_address": "19/44 V S SALAI KILAKARAI, RAMANATHAPURAM-623517 GSTIN: 33AJYPP5770B2ZU",
+      "total_billing": 1858.08,
+      "total_gst": 334.45439999999996,
+      "grand_total": 2192.5344,
+      "grand_total_rounded": 2193,
       "cancelled": false
     }
   ],
@@ -7523,6 +7536,28 @@
       "unit_price": 244.85,
       "gst": 705.168,
       "total": 4622.768
+    },
+    {
+      "id": "y3ro7q0x8",
+      "invoice_id": 154,
+      "product_code": "",
+      "product_name": "K2 BITUSEAL (50MM X 10METER)",
+      "pack_size": "PACK",
+      "quantity": 6,
+      "unit_price": 219,
+      "gst": 236.51999999999998,
+      "total": 1550.52
+    },
+    {
+      "id": "63zr0d17w",
+      "invoice_id": 154,
+      "product_code": "",
+      "product_name": "K2 CONFIBRE 6MM",
+      "pack_size": "125GM PU",
+      "quantity": 12,
+      "unit_price": 45.34,
+      "gst": 97.93440000000001,
+      "total": 642.0144
     }
   ],
   "customers": [
@@ -7596,5 +7631,5 @@
       "note": "paid"
     }
   ],
-  "lastSync": "2026-10-31T11:07:44.395Z"
+  "lastSync": "2026-11-04T06:23:50.922Z"
 }
