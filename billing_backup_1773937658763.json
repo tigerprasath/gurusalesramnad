@@ -347,10 +347,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 KRACK SEAL",
       "PACK_SIZE": "01KG PU",
-      "BILLING_PRICE": 43.24,
+      "BILLING_PRICE": 34,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 116
+      "AVAILABLE_STOCK": 50
     },
     {
       "id": 33,
@@ -380,10 +380,10 @@
       "PRODUCT_CODE": "",
       "PRODUCT_NAME": "K2 KRACKSEAL PASTE",
       "PACK_SIZE": "01KG PU",
-      "BILLING_PRICE": 213.78,
+      "BILLING_PRICE": 162,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 4
+      "AVAILABLE_STOCK": 60
     },
     {
       "id": 36,
@@ -7655,5 +7655,5 @@
       "note": "paid"
     }
   ],
-  "lastSync": "2026-11-12T05:57:29.078Z"
+  "lastSync": "2026-11-16T13:39:34.761Z"
 }
