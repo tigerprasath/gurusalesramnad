@@ -449,7 +449,7 @@
       "BILLING_PRICE": 146.33,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 18
+      "AVAILABLE_STOCK": 3
     },
     {
       "id": 42,
@@ -867,7 +867,7 @@
       "BILLING_PRICE": 54.4,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 21
+      "AVAILABLE_STOCK": 2
     },
     {
       "id": 80,
@@ -878,7 +878,7 @@
       "BILLING_PRICE": 94.13,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 1
+      "AVAILABLE_STOCK": 14
     },
     {
       "id": 81,
@@ -4889,6 +4889,45 @@
       "grand_total": 3198.98,
       "grand_total_rounded": 3199,
       "cancelled": false
+    },
+    {
+      "id": 158,
+      "invoice_no": "GURU/26-27/144",
+      "invoice_date": "2026-11-18T05:31:51.401Z",
+      "buyer_name": "Sri Kamatchi Tiles & Electrical",
+      "buyer_phone": "9443404982",
+      "buyer_address": "N.H.Road, Uchippuli. 623534 GSTIN: 33BTGPK7489B1ZL",
+      "total_billing": 1316.97,
+      "total_gst": 237.0546,
+      "grand_total": 1554.0246,
+      "grand_total_rounded": 1554,
+      "cancelled": false
+    },
+    {
+      "id": 159,
+      "invoice_no": "GURU/26-27/145",
+      "invoice_date": "2026-11-23T04:54:56.761Z",
+      "buyer_name": "Shree alagarmalaiyan paints",
+      "buyer_phone": "",
+      "buyer_address": "Paramakudi",
+      "total_billing": 877.98,
+      "total_gst": 158.0364,
+      "grand_total": 1036.0164,
+      "grand_total_rounded": 1036,
+      "cancelled": false
+    },
+    {
+      "id": 160,
+      "invoice_no": "GURU/26-27/146",
+      "invoice_date": "2026-11-23T04:57:52.490Z",
+      "buyer_name": "KTRR PANDIAN PAINTS ELECTRICALS",
+      "buyer_phone": "9843260505",
+      "buyer_address": "19/44 V S SALAI KILAKARAI, RAMANATHAPURAM-623517 GSTIN: 33AJYPP5770B2ZU",
+      "total_billing": 1692.5099999999998,
+      "total_gst": 304.6518,
+      "grand_total": 1997.1617999999999,
+      "grand_total_rounded": 1997,
+      "cancelled": false
     }
   ],
   "invoiceItems": [
@@ -7652,6 +7691,50 @@
       "unit_price": 43.24,
       "gst": 194.57999999999998,
       "total": 1275.58
+    },
+    {
+      "id": "olez96lp7",
+      "invoice_id": 158,
+      "product_code": "",
+      "product_name": "K2  RESIGROUT",
+      "pack_size": "500GM PU",
+      "quantity": 9,
+      "unit_price": 146.33,
+      "gst": 237.0546,
+      "total": 1554.0246
+    },
+    {
+      "id": "sj4d0o15l",
+      "invoice_id": 159,
+      "product_code": "",
+      "product_name": "K2  RESIGROUT",
+      "pack_size": "500GM PU",
+      "quantity": 6,
+      "unit_price": 146.33,
+      "gst": 158.0364,
+      "total": 1036.0164
+    },
+    {
+      "id": "47ydr3qj8",
+      "invoice_id": 160,
+      "product_code": "",
+      "product_name": "K2 MULTI CLEAN",
+      "pack_size": "01LTR CBY",
+      "quantity": 7,
+      "unit_price": 94.13,
+      "gst": 118.60379999999999,
+      "total": 777.5138
+    },
+    {
+      "id": "c6l4nj5vg",
+      "invoice_id": 160,
+      "product_code": "",
+      "product_name": "K2 MULTI CLEAN",
+      "pack_size": "500ML PU",
+      "quantity": 19,
+      "unit_price": 54.4,
+      "gst": 186.04799999999997,
+      "total": 1219.648
     }
   ],
   "customers": [
@@ -7730,5 +7813,5 @@
       "note": "paid"
     }
   ],
-  "lastSync": "2026-11-19T14:16:31.488Z"
+  "lastSync": "2026-11-23T05:01:28.163Z"
 }
