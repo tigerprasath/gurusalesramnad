@@ -350,7 +350,7 @@
       "BILLING_PRICE": 43.24,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 0
+      "AVAILABLE_STOCK": 5
     },
     {
       "id": 33,
@@ -383,7 +383,7 @@
       "BILLING_PRICE": 213.78,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 0
+      "AVAILABLE_STOCK": 8
     },
     {
       "id": 36,
@@ -977,7 +977,7 @@
       "BILLING_PRICE": 40.75,
       "GST_AMOUNT": null,
       "DEALER_PRICE": null,
-      "AVAILABLE_STOCK": 0
+      "AVAILABLE_STOCK": 10
     },
     {
       "id": 90,
@@ -4928,6 +4928,19 @@
       "grand_total": 1997.1617999999999,
       "grand_total_rounded": 1997,
       "cancelled": false
+    },
+    {
+      "id": 161,
+      "invoice_no": "GURU/26-27/147",
+      "invoice_date": "2026-11-23T08:28:25.601Z",
+      "buyer_name": "KUPERA PAINTS",
+      "buyer_phone": "",
+      "buyer_address": "36, Devipattinam Road, Kenikarai, Ramnad. GST.NO 33AUYPK6494Q1ZC",
+      "total_billing": 4053.86,
+      "total_gst": 729.6948,
+      "grand_total": 4783.5548,
+      "grand_total_rounded": 4784,
+      "cancelled": false
     }
   ],
   "invoiceItems": [
@@ -7735,6 +7748,39 @@
       "unit_price": 54.4,
       "gst": 186.04799999999997,
       "total": 1219.648
+    },
+    {
+      "id": "1sem60m1i",
+      "invoice_id": 161,
+      "product_code": "",
+      "product_name": "K2 KRACK SEAL",
+      "pack_size": "01KG PU",
+      "quantity": 25,
+      "unit_price": 43.24,
+      "gst": 194.57999999999998,
+      "total": 1275.58
+    },
+    {
+      "id": "4tq9tpgne",
+      "invoice_id": 161,
+      "product_code": "",
+      "product_name": "K2 KRACKSEAL PASTE",
+      "pack_size": "01KG PU",
+      "quantity": 12,
+      "unit_price": 213.78,
+      "gst": 461.7648,
+      "total": 3027.1248
+    },
+    {
+      "id": "6mbftu0ue",
+      "invoice_id": 161,
+      "product_code": "",
+      "product_name": "K2 COLORFIL TJF (WHITE)",
+      "pack_size": "01KG PU",
+      "quantity": 10,
+      "unit_price": 40.75,
+      "gst": 73.35,
+      "total": 480.84999999999997
     }
   ],
   "customers": [
@@ -7813,5 +7859,5 @@
       "note": "paid"
     }
   ],
-  "lastSync": "2026-11-23T05:01:28.163Z"
+  "lastSync": "2026-11-23T12:18:22.847Z"
 }
